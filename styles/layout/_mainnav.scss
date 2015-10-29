@@ -27,6 +27,7 @@
 }
 
 #mainnav ul li.selected a, #mainnav ul li.selected a:hover {
+	display: relative;
 	color: #ff9999;
 }
 
@@ -49,7 +50,6 @@
 	padding:10px 15px
 }
 
-
-#mainnav ul li:hover {
+#mainnav ul ul:hover {
 	display:block
 }
