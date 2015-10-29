@@ -1,19 +1,19 @@
-#mainnav {
+.mainnav {
 	font-family: $sans-serif;
 	text-transform: uppercase;
 	letter-spacing: .05em;
 }
 
-#mainnav ul {
+.mainnav ul {
 	margin: 0;
 }
 
-#mainnav ul li {
+.mainnav ul li {
 	margin: 0;
 	list-style: none;
 }
 
-#mainnav ul li a {
+.mainnav ul li a {
 	float: left;
 	padding: 1em;
 	display: block;
@@ -22,16 +22,16 @@
   color: #663300;
 }
 
-#mainnav ul li a:hover {
+.mainnav ul li a:hover {
 	color: #ff9999;
 }
 
-#mainnav ul li.selected a, #mainnav ul li.selected a:hover {
+.mainnav ul li.selected a, #mainnav ul li.selected a:hover {
 	display: relative;
 	color: #ff9999;
 }
 
-#mainnav ul ul {
+.mainnav ul li ul {
 	display:none;
 	top:100%;
 	left:0;
@@ -39,15 +39,15 @@
 	padding:0
 }
 
-#mainnav ul ul li {
+.mainnav ul li ul li {
 	width:200px
 }
 
-#mainnav ul ul a {
+.mainnav ul li ul a {
 	line-height:120%;
 	padding:10px 15px
 }
 
-#mainnav ul ul:hover {
+.mainnav ul li ul:hover {
 	display:block
 }
