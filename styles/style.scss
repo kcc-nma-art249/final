@@ -5,18 +5,18 @@
 @import"base/utilities";
 
 //Layouts
-@import"base/footer";
-@import"base/grids";
-@import"base/header";
+@import"layouts/footer";
+@import"layouts/grids";
+@import"layouts/header";
 
 //Modules
-@import"base/buttons";
-@import"base/hero";
-@import"base/site-info";
+@import"modules/buttons";
+@import"modules/hero";
+@import"modules/site-info";
 
 //Pages
-@import"base/catering";
-@import"base/contact";
-@import"base/home";
-@import"base/main-menu";
-@import"base/tapas-menu";
+@import"pages/catering";
+@import"pages/contact";
+@import"pages/home";
+@import"pages/main-menu";
+@import"pages/tapas-menu";
