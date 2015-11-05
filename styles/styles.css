@@ -1,3 +1,3 @@
-.mainnav{position:fixed;text-decoration:none;list-style:none}.subnav{position:fixed;text-decoration:none}
+.mainnav{font-size:24px;font-family:"Montserrat",sans-serif;text-transform:uppercase;list-style:none;text-decoration:none}.mainnav ul{list-style:none;text-decoration:none}.subnav{font-family:"Quicksand",sans-serif;text-transform:uppercase}.subnav ul{list-style:none}
 
 /*# sourceMappingURL=styles.css.map */

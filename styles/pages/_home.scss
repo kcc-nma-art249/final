@@ -1,3 +1,25 @@
 .feature-artist {
-  
+
+}
+
+.mainnav {
+  font-size: 24px;
+  font-family: $titlefont;
+  text-transform: uppercase;
+  list-style: none;
+  text-decoration: none;
+
+  ul {
+    list-style: none;
+    text-decoration: none;
+  }
+}
+
+.subnav {
+  font-family: $font;
+  text-transform: uppercase;
+
+  ul {
+    list-style: none;
+  }
 }
