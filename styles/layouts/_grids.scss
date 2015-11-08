@@ -1,0 +1,14 @@
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+/*  columns */
+    .container .columns { float: left; }
+    .container .six.columns { width: 16.6666%; margin: 0; padding: 0;}
+    .container .eight.columns { width: 75%; margin: 0; padding: 0;}
+    .container .ten.columns { width: 780px; margin: 0; padding: 0;}
+    .container .sixteen.columns { width: 100%; margin: 0; padding: 0;}
+    .container .one-fourth.columns { width: 25%; margin: 0; padding: 0;}
+    .container .one-fifth.columns { width: 20%; margin: 0; padding: 0;}
+    .container .one-half.columns { width: 50%; margin: 0; padding: 0;}
+    .container .one-third.columns { width: 33.3333%; margin: 0; padding: 0;}

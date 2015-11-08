@@ -1,22 +1,22 @@
 //Base
-@import"base/reset";
-@import"base/forms";
-@import"base/typography";
-@import"base/utilities";
+@import "base/utilities";
+@import "base/reset";
+@import "base/forms";
+@import "base/typography";
 
 //Layouts
-@import"layouts/footer";
-@import"layouts/grids";
-@import"layouts/header";
+@import "layouts/footer";
+@import "layouts/grids";
+@import "layouts/header";
 
 //Modules
-@import"modules/buttons";
-@import"modules/hero";
-@import"modules/site-info";
+@import "modules/buttons";
+@import "modules/hero";
+@import "modules/site-info";
 
 //Pages
-@import"pages/catering";
-@import"pages/contact";
-@import"pages/home";
-@import"pages/main-menu";
-@import"pages/tapas-menu";
+@import "pages/catering";
+@import "pages/contact";
+@import "pages/home";
+@import "pages/main-menu";
+@import "pages/tapas-menu";
