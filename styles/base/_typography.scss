@@ -1,0 +1,66 @@
+/* Typography */
+
+html {
+  font-size: $base-font;
+}
+
+body{
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 300;
+  font-size: type-scale(0);
+  line-height: $line-height;
+  font-family: $sans-serif;
+  color: #333;
+
+  @media screen and (min-width: 600px){
+    font-size: type-scale(1);
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $sans-serif;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: type-scale(3);
+}
+
+h2 {
+  font-size: type-scale(2);
+}
+
+h3 {
+  font-size: type-scale(1);
+}
+
+h4 {
+  font-size: type-scale(0);
+}
+
+h5 {
+  font-size: type-scale(0);
+  font-weight: 800;
+}
+
+h6 {
+  font-size: type-scale(0);
+  font-weight: 900;
+}
+
+.main-nav{
+  font-size: 12px;
+}
+
+p {
+  font-size: $base-font;
+  text-align: justify;
+  margin: 2em 0;
+  padding: 1em 0;
+}
