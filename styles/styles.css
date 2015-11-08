@@ -1,28 +1,26 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #FFCC00;
+  margin: 0;
+  padding: 0;
 }
 
 
-cf:before,
-cf:after {
-content: "";
-display: table;
-}
 
-cf:after {
-clear: both;
-}
 
 .container {
   width: 960px;
   margin: 0 auto;
-  background-color: white;
 }
 
 .main-header {
   position: relative;
-  height: 60px;
-  background-color: green;
 }
 
 .logo,
@@ -33,9 +31,9 @@ clear: both;
 .logo {
   top: 0;
   left: 0;
-  height: 60px;
+
   width: 100px;
-  background-color: gray;
+
 }
 
 .main-nav {
@@ -43,7 +41,6 @@ clear: both;
   right: 0;
   height: 60px;
   width: 400px;
-  background-color: grey;
 }
 
 .main-nav li {
@@ -51,13 +48,18 @@ clear: both;
 }
 
 .hero {
-  height: 200px;
+  height: 400px;
+  width: 100%;
   background-color: white;
+}
+
+img{
+  width: 100%;
+  display: block;
 }
 
 .site-info {
   height: auto;
-  background-color: purple;
 }
 
 .site-info .columns {
@@ -79,16 +81,13 @@ clear: both;
 }
 
 .info-01 {
-  background-color: grey;
   float: left;
 }
 
 .info-02 {
-  background-color: gainsboro;
 }
 
 .info-03 {
-  background-color: darkgray;
 }
 
 .info-02,
@@ -97,6 +96,6 @@ clear: both;
 }
 
 .main-footer {
-  height: 200px;
+  height: 100px;
   background-color: blue;
 }
