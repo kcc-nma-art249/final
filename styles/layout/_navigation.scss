@@ -1,12 +1,21 @@
 .mainnav {
   position: fixed;
-  top: 25%;
+  top: 30%;
+  left: 3%;
+
+  a {
+    color: #000;
+  }
 }
 
 .subnav {
   position: fixed;
-  left: 25%;
-  bottom: 35%;
+  left: 3%;
+  bottom: 5%;
+
+  a {
+    color: #000;
+  }
 }
 
 .mainnav {
