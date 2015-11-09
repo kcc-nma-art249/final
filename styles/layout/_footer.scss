@@ -1,4 +1,17 @@
 footer{
   border: 1px solid red;
   height: 100px;
+  text-align: center;
+  @include cf;
+
+  #copyright{
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+  }
+
+  #logo{
+    margin-top: 1em;
+    padding: 1em 0 1em 0;
+  }
 }
