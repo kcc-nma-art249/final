@@ -1,7 +1,22 @@
-.header {
+header {
+
   @include cf;
-  .logo {
+  position: fixed;
+  #logo {
     height: $full-height;
     width: $full-width;
+    a {
+        //display: none;
+      display: block;
+          background: url(../images/cmyk-logo.svg) no-repeat;
+          background-size: 30px 30px;
+          height: 0;
+          padding-top: 30px;
+          overflow: hidden;
+          position: absolute;
+          left: 20px;
+          top: 20px;
+    }
   }
+
 }
