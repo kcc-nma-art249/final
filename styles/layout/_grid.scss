@@ -2,12 +2,12 @@
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
-  overflow: hidden;
 }
 
 .row {
   margin-left: 0;
   margin-right: 0;
+  padding-bottom: 90px;
   @include cf;
 
 }
