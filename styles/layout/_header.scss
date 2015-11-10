@@ -1,12 +1,7 @@
-.main-header {
-  width: $full-width;
+.header {
   @include cf;
-  background-color: #fff;
-
   .logo {
     height: $full-height;
     width: $full-width;
-    text-align: center;
-    background-color: #fff;
   }
 }

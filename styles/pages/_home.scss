@@ -54,23 +54,13 @@ video {
 	background: rgba(0, 0, 0, 0.5);
 	z-index: 10;
 }
+
 header {
 	height: 100px;
-	background-color: #ddd;
 }
+
 .outer-wrap {
 	height: 500px;
-}
-
-
-.container {
-
-    width: 100%;
-    max-width: 960px;
-   margin: 0 auto;
-
-    border: 1px solid blue;
-
 }
 
 .section02, .section03, .section04, .section05 {
@@ -82,7 +72,7 @@ position: absolute;
     width: 960px;
    margin: 0 auto;
     z-index: 100;
-    border: 1px solid blue;
+    border: 1px solid green;
 top: 50%;
     left: 50% !important;
     transform: translateX(-50%) translateY(-50%);
@@ -117,3 +107,19 @@ top: 50%;
      -webkit-filter: blur(5px);
 }
 */
+
+//section01
+.title {
+  font-size: 400px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0);
+  -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+
+}
+//section02
+
+.magazine-column {
+  border: 1px solid white;
+  padding: 30px;
+}

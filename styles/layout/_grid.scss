@@ -3,15 +3,13 @@ html,
 body {
   height: $full-height;
   width: $full-width;
+  background-color: #000;
 }
 
 
-.container-1200 {
+.container {
   width: $full-width;
   margin: 0 auto;
-  background-color: #fff;
-
-
 /*
   @media #{$medium-screen}{
   width: 20%;

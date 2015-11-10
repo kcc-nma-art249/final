@@ -15,7 +15,7 @@ body{
   font-size: type-scale(0);
   line-height: $line-height;
   font-family: $sans-serif;
-  color: #333;
+  color: #fff;
 }
 
 /**
@@ -36,7 +36,6 @@ h1 {
   font-size: type-scale(4);
     @media #{$medium-screen}{
     font-size: type-scale(-1);
-    border: 1px solid green;
     }
 }
 
