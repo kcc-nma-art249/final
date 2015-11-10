@@ -1,7 +1,7 @@
 header {
-
   @include cf;
   position: fixed;
+  z-index: 300;
   #logo {
     height: $full-height;
     width: $full-width;

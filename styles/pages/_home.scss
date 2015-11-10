@@ -24,11 +24,12 @@ video {
 	height: 100%;
 	display: inline-block;
  	vertical-align: baseline;
+
 }
+
 .video-wrap {
 	height: 100%;
 	width: 100%;
-
 }
 
 /* Examples */
@@ -37,10 +38,12 @@ video {
 	z-index: 20;
 	padding: 15%;
 }
+
 .content-overlay h1,
 .content-overlay p {
 	color: #fff;
 }
+
 .text-overlay-example .video-wrap::before,
 .with-header-example .video-wrap::before {
 	content: '';
@@ -69,7 +72,7 @@ position: absolute;
    margin: 0 auto;
     z-index: 100;
     border: 1px solid green;
-top: 50%;
+    top: 50%;
     left: 50% !important;
     transform: translateX(-50%) translateY(-50%);
 }
@@ -91,7 +94,7 @@ top: 50%;
 }
 
 .section05 {
-     background: url(../images/demo1.png) no-repeat center center fixed;
+  background: url(../images/demo1.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

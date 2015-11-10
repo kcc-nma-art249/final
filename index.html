@@ -47,8 +47,8 @@
 
       <section id="section01">
         <div id="video-wrap" class="video-wrap">
-            <video preload="metadata" autoplay loop id="my-video">
-                <source src="images/cmyk1.mp4" type="video/mp4">
+            <video preload="metadata" autoplay loop id="my-video" controls muted>
+                <source src="images/cmyk1.mp4" type="video/mp4" >
             </video>
                 <div class="content-overlay">
                  <h6 class="title">CMYK</h6>
@@ -58,7 +58,7 @@
       </section>
       <section id="section02">
         <div id="video-wrap2" class="video-wrap">
-            <video preload="metadata" autoplay loop id="my-video2">
+            <video preload="metadata" autoplay loop id="my-video2" controls muted>
                 <source src="images/cmyk2.mp4" type="video/mp4">
 
             </video>
@@ -132,8 +132,6 @@
               $videoWrap: $('#video-wrap2')
             });
 
-
-
     var $headline = $('#section01');
 
 $(window).scroll(function() {
@@ -144,7 +142,7 @@ $(window).scroll(function() {
 
   $headline.css({
     'opacity': (1 - scrollTop / headlineHeight),
-      '-webkit-filter': 'blur(' + (scrollTop / headlineHeight * 25) + 'px)'
+    '-webkit-filter': 'blur(' + (scrollTop / headlineHeight * 25) + '20px)'
             });
     });
 });
