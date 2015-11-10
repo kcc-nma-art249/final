@@ -75,14 +75,17 @@ h6 {
 }
 
 .logo {
-  top: 0;
-  left: 0;
+  top: 1em;
+  left: 8%;
   height: 60px;
-  width: 100px;
+}
+
+.logo a {
+  float: left;
 }
 
 .main-nav {
-  top: 0;
+  top: 1em;
   right: 0;
   height: 60px;
   width: 300px;
@@ -93,9 +96,7 @@ h6 {
 }
 
 .hero {
-  height: 400px;
   width: 100%;
-  background-color: red;
 }
 
 .hero .column2 {
@@ -113,27 +114,57 @@ img {
   margin-bottom: .5em;
 }
 
+.hero_text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  margin: 170px 0 0 0;
+}
+
+.hero_text h2 {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.hero_text h2 .bottom {
+  color: #F5A623;
+}
+
 .site-info {
   height: 600px;
   padding: 3em 0;
 }
 
+.site-info h2 {
+  margin: 0 0 0 8%;
+  margin-bottom: .7em;
+}
+
 .site-info .columns {
   height: 100px;
-  margin: 0 0 0 1%;
+  margin: 0 0 0 8%;
 }
 
 .columns:first-child {
   margin: 0;
 }
 
+.site-info .info-01 h4,
+.site-info .info-02 h4,
+.site-info .info-03 h4 {
+  color: #F5A623;
+}
+
 .site-info .info-01,
 .site-info .info-02 {
-  width: 30%;
+  width: 23.6%;
 }
 
 .site-info .info-03 {
-  width: 30%;
+  width: 23.6%;
 }
 
 .info-01 {
@@ -148,11 +179,11 @@ img {
 .site-info .info-03 a.button {
   background: url(../images/button.png) no-repeat 0 0;
   display: block;
-  width: 140px;
+  width: 132px;
   height: 0px;
   padding-top: 46px;
   overflow: hidden;
-  margin: 0 auto;
+  margin: 3em auto;
   float: right;
 }
 
