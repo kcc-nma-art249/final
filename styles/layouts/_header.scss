@@ -1,20 +1,93 @@
-h1,
-h2 {
-  font-family: 'lust_scriptregular';
-  color: #ffffff;
-  text-align: center;
+header {
+ position: absolute;
+ width: 100%;
 
 
+  .container h1 a {
+        display: block;
+        background-image: url("../images/logo.png") no repeat ;
+        background-size: 425px 140px;
+        width: 425px;
+        height: 140px;
+        padding-top: 52px;
+        overflow: hidden;
+        }
 }
-.main-nav {
-    position: absolute;
-    top: 10px;
-    right:0;
-    margin: 0;
-}
-li {
-  font-family: 'lato';
-  font-size: 400;
-  display: inline-block;
 
-}
+#mainnav {
+        position:fixed;
+        right: 0;
+        color: #ffffff;
+        padding-bottom: 30px;
+        overflow: hidden;
+
+
+
+
+        ul {
+
+          padding-left: 0;
+          margin: 0;
+          list-style: none;
+          position: relative;
+          text-align: center;
+
+            li {
+              display: inline-block;
+              list-style: none;
+              padding: 0 1em;
+              margin: 0;
+              text-transform: uppercase;
+              font-family: 'lato';
+
+              :last-child {
+                margin: 0;
+
+
+              }
+
+              :hover ul {
+                left: 0;
+              }
+
+              a {
+                display: block;
+                padding: 15px;
+                text-decoration: none;
+                color: #fff;
+                }
+              a:hover,
+              a:visited,
+              a:focus {
+                color: #ff6100;
+              }
+
+              ul {
+
+                position: absolute;
+                top: 100%;
+                right: 0;
+                left: -95%;
+                height: 40px;
+                width: 252%;
+                font-size: .7em;
+                text-align: center;
+
+                li {
+                  float: none;
+                  display: inline-block;
+
+                  a {
+                    padding: .5em;
+                    padding-right: 0;
+                    margin: 0;
+                    color: #fff;
+                  }
+                }
+              }
+            }
+
+
+        }
+
+  }
