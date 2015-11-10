@@ -1,25 +1,119 @@
-/* BASE CSS from Chris Gargiulo*/
-/* -------------------- */
-/* TABLE OF CONTENTS
-    1. BASE CSS
-        - RESET
-        - HTML5
-        - BASE TYPOGRAPHY
-            - HEADINGS
-            - PARAGRAPHS
-            - LINKS
-            - LISTS
-        - IMAGES
-        - CLEARFIX
-    2. SITE SPECIFIC CSS
-        - LAYOUT
-        - MEDIA QUERIES
-        - @FONTFACE
+/**
+ * Custom Resets
+ */
+body,
+video,
+header,
+main,
+h1,
+p {
+    margin:0;
+    padding:0;
+}
+/* Set a large height to see parallax effect */
+html, body {
+    height: 100%;
+}
+main {
+	display: block;
+	height: 100%;
+}
+/* Prevent video jerky resize on load, reset defaults */
+video {
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+ 	vertical-align: baseline;
+}
+.video-wrap {
+	height: 100%;
+	width: 100%;
+
+}
+
+/* Examples */
+.content-overlay {
+	position: relative;
+	z-index: 20;
+	padding: 15%;
+}
+.content-overlay h1,
+.content-overlay p {
+	color: #fff;
+}
+.text-overlay-example .video-wrap::before,
+.with-header-example .video-wrap::before {
+	content: '';
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 10;
+}
+header {
+	height: 100px;
+	background-color: #ddd;
+}
+.outer-wrap {
+	height: 500px;
+}
+
+
+.container {
+
+    width: 100%;
+    max-width: 960px;
+   margin: 0 auto;
+
+    border: 1px solid blue;
+
+}
+
+.section02, .section03, .section04, .section05 {
+  height: 100%;
+}
+
+.small-container {
+position: absolute;
+    width: 960px;
+   margin: 0 auto;
+    z-index: 100;
+    border: 1px solid blue;
+top: 50%;
+    left: 50% !important;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.section03 {
+      background: url(../images/demo1.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.section04 {
+     background: url(../images/demo2.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.section05 {
+     background: url(../images/demo1.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*
+#video-wrap {
+     -webkit-filter: blur(5px);
+}
 */
-/* -------------------- */
-
-
-//BASE TYPOGRAPHY
-
-
-//all section
