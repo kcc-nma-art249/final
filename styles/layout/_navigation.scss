@@ -1,10 +1,20 @@
+.logo {
+  position: fixed;
+  top: 3%;
+  left: 3%;
+}
+
 .mainnav {
   position: fixed;
-  top: 30%;
+  top: 20%;
   left: 3%;
 
   a {
     color: #fff;
+  }
+
+  li {
+    margin-bottom: 4px;
   }
 }
 
@@ -16,6 +26,10 @@
   a {
     color: #fff;
   }
+
+  li {
+    margin-bottom: 2px;
+  }
 }
 
 .mainnav {
@@ -26,7 +40,10 @@
   text-decoration: none;
 
   ul {
+    padding-bottom: 10px;
     list-style: none;
+    letter-spacing: 2px;
+
     a {
     text-decoration: none;
     }
@@ -35,13 +52,16 @@
 
 .subnav {
   font-family: $font;
+  font-size: 14px;
   text-transform: uppercase;
 
   ul {
     list-style: none;
+    letter-spacing: 2px;
 
     a {
     text-decoration: none;
     }
+
   }
 }
