@@ -40,23 +40,21 @@
                       </ul>
                   </nav>
 
-
           </header>
 
 
 
-      <section id="section01">
+      <section id="section01" class="scroll-blur">
         <div id="video-wrap" class="video-wrap">
             <video preload="metadata" autoplay loop id="my-video" controls muted>
                 <source src="images/cmyk1.mp4" type="video/mp4" >
             </video>
                 <div class="content-overlay">
                  <h6 class="title">CMYK</h6>
-                 <p>section1section1section1sn1</p>
                 </div>
         </div>
       </section>
-      <section id="section02">
+      <section id="section02" class="scroll-blur">
         <div id="video-wrap2" class="video-wrap">
             <video preload="metadata" autoplay loop id="my-video2" controls muted>
                 <source src="images/cmyk2.mp4" type="video/mp4">
@@ -121,31 +119,49 @@
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script type="text/javascript" src="./backgroundVideo.min.js"></script>
     <script>
-        $(document).ready(function() {
+      $(document).ready(function() {
 
-            $('#my-video').backgroundVideo({
-              pauseVideoOnViewLoss: false,
-              $videoWrap: $('#video-wrap')
-            });
-            $('#my-video2').backgroundVideo({
-              pauseVideoOnViewLoss: false,
-              $videoWrap: $('#video-wrap2')
-            });
+        $('#my-video').backgroundVideo({
+          pauseVideoOnViewLoss: false,
+          $videoWrap: $('#video-wrap')
+        });
+        $('#my-video2').backgroundVideo({
+          pauseVideoOnViewLoss: false,
+          $videoWrap: $('#video-wrap2')
+        });
 
-    var $headline = $('#section01');
 
-$(window).scroll(function() {
-  var scrollTop = $(this).scrollTop(),
-      headlineHeight = $headline.outerHeight();
+        var $headline = $('.scroll-blur');
 
-    console.log(scrollTop / headlineHeight * 25);
+        $(window).scroll(function() {
+          var scrollTop = $(this).scrollTop(),
+          headlineHeight = $headline.outerHeight();
+          headlineOffset = $headline.offset().top;
 
-  $headline.css({
-    'opacity': (1 - scrollTop / headlineHeight),
-    '-webkit-filter': 'blur(' + (scrollTop / headlineHeight * 25) + '20px)'
-            });
-    });
-});
+          $headline.each(function() {
+            var offset = $(this).offset().top + (headlineHeight / 4);
+            var topOffset = scrollTop - offset;
+            if (topOffset > 0) {
+              $(this).css({
+                'opacity': (1 - topOffset / headlineHeight),
+                '-webkit-filter': 'blur(' + (topOffset / headlineHeight * 5) + 'px)'
+              });
+            } else {
+              $(this).css({
+                'opacity': 1,
+                '-webkit-filter': 'blur(0)'
+              });
+            }
+          });
+        });
+
+        setTimeout(function(){
+          alert("Hello");
+        }, 3000);
+
+      });
+
+
     </script>
 
 </body>
