@@ -1,17 +1,27 @@
 header {
- position: absolute;
+ position: relative;
  width: 100%;
+ background-image: url(../images/photo1.png);
+  height: 750px;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-
-  .container h1 a {
+      .logo h1 a {
         display: block;
-        background-image: url("../images/logo.png") no repeat ;
+        background-image: url("../images/logo.png");
+        background-repeat: no-repeat;
         background-size: 425px 140px;
         width: 425px;
-        height: 140px;
-        padding-top: 52px;
+        height: 0;
+        padding-top: 140px;
         overflow: hidden;
-        }
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -192px;
+        margin-top: -67.5px
+      }
+
 }
 
 #mainnav {
@@ -32,6 +42,14 @@ header {
           position: relative;
           text-align: center;
 
+          .nav-menu > ul {
+            display: none;
+          }
+
+          .nav-menu:hover > ul {
+            display: block;
+          }
+
             li {
               display: inline-block;
               list-style: none;
@@ -42,8 +60,6 @@ header {
 
               :last-child {
                 margin: 0;
-
-
               }
 
               :hover ul {
@@ -72,6 +88,8 @@ header {
                 width: 252%;
                 font-size: .7em;
                 text-align: center;
+
+
 
                 li {
                   float: none;

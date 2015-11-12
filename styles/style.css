@@ -33,140 +33,150 @@ p {
 
 footer {
   background: #4A4A4A;
-  height: 15em;
   width: 100%;
-}
-
-footer .container {
-  margin-top: 6em;
-}
-
-footer .container .one-third.columns {
-  font-size: .65em;
-  color: #ffffff;
-}
-
-footer .container .one-third.columns .contact {
-  float: left;
-  padding: 17em 0 0 2em;
-}
-
-footer .container .one-third.columns .copyright {
-  float: right;
-}
-
-footer .container .one-third.columns:last-child {
-  float: right;
-}
-
-footer .container .one-third.columns.social ul {
-  display: inline-block;
-}
-
-footer .container .one-third.columns.social li {
-  list-style: none;
-  display: inline-block;
-}
-
-footer .container .one-third.columns.social li img {
-  width: 35px;
-  height: 35px;
+  padding: 40px 0 100px 0;
+  margin-top: 100px;
 }
 
 .container {
+  max-width: 960px;
+}
+
+p {
+  margin: 0;
+  font-size: .65em;
+  color: #fff;
+}
+
+.contact {
+  float: left;
+  left: auto;
+  margin: 0 0 2em 0;
+}
+
+#social-media {
+  float: left;
+}
+
+#social-media ul {
+  list-style: none;
+}
+
+#social-media ul li {
+  clear: none;
+  margin: 0 10px;
+  float: left;
+}
+
+.copyright {
+  float: left;
+}
+
+.container {
+  max-width: 960px;
   width: 100%;
   margin: 0 auto;
-  /*  columns */
-  /* CUSTOM GRID (From Chris Gargiulo) */
-  /*.column.two { width: 0%; }
-.column.three { width: 0%; }
-.column.four { width: 0%; }
-.column.five { width: 0%; }*/
-  /* images */
 }
 
-.container .row {
+.row {
   margin: 1em 0;
 }
 
-.container .row:after {
+.row:after {
   content: "";
   clear: both;
   display: table;
 }
 
-.container .row {
+/*  columns */
+/* CUSTOM GRID (From Chris Gargiulo) */
+.row {
   margin: 1em 0;
 }
 
-.container .row:after {
+.row:after {
   content: "";
   clear: both;
   display: table;
 }
 
-.container .column {
+.column {
   float: left;
   margin-left: 2%;
 }
 
-.container .column:first-child {
+.column:first-child {
   margin-left: 0;
 }
 
-.container .column.one-half {
+.column.one-half {
   width: 49%;
 }
 
-.container .column.one-third {
+.column.one-third {
   width: 32%;
 }
 
-.container .column.one-fourth {
+.column.one-fourth {
   width: 23.5%;
 }
 
-.container .column.one {
+.column.one {
   width: 4.375%;
   background: yellow;
 }
 
-.container .column.six {
+/*.column.two { width: 0%; }
+.column.three { width: 0%; }
+.column.four { width: 0%; }
+.column.five { width: 0%; }*/
+.column.six {
   width: 36.25%;
 }
 
-.container .column.ten {
+.column.ten {
   width: 61.75%;
 }
 
-.container .column.six.offset {
+.column.six.offset {
   width: 34.25%;
   margin-left: 4%;
 }
 
-.container img.scale-with-grid {
+/* images */
+img.scale-with-grid {
   max-width: 100%;
   height: auto;
 }
 
-.container html,
-.container body {
+html,
+body {
   height: 100%;
 }
 
 header {
-  position: absolute;
+  position: relative;
   width: 100%;
+  background-image: url(../images/photo1.png);
+  height: 750px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-header .container h1 a {
+header .logo h1 a {
   display: block;
-  background-image: url("../images/logo.png") no repeat;
+  background-image: url("../images/logo.png");
+  background-repeat: no-repeat;
   background-size: 425px 140px;
   width: 425px;
-  height: 140px;
-  padding-top: 52px;
+  height: 0;
+  padding-top: 140px;
   overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -192px;
+  margin-top: -67.5px;
 }
 
 #mainnav {
@@ -183,6 +193,14 @@ header .container h1 a {
   list-style: none;
   position: relative;
   text-align: center;
+}
+
+#mainnav ul .nav-menu > ul {
+  display: none;
+}
+
+#mainnav ul .nav-menu:hover > ul {
+  display: block;
 }
 
 #mainnav ul li {
@@ -246,6 +264,7 @@ header .container h1 a {
 .content {
   background: #fff;
   padding-bottom: 8em;
+  position: relative;
 }
 
 .content h2 {
@@ -255,6 +274,10 @@ header .container h1 a {
   font-size: 6.25em;
   height: .5em;
   margin-bottom: 1em;
+}
+
+.content small {
+  font-size: 2.25em;
 }
 
 .content .column.ten {
@@ -272,31 +295,18 @@ header .container h1 a {
 
 .gallery {
   width: 70%;
-  padding-left: 15%;
+  margin-bottom: 6em;
 }
 
-.gallery .row-group1,
-.gallery .row-group2 {
-  width: 100%;
-  float: left;
-  padding-top: .5em;
-}
-
-.gallery .row-group1 li,
-.gallery .row-group2 li {
+.gallery li {
   list-style: none;
   float: left;
   width: 32%;
   margin-left: 2%;
 }
 
-.gallery .row-group1 li:first-child,
-.gallery .row-group2 li:first-child {
+.gallery li:first-child {
   margin-left: 0;
-}
-
-.gallery .row-group2 {
-  margin-bottom: 6em;
 }
 
 /*# sourceMappingURL=style.css.map */
