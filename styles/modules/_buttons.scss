@@ -20,7 +20,7 @@ input[type="button"] {
   color: inherit;        // Inherit the default color (ie. black)
   padding: 0.5em 1em;
   margin-bottom: 0.5em;
-  background-color: #663300;
+  background-color: #cc6666;
   border-radius: 3px;
   color: #fff;
 }
@@ -30,8 +30,7 @@ button:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover {
-  background-color: #ff9999;
-  color: #000;
+  background-color: #663300;
 }
 
 .form-button {
