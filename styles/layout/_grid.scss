@@ -3,20 +3,17 @@
 	margin: 0 auto;
 }
 
-body {
-  background: #cc6666;
+.wrapper {
+	background: #ff9999;
+	width: 100%;
+	max-width: 60em;
+	margin: 0 auto;
+	padding-top: 10em;
 }
 
-body:after {
-    content:"";
-    background:#ff9999;
-    position:fixed;
-    top:0;
-    bottom: 0;
-    right::25%;
-    left::25%;
-    content:" ";
-    z-index:-1;
+body {
+  background: #cc6666;
+	padding: 0 1em;
 }
 
 footer {
@@ -24,7 +21,7 @@ footer {
 
 footer li {
 	list-style: none;
-	background-color: #cc6666;
+	background-color: #ff9999;
 	display:block;
 	width:80px;
 	height:80px;
@@ -33,6 +30,7 @@ footer li {
 	color:#fff;
 	line-height:80px;
 	text-align:center;
+	float: left;
 }
 
 footer li:hover {

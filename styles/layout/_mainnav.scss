@@ -10,7 +10,7 @@ header h1 {
 	text-align: center;
   margin-right: auto;
   margin-left: auto;
-	position: absolute;
+	padding: .5em 0;
 }
 
 .mainnav ul {
@@ -25,11 +25,11 @@ header h1 {
 }
 
 .mainnav ul li a {
-	padding: 1em;
 	display: block;
-	padding: .8em 1.5em;
+	padding: .5em 1.5em;
   text-decoration: none;
   color: #663300;
+	background-color: #fff;
 }
 
 .mainnav ul li a:hover {
@@ -41,8 +41,6 @@ header h1 {
 	display: block;
 }
 
-
-
 .mainnav ul li:hover > ul {
 	display: block;
 }
@@ -50,7 +48,8 @@ header h1 {
 .mainnav ul li ul {
 	display: none;
 	top:100%;
-	left:0;
+	left:50%;
+	transform: translateX(-50%);
 	padding:0;
 	position: absolute;
 }
@@ -65,4 +64,20 @@ header h1 {
 
 .mainnav ul li ul:hover {
 	display: relative;
+}
+
+li.logo {
+	width: 250px;
+}
+
+.logo a {
+	position: relative;
+}
+
+.logo img {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	transform: translateY(-50%);
+	left: 0;
 }
