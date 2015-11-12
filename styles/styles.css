@@ -66,29 +66,25 @@ h6 {
 }
 
 .main-header {
-  position: relative;
-}
-
-.logo,
-.main-nav {
-  position: absolute;
+  position: fixed;
+  background: rgba(255, 255, 255, 0.5);
+  width: 100%;
 }
 
 .logo {
-  top: 1em;
-  left: 8%;
   height: 60px;
+  width: 280px;
+  display: inline-block;
 }
 
 .logo a {
-  float: left;
+  width: 60px;
 }
 
 .main-nav {
-  top: 1em;
-  right: 0;
   height: 60px;
   width: 300px;
+  float: right;
 }
 
 .main-nav li {
@@ -96,6 +92,10 @@ h6 {
 }
 
 .hero {
+  width: 100%;
+}
+
+.column1 .scale-with-grid {
   width: 100%;
 }
 
@@ -109,9 +109,8 @@ h6 {
 }
 
 img {
-  width: 100%;
-  display: block;
   margin-bottom: .5em;
+  display: inline-block;
 }
 
 .hero_text {
@@ -129,7 +128,7 @@ img {
   font-size: 1.5em;
 }
 
-.hero_text h2 .bottom {
+.color-gold {
   color: #F5A623;
 }
 
