@@ -10,6 +10,7 @@ body {
 .container {
   width: $full-width;
   margin: 0 auto;
+  padding: 4%;
 /*
   @media #{$medium-screen}{
   width: 20%;
@@ -50,7 +51,6 @@ height: 40px;
   .col-#{$i} {
     @media screen and (min-width: 600px){
       width: (100% / 12) * $i;
-      border: 1px solid red;
     }
   }
 }

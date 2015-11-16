@@ -36,7 +36,7 @@ video {
 .content-overlay {
 	position: relative;
 	z-index: 20;
-	padding: 15%;
+	padding: 10%;
 }
 
 .content-overlay h1,
@@ -86,15 +86,16 @@ position: absolute;
 }
 
 .section04 {
-     background: url(../images/demo2.png) no-repeat center center fixed;
+     background: url(../images/dem.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-color: #fff;
 }
 
 .section05 {
-  background: url(../images/demo1.png) no-repeat center center fixed;
+  background: url(../images/portfolio.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -108,17 +109,39 @@ position: absolute;
 */
 
 //section01
+.content-overlay-section01 {
+	position: relative;
+	z-index: 20;
+	padding: 1%;
+}
+
 .title {
-  font-size: 400px;
+  font-size: 48em;
   font-weight: 500;
   color: rgba(0, 0, 0, 0);
   -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: white;
-
+    line-height: 0em;
+    padding-top: 1em;
 }
+
+.page-title {
+  padding-top: 25em;
+  padding-left: 0;
+}
+
 //section02
 
 .magazine-column {
   border: 1px solid white;
   padding: 30px;
+}
+
+//section04
+.col-4 {
+  border: 1px solid #000;
+}
+.bk-letter {
+  color: #000;
+  padding: 2em;
 }
