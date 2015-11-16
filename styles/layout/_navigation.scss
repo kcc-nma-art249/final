@@ -4,35 +4,11 @@
   left: 3%;
 }
 
+
 .mainnav {
   position: fixed;
   top: 20%;
   left: 3%;
-
-  a {
-    color: #fff;
-  }
-
-  li {
-    margin-bottom: 4px;
-  }
-}
-
-.subnav {
-  position: fixed;
-  left: 3%;
-  bottom: 5%;
-
-  a {
-    color: #fff;
-  }
-
-  li {
-    margin-bottom: 2px;
-  }
-}
-
-.mainnav {
   font-size: 24px;
   font-family: $titlefont;
   text-transform: uppercase;
@@ -44,13 +20,21 @@
     list-style: none;
     letter-spacing: 1px;
 
-    a {
+  a {
+    color: #fff;
     text-decoration: none;
+    }
+
+  li {
+      margin-bottom: 4px;
     }
   }
 }
 
 .subnav {
+  position: fixed;
+  left: 3%;
+  bottom: 5%;
   font-family: $font;
   font-size: 14px;
   text-transform: uppercase;
@@ -59,9 +43,57 @@
     list-style: none;
     letter-spacing: 1px;
 
-    a {
+  a {
+    color: #fff;
+    text-decoration: none;
+    }
+  li {
+      margin-bottom: 2px;
+    }
+  }
+}
+
+.photo-subnav {
+  position: fixed;
+  left: 7%;
+  bottom: 5%;
+  font-family: $font;
+  font-size: 14px;
+  text-transform: uppercase;
+
+  ul {
+    list-style: none;
+    letter-spacing: 1px;
+
+  a {
+    color: #fff;
     text-decoration: none;
     }
 
+  li {
+      margin-bottom: 2px;
+    }
   }
 }
+
+.subnav-heading {
+  position: fixed;
+  left: 3%;
+  bottom: 20%;
+
+  h1 {
+    font-family: $font;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  h2 {
+      font-family: $font;
+      font-size: 16px;
+      text-transform: uppercase;
+      color: #fff;
+      left: 7%;
+      margin-bottom: 5px;
+    }
+  }
