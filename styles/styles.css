@@ -67,7 +67,7 @@ h6 {
 
 .main-header {
   position: fixed;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.75);
   width: 100%;
 }
 
@@ -77,18 +77,24 @@ h6 {
   display: inline-block;
 }
 
-.logo a {
-  width: 60px;
+.logo img {
+  margin: .5em;
 }
 
 .main-nav {
-  height: 60px;
-  width: 300px;
   float: right;
+  margin: 1.2em;
 }
 
-.main-nav li {
-  display: inline-block;
+.main-nav ul li {
+  list-style: none;
+  margin-left: 3em;
+  float: left;
+}
+
+.main-nav ul li a {
+  color: #4a4a4a;
+  text-decoration: none;
 }
 
 .hero {
@@ -120,7 +126,7 @@ img {
   width: 100%;
   text-align: center;
   padding: 0;
-  margin: 170px 0 0 0;
+  margin: 15em 0 0 0;
 }
 
 .hero_text h2 {
@@ -138,13 +144,18 @@ img {
 }
 
 .site-info h2 {
-  margin: 0 0 0 8%;
+  margin: 0 0 0 0;
   margin-bottom: .7em;
 }
 
 .site-info .columns {
   height: 100px;
-  margin: 0 0 0 8%;
+  margin: 0 0 0 0%;
+}
+
+.site-info .info-02,
+.site-info .info-03 {
+  margin: 0 0 0 12%;
 }
 
 .columns:first-child {
