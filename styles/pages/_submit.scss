@@ -3,10 +3,12 @@
   color: #fff;
   background-image: url('../images/background-submit.jpg');
   background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
+
+  .vertical-center {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
 
   h1 {
     font-family: $titlefont;

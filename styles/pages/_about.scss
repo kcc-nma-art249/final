@@ -6,10 +6,13 @@
   background-image: url('../images/background-about.jpg');
   background-repeat: no-repeat;
   color: #fff;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
+
+  .vertical-center {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 
   h1 {
     font-family: $titlefont;
