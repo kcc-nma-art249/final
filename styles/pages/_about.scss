@@ -6,6 +6,10 @@
   background-image: url('../images/background-about.jpg');
   background-repeat: no-repeat;
   color: #fff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
   h1 {
     font-family: $titlefont;
@@ -13,6 +17,7 @@
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 7px;
+    padding-bottom: 16px;
   }
 
   p {

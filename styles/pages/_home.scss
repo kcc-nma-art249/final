@@ -19,7 +19,7 @@ body {
     top: 5%;
     position: fixed;
     font-size: 1.5em;
-    width: 50%;
+    width: 30%;
 
     h2 {
       font-family: $font;
@@ -28,10 +28,6 @@ body {
     }
 }
 
-.section01 {
-  width: 100%;
-  height: 100%;
-}
 
 
 .feature-artist {
@@ -52,4 +48,9 @@ body {
     font-size: 20px;
     color: #fff;
   }
+}
+
+.slider {
+  width: 100%;
+  height: 100%;
 }
