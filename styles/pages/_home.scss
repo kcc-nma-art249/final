@@ -1,0 +1,36 @@
+.section-home {
+  width: 50%;
+}
+
+.section01 {
+  width: 250px;
+}
+
+.column-1,
+.column-2,
+.column-3 {
+    border-color: #663300;
+    margin: auto;
+    padding: 0;
+    border-radius: 250px;
+    border-style: dotted;
+    height: 250px;
+    width: 250px;
+}
+
+.homeimg {
+  width: 250px;
+}
+
+.column-2 h3 {
+  margin-top: 3em;
+}
+
+.column-2 h3, .column-2 p {
+  text-align: center;
+  padding: 0 1em;
+}
+
+.column-2 {
+  background-color: #fff;
+}
