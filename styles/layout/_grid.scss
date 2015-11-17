@@ -11,6 +11,8 @@ body {
   width: $full-width;
   margin: 0 auto;
   padding: 4%;
+  position: relative;
+  height: 100%
 /*
   @media #{$medium-screen}{
   width: 20%;

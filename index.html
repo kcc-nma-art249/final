@@ -18,27 +18,26 @@
 
 </head>
 <body>
+
+  <nav class="mainnav">
+      <ul class="navigation">
+          <li><a href="about.html">Magazine</a></li>
+          <li><a href="work.html">Contest</a></li>
+          <li><a href="news.html">Judge</a></li>
+          <li><a href="contact.html">About</a></li>
+          <li><a href="contact.html">News</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html">F&amp;Q</a></li>
+      </ul>
+  </nav>
+
     <main>
 
       <header>
 
                   <h1 id="logo"><a href="index.html">CMYK Magazine</a></h1>
-                  <div class="toggle-menu" data-toggle-menu>
-                        <span class="menu__bar"></span>
-                        <span class="menu__bar"></span>
-                        <span class="menu__bar"></span>
-                  </div>
-                  <nav class="mainnav">
-                      <ul class="navigation">
-                          <li><a href="about.html">Magazine</a></li>
-                          <li><a href="work.html">Contest</a></li>
-                          <li><a href="news.html">Judge</a></li>
-                          <li><a href="contact.html">About</a></li>
-                          <li><a href="contact.html">News</a></li>
-                          <li><a href="contact.html">Contact</a></li>
-                          <li><a href="contact.html">F&amp;Q</a></li>
-                      </ul>
-                  </nav>
+
+
 
           </header>
 
@@ -52,6 +51,8 @@
                 <div class="content-overlay-section01">
                  <h6 class="title">CMYK</h6>
                  <h5 class="page-title">CMYK Magazine</h5>
+                <h5>Magazine</h5>
+                 <h5>01</h5>
                 </div>
         </div>
       </section>
@@ -80,15 +81,16 @@
 
 
        <section class="section03">
-
+<div class="container page-footer">
 
 
     <h1>Call for Entries</h1>
    <h1>This is a SECTION3This is a SECTION3This is a SECTION3This is a SECTION3This is a SECTION3This is a SECTION3This is a SECTION3</h1>
 
     <p>2015 HORIZON AWARD</p>
-
-
+    <h5 class="page-name">Contest</h5>
+     <h5 class="page-number">03</h5>
+</div>
 </section>
 
 <section class="section04">
@@ -129,10 +131,9 @@
     <div class="shade">
     <div class="container">
 
-    <h1>This is a SECTION5This is a SECTION4This is a SECTION4This is a SECTION4This is a SECTION4This is a SECTION4This is a SECTION4</h1>
 
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut fringilla ipsum, sed bibendum augue. Nullam euismod nec mauris elementum porta. Sed varius nisl eu lobortis fringilla. Morbi id elit sollicitudin, venenatis lacus id, cursus quam. Aliquam mollis orci vel enim fermentum adipiscing. Duis facilisis lorem a nulla porttitor sagittis.</p>
+    <h1>Illustrator</h1>
+    <p>Yu-ming Huang</p>
 
     <p>Suspendisse pulvinar bibendum laoreet. Suspendisse eget dignissim risus. Cras eget sodales enim. Phasellus accumsan dui metus, quis vulputate turpis congue at. Praesent rutrum consequat rhoncus. Maecenas adipiscing justo vitae massa porta pretium. In egestas orci vehicula, tempus lorem ut, facilisis metus. </p>
     </div>
@@ -173,6 +174,7 @@
           $headline.each(function() {
             var offset = $(this).offset().top + (headlineHeight / 4);
             var topOffset = scrollTop - offset;
+console.log (1 - topOffset / headlineHeight);
             if (topOffset > 0) {
               $(this).css({
                 'opacity': (1 - topOffset / headlineHeight),
@@ -187,11 +189,15 @@
           });
         });
 
+$('#logo a').click(function(e) {
+  e.preventDefault();
+  $('main').toggleClass('shownavi');
+});
+
 
       });
 
 
     </script>
-
 </body>
 </html>

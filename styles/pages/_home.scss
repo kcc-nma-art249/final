@@ -14,10 +14,19 @@ p {
 html, body {
     height: 100%;
 }
+
 main {
 	display: block;
 	height: 100%;
+  position: relative;
+  z-index: 10;
+  transition: transform 0.5s;
+  &.shownavi {
+
+    transform: translateX(-300px);
+  }
 }
+
 /* Prevent video jerky resize on load, reset defaults */
 video {
 	width: 100%;
@@ -137,6 +146,41 @@ position: absolute;
   padding: 30px;
 }
 
+//section03
+/*
+.page-footer {
+  width: 100%;
+  height: 100%:
+  position: relative;
+}
+*/
+.page-name,
+.page-number {
+position: absolute;
+bottom: 20px;
+right: 30px;
+}
+
+.page-number {
+  padding-top: 5px;
+  border-top: 1px solid #fff;
+}
+.page-name {
+position: absolute;
+bottom: 80px;
+right: 10px;
+  /* Safari */
+  -webkit-transform: rotate(-90deg);
+  /* Firefox */
+  -moz-transform: rotate(-90deg);
+  /* IE */
+  -ms-transform: rotate(-90deg);
+  /* Opera */
+  -o-transform: rotate(-90deg);
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
 //section04
 .col-4 {
   border: 1px solid #000;
@@ -152,4 +196,16 @@ position: absolute;
     z-index: 3;
     width: 100%;
     height: 100%;
+}
+
+//navi
+
+.mainnav {
+  position: fixed;
+  right: 0;
+  top:0;
+  height: 100%;
+  width: 300px;
+  background: #ddd;
+
 }
