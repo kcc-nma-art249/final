@@ -3,10 +3,9 @@
 .about {
   width: 100%;
   height: 100%;
-  color: #fff;
   background-image: url('../images/background-about.jpg');
   background-repeat: no-repeat;
-
+  color: #fff;
 
   h1 {
     font-family: $titlefont;
@@ -23,7 +22,6 @@
     line-height: 22px;
   }
 
-  a {
+  a {}
 
-  }
 }
