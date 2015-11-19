@@ -1,3 +1,16 @@
+/*
+ * Base
+ */
+
+@import "base/utilities";
+
+
+/*
+ * Layouts
+ */
+ @import "layout/grid";
+
+
 *,
 *:before,
 *:after {
@@ -13,10 +26,10 @@ body header {
 body {
   font-style: normal;
   font-variant: normal;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1em;
   line-height: 1.2;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
   color: #333;
 }
 
@@ -86,12 +99,20 @@ h6 {
 
 }
 .logo img {
-  margin: .5em;
+  margin: .8em;
+}
+
+
+.logosmall a {
+    margin: .8em;
+  }
+.logosmall p {
+  width: 600px;
 }
 
 .main-nav {
   float:right;
-  margin : 1.2em;
+  margin : 1.5em;
 
 }
 
@@ -207,13 +228,32 @@ img{
 }
 
 
-.main-footer {
+footer {
   height: 100px;
   background-color:#DADFE4;
 }
-.main-footer p {
+
+footer #footernav ul li {
+	margin: 0;
+	list-style: none;
+  display: inline-block;
+}
+
+footer #footernav ul li.column1 {
+  float: left;
+}
+footer #footernav ul li.column2 {
+	width: 50%;
+	margin: 0 2.12% 0 0;
+	float: left;
+}
+
+footer #footernav p {
+  	font-size: .61em;
   text-align: center;
 }
-.social-footer {
+
+footer #footernav ul li.column3 {
+  	width: 23.4%;
   float:right;
 }
