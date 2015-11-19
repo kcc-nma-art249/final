@@ -26,3 +26,18 @@
     font-family: $font;
   }
 }
+
+// Blog Grid
+
+.blog-grid {
+
+  li {
+      list-style: none;
+      float: left;
+      width: 25%;
+      height: 150px;
+      margin-right: 5px;
+      overflow: hidden;
+  }
+
+}
