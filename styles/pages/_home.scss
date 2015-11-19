@@ -21,6 +21,7 @@ main {
   position: relative;
   z-index: 10;
   transition: transform 0.5s;
+  background: #000;
   &.shownavi {
 
     transform: translateX(-300px);
@@ -71,7 +72,7 @@ video {
 	height: 500px;
 }
 
-.section02, .section03, .section04, .section05 {
+#section01, #section02, #section03, .section04, .section05 {
   height: 100%;
 }
 
