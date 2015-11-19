@@ -1,3 +1,6 @@
+body {
+  width: 100%;
+
 .container {
     max-width: 960px;
     width: 100%;
@@ -13,6 +16,7 @@
     content: "";
     clear: both;
     display: table;
+}
 }
 /*  columns */
 
@@ -37,14 +41,13 @@
  margin-left: 0;
 }
 
-.column.one-half {
+.column.one-half{
  width: 49%;
 }
 
-.column.one-third {
+.one-third.column {
  width: 32%;
 }
-
 .column.one-fourth {
  width: 23.5%;
 }
@@ -67,6 +70,7 @@
     /* images */
     img.scale-with-grid {
       max-width: 100%;
+      width: 100%;
       height: auto;
     }
 

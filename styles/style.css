@@ -33,56 +33,36 @@ p {
 
 footer {
   background: #4A4A4A;
-  width: 100%;
-  padding: 40px 0 100px 0;
-  margin-top: 100px;
-}
-
-.container {
-  max-width: 960px;
-}
-
-p {
-  margin: 0;
-  font-size: .65em;
+  text-align: left;
   color: #fff;
+  padding: 1em;
 }
 
-.contact {
-  float: left;
-  left: auto;
-  margin: 0 0 2em 0;
+footer .one
+p {
+  font-size: .65em;
 }
 
-#social-media {
-  float: left;
-}
-
-#social-media ul {
+footer ul li {
   list-style: none;
+  display: inline-block;
 }
 
-#social-media ul li {
-  clear: none;
-  margin: 0 10px;
-  float: left;
+body {
+  width: 100%;
 }
 
-.copyright {
-  float: left;
-}
-
-.container {
+body .container {
   max-width: 960px;
   width: 100%;
   margin: 0 auto;
 }
 
-.row {
+body .row {
   margin: 1em 0;
 }
 
-.row:after {
+body .row:after {
   content: "";
   clear: both;
   display: table;
@@ -113,7 +93,7 @@ p {
   width: 49%;
 }
 
-.column.one-third {
+.one-third.column {
   width: 32%;
 }
 
@@ -146,6 +126,7 @@ p {
 /* images */
 img.scale-with-grid {
   max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -182,7 +163,7 @@ header .logo h1 a {
 #mainnav {
   position: fixed;
   right: 0;
-  color: #ffffff;
+  color: #fff;
   padding-bottom: 30px;
   overflow: hidden;
 }
@@ -256,45 +237,68 @@ header .logo h1 a {
   color: #fff;
 }
 
-.billboard img {
-  width: 100%;
-  margin-bottom: 10em;
-}
-
-.content {
+.food,
+.menus,
+.party {
+  margin-bottom: 0;
   background: #fff;
-  padding-bottom: 8em;
   position: relative;
 }
 
-.content h2 {
+.food h2,
+.menus h2,
+.party h2 {
   padding-left: 30%;
+  padding-bottom: .2em;
   font-family: 'Lustscript';
   color: #767373;
-  font-size: 6.25em;
+  font-size: 6.25rem;
   height: .5em;
   margin-bottom: 1em;
 }
 
-.content small {
-  font-size: 2.25em;
+.food small,
+.menus small,
+.party small {
+  font-size: 2.25rem;
+  margin-left: -1em;
 }
 
-.content .column.ten {
+.food .column.ten,
+.menus .column.ten,
+.party .column.ten {
   float: right;
 }
 
-.content p {
+.food p,
+.menus p,
+.party p {
   float: left;
   font-family: 'Lato';
   color: #424242;
   font-size: 1.25em;
-  padding: 4em 0 8em 7em;
+  padding: 4em 0 0 7em;
   margin-bottom: 2em;
 }
 
+.food a,
+.menus a,
+.party a {
+  display: inline-block;
+  text-decoration: none;
+  border: 2px solid #ff6100;
+  padding: 0.25em 0.5em;
+  color: #ff6100;
+  font-weight: 300;
+}
+
+.billboard img {
+  width: 100%;
+  height: 700px;
+}
+
 .gallery {
-  width: 70%;
+  width: 100%;
   margin-bottom: 6em;
 }
 

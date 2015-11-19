@@ -1,37 +1,16 @@
 footer {
       background: #4A4A4A;
-      width: 100%;
-      padding: 40px 0 100px 0;
-	    margin-top: 100px;
-    }
-    .container {
-      max-width: 960px;
-    }
-    p {
-      margin: 0;
-       font-size: .65em;
-       color: #fff;
-       }
-
-    .contact {
-      float: left;
-      left:auto;
-      margin: 0 0 2em 0;
+      text-align: left;
+      color: #fff;
+      padding: 1em;
+ .one
+      p {
+        font-size: .65em;
+      }
+      ul li {
+        list-style: none;
+        display: inline-block;
       }
 
-    #social-media {
-        float:left;
 
-          ul {
-            list-style: none;
-
-            li {
-              clear: none;
-            	margin: 0 10px;
-            	float: left;
-            }
-            }
-          }
-    .copyright {
-      float: left;
-    }
+  }
