@@ -367,6 +367,10 @@ img {
   float: right;
 }
 
+.about {
+  width: 100%;
+}
+
 footer {
   height: 100px;
   background-color: #DADFE4;
@@ -384,7 +388,7 @@ footer #footernav .col-1 {
 
 footer #footernav .col-7 {
   font-size: .60em;
-  padding-top: 2em;
+  padding-top: 2.5em;
   margin: 2em;
   float: left;
 }
