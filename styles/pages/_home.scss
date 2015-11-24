@@ -1,7 +1,7 @@
  .food,
  .menus,
  .party {
-   margin-bottom: 0;
+   margin-bottom: 5em;
    background: #fff;
    position: relative;
 
@@ -14,13 +14,11 @@
      font-size: 6.25rem;
      height: .5em;
      margin-bottom: 1em;
+     line-height: 1;
    }
    small {
      font-size: 2.25rem;
-     margin-left: -1em;
-
-
-
+     margin-left: -.5em;
    }
 
  .column.ten {
@@ -28,34 +26,28 @@
  }
       p {
        float: left;
-       font-family: 'Lato';
+       font-family: 'Lato', sans-serif;
        color: #424242;
        font-size: 1.25em;
        padding: 4em 0 0 7em;
        margin-bottom: 2em;
      }
 
-      a {
-        display: inline-block;
-        text-decoration: none;
-        border: 2px solid #ff6100;
-        padding: .25em .5em;
-        color: #ff6100;
-        font-weight: 300;
-      }
+
   }
 
 
 .billboard img {
   width: 100%;
   height: 700px;
+  margin-bottom: 3em;
 
 
 }
 
 .gallery {
     width: 100%;
-    margin-bottom: 6em;
+    margin-bottom: 4em;
 
 
 

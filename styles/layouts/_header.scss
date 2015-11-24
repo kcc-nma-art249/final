@@ -1,4 +1,5 @@
 header {
+  margin-bottom: 4em;
  position: relative;
  width: 100%;
  background-image: url(../images/photo1.png);
@@ -28,9 +29,11 @@ header {
         position:fixed;
         right: 0;
         color: #fff;
-        padding-bottom: 30px;
+        padding-bottom: 0;
         overflow: hidden;
-      
+        width: 100%;
+        border-bottom: 1px solid #fff;
+
 
 
 
@@ -42,6 +45,7 @@ header {
           list-style: none;
           position: relative;
           text-align: center;
+          float: right;
 
           .nav-menu > ul {
             display: none;
@@ -71,7 +75,7 @@ header {
                 display: block;
                 padding: 15px;
                 text-decoration: none;
-                color: #fff;
+                color: #CACACA;
                 }
               a:hover,
               a:visited,
