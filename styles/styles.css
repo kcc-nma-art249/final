@@ -357,7 +357,7 @@ img {
 }
 
 .site-info .info-03 a.button {
-  background: url(../images/button.png) no-repeat 0 0;
+  background: url("../images/button.png") no-repeat 0 0;
   display: block;
   width: 132px;
   height: 0px;
@@ -369,6 +369,27 @@ img {
 
 .about {
   width: 100%;
+}
+
+.menu {
+  width: 100%;
+}
+
+.menu .baner-image {
+  width: 100%;
+  background: url("../images/menu.png") no-repeat 0 0;
+}
+
+.menu_text {
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  margin: 15em 0 0 0;
+}
+
+.menu_text h2 {
+  color: #fff;
+  font-size: 1.5em;
 }
 
 footer {
