@@ -44,17 +44,27 @@
 
 #products h3 {
 	margin-bottom: .1em;
+	padding: .5em 0 0 0;
+	color: #663300;
 }
 
-#products h4 {
-	padding-bottom: .3em;
-	border-bottom: 4px solid #000;
+#products p {
+	padding: 1em .5em 1.5em .5em;
+	font-style: $sans-serif;
 }
 
 #products .column1:hover, #products .column2:hover, #products .column3:hover, #products .column4:hover {
-  background-color: #fff;
+  opacity: .75;
 }
 
 #products .column1 a, #products .column2 a, #products .column3 a, #products .column4 a {
   text-decoration: none;
+	font-style: $sans-serif;
+	color: #fff;
+}
+
+#products .column1 img.scale-with-grid, #products .column2 img.scale-with-grid, #products .column3 img.scale-with-grid,
+#products .column4 img.scale-with-grid {
+	border: 4px solid #fff;
+	border-radius: 100px;
 }

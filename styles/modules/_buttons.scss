@@ -52,3 +52,17 @@ input[type="button"]:hover {
   color: #000;
   border: 1px solid #663300;
 }
+
+.product-button {
+  background-color: #663300;
+  border-radius: 10px;
+  padding: .8em 2em;
+  font-size: .8em;
+  border: 1px solid #663300;
+}
+
+.product-button:hover {
+  background-color: #ff9999;
+  color: #000;
+  border: 1px solid #663300;
+}
