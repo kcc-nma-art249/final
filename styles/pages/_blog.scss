@@ -31,12 +31,24 @@
 
 .blog-grid {
 
+  img {
+    width: 100%;
+  }
+
+  ul:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
   li {
       list-style: none;
       float: left;
       width: 25%;
       height: 150px;
-      margin-right: 5px;
+      padding-right: 10px;
+      padding-bottom: 10px;
       overflow: hidden;
   }
 
