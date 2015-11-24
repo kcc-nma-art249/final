@@ -37,6 +37,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 
+  .featureartist-name {
+    position: absolute;
+    top: 60%;
+  }
+
   h1 {
     font-family: 'Libre Baskerville', serif;
     letter-spacing: 1px;
