@@ -32,9 +32,13 @@
        padding: 4em 0 0 7em;
        margin-bottom: 2em;
      }
-
-
-  }
+      .button:hover
+      .button:visited,
+      .button:focus {
+          border: 2px solid green;
+          color: green;
+      }
+}
 
 
 .billboard img {

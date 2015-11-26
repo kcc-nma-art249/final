@@ -165,10 +165,9 @@ header .logo h1 a {
   position: fixed;
   right: 0;
   color: #fff;
-  padding-bottom: 0;
+  padding-bottom: 30px;
   overflow: hidden;
   width: 100%;
-  border-bottom: 1px solid #fff;
 }
 
 #mainnav ul {
@@ -295,6 +294,19 @@ header .logo h1 a {
   font-size: 1.25em;
   padding: 4em 0 0 7em;
   margin-bottom: 2em;
+}
+
+.food .button:hover
+.button:visited,
+.food .button:focus,
+.menus .button:hover
+.button:visited,
+.menus .button:focus,
+.party .button:hover
+.button:visited,
+.party .button:focus {
+  border: 2px solid green;
+  color: green;
 }
 
 .billboard img {
