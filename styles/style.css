@@ -35,7 +35,7 @@ footer {
   background: #4A4A4A;
   text-align: left;
   color: #fff;
-  padding: 4em 0 1em 0;
+  padding: 6em 0 3em 0;
 }
 
 footer .one-third.column
@@ -43,9 +43,17 @@ p {
   font-size: .65em;
 }
 
+footer ul {
+  text-align: center;
+}
+
 footer ul li {
   list-style: none;
   display: inline-block;
+}
+
+footer .one-third.column:last-child p {
+  float: right;
 }
 
 body {
@@ -163,7 +171,7 @@ header .logo h1 a {
 
 #mainnav {
   position: fixed;
-  right: 0;
+  right: -12em;
   color: #fff;
   padding-bottom: 30px;
   overflow: hidden;
@@ -193,11 +201,11 @@ header .logo h1 a {
   padding: 0 1em;
   margin: 0;
   text-transform: uppercase;
-  font-family: 'lato';
+  font-family: 'lato', sans-serif;
 }
 
-#mainnav ul li :last-child {
-  margin: 0;
+#mainnav ul li li:last-child {
+  margin: 0 0 0 1em;
 }
 
 #mainnav ul li :hover ul {
@@ -206,7 +214,8 @@ header .logo h1 a {
 
 #mainnav ul li a {
   display: block;
-  padding: 15px;
+  margin: 15px;
+  padding-bottom: 2px;
   text-decoration: none;
   color: #CACACA;
 }
@@ -215,13 +224,14 @@ header .logo h1 a {
 #mainnav ul li a:visited,
 #mainnav ul li a:focus {
   color: #ff6100;
+  border-bottom: 2px solid #ff6100;
 }
 
 #mainnav ul li ul {
   position: absolute;
   top: 100%;
   right: 0;
-  left: -95%;
+  left: -91%;
   height: 40px;
   width: 252%;
   font-size: .7em;
@@ -234,21 +244,9 @@ header .logo h1 a {
 }
 
 #mainnav ul li ul li a {
-  padding: .5em;
-  padding-right: 0;
+  padding-bottom: 2px;
   margin: 0;
   color: #fff;
-}
-
-.button {
-  margin-top: 2em;
-  display: inline-block;
-  text-decoration: none;
-  border: 2px solid #ff6100;
-  padding: 0.25em 0.5em;
-  color: #ff6100;
-  font-weight: 400;
-  font-size: .8em;
 }
 
 .food,
@@ -296,17 +294,38 @@ header .logo h1 a {
   margin-bottom: 2em;
 }
 
-.food .button:hover
-.button:visited,
-.food .button:focus,
-.menus .button:hover
-.button:visited,
-.menus .button:focus,
-.party .button:hover
-.button:visited,
-.party .button:focus {
-  border: 2px solid green;
-  color: green;
+.food a.button1,
+.food a.button2,
+.menus a.button1,
+.menus a.button2,
+.party a.button1,
+.party a.button2 {
+  background: url(../images/view_the_full_menu_btn.png) no-repeat 0 0;
+  display: block;
+  width: 197px;
+  height: 0;
+  padding-top: 36px;
+  overflow: hidden;
+  margin-left: 8.6em;
+}
+
+.food a.button1:hover,
+.menus a.button1:hover,
+.party a.button1:hover {
+  background: url(../images/view_the_full_menu_btn.png) no-repeat 0 -36px;
+}
+
+.food a.button2,
+.menus a.button2,
+.party a.button2 {
+  background: url(../images/contact_us_btn.png) no-repeat 0 0;
+  width: 124px;
+}
+
+.food a.button2:hover,
+.menus a.button2:hover,
+.party a.button2:hover {
+  background: url(../images/contact_us_btn.png) no-repeat 0 -36px;
 }
 
 .billboard img {

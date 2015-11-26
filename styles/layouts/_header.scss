@@ -27,7 +27,7 @@ header {
 
 #mainnav {
         position:fixed;
-        right: 0;
+        right: -12em;
         color: #fff;
         padding-bottom: 30px;
         overflow: hidden;
@@ -55,10 +55,10 @@ header {
               padding: 0 1em;
               margin: 0;
               text-transform: uppercase;
-              font-family: 'lato';
+              font-family: 'lato', sans-serif;
 
-              :last-child {
-                margin: 0;
+              li:last-child {
+                margin: 0 0 0 1em;
               }
 
               :hover ul {
@@ -67,14 +67,17 @@ header {
 
               a {
                 display: block;
-                padding: 15px;
+                margin: 15px;
+                padding-bottom: 2px;
                 text-decoration: none;
                 color: #CACACA;
+
                 }
               a:hover,
               a:visited,
               a:focus {
                 color: #ff6100;
+                border-bottom: 2px solid #ff6100;
               }
 
               ul {
@@ -82,7 +85,7 @@ header {
                 position: absolute;
                 top: 100%;
                 right: 0;
-                left: -95%;
+                left: -91%;
                 height: 40px;
                 width: 252%;
                 font-size: .7em;
@@ -95,8 +98,7 @@ header {
                   display: inline-block;
 
                   a {
-                    padding: .5em;
-                    padding-right: 0;
+                    padding-bottom: 2px;
                     margin: 0;
                     color: #fff;
                   }
