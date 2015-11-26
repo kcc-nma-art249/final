@@ -147,7 +147,7 @@ position: absolute;
   -o-background-size: cover;
   background-size: cover;
 }
-
+/*
 .section04 {
      background: url(../images/dem.png) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -156,6 +156,7 @@ position: absolute;
   background-size: cover;
   background-color: #fff;
 }
+*/
 
 .section05 {
   background: url(../images/portfolio.jpg) no-repeat center center fixed;
@@ -306,13 +307,28 @@ h1 {
   margin: 0;
 }
 
-@for $i from 1 through 6 {
-  .slide0#{$i} div {
-    background: url('https://unsplash.it/50#{$i}/800/?random') no-repeat center center;
-    background-size: cover;
-  }
+
+.slide01 div {
+  background: url(../images/Valeria.jpg) no-repeat center center;
+  background-size: cover;
 }
+.slide02 div {
+  background: url(../images/Olivia.jpg) no-repeat center center;
+  background-size: cover;
+}
+.slide03 div {
+  background: url(../images/Sarah.jpg) no-repeat center center;
+  background-size: cover;
+}
+.slide04 div {
+  background: url(../images/Scott.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+
+
 //mine
+/*
 .col-4 {
   border: 1px solid #000;
 }
@@ -320,6 +336,7 @@ h1 {
   color: #000;
   padding: 2em;
 }
+*/
 
 //section05
 .shade {
