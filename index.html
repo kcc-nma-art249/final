@@ -19,6 +19,16 @@
 </head>
 <body>
 
+  <div id="hamburger">
+
+    <span class="bar"></span>
+
+    <span class="bar"></span>
+
+    <span class="bar"></span>
+
+  </div>
+
   <nav class="mainnav">
       <ul class="navigation">
           <li><a href="about.html">Magazine</a></li>
@@ -222,12 +232,17 @@ console.log (1 - topOffset / headlineHeight);
 
 
 
-$('#logo a').click(function(e) {
+$('#hamburger').click(function(e) {
   e.preventDefault();
   $('main').toggleClass('shownavi');
     $('.mainnav').toggleClass('shownavi');
 });
 
+$('#hamburger').click( function() {
+
+  $(this).toggleClass('animate');
+
+})
       });
 
 
