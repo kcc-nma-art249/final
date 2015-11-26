@@ -350,4 +350,8 @@ header .logo h1 a {
   margin-left: 0;
 }
 
+header {
+  background-image: url(../images/menu-cover.jpg);
+}
+
 /*# sourceMappingURL=style.css.map */
