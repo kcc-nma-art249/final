@@ -144,10 +144,10 @@ body {
 }
 
 header {
+  background-image: url(../images/photo1.png);
   margin-bottom: 4em;
   position: relative;
   width: 100%;
-  background-image: url(../images/photo1.png);
   height: 750px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -172,8 +172,7 @@ header .logo h1 a {
 #mainnav {
   position: fixed;
   right: -12em;
-  color: #fff;
-  padding-bottom: 30px;
+  padding-bottom: 0;
   overflow: hidden;
   width: 100%;
 }
@@ -220,9 +219,7 @@ header .logo h1 a {
   color: #CACACA;
 }
 
-#mainnav ul li a:hover,
-#mainnav ul li a:visited,
-#mainnav ul li a:focus {
+#mainnav ul li a:hover {
   color: #ff6100;
   border-bottom: 2px solid #ff6100;
 }
@@ -246,7 +243,7 @@ header .logo h1 a {
 #mainnav ul li ul li a {
   padding-bottom: 2px;
   margin: 0;
-  color: #fff;
+  color: #CACACA;
 }
 
 .food,
@@ -348,10 +345,6 @@ header .logo h1 a {
 
 .gallery li:first-child {
   margin-left: 0;
-}
-
-header {
-  background-image: url(../images/menu-cover.jpg);
 }
 
 /*# sourceMappingURL=style.css.map */

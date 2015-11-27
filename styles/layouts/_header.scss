@@ -1,8 +1,8 @@
 header {
+  background-image: url(../images/photo1.png);
   margin-bottom: 4em;
- position: relative;
- width: 100%;
- background-image: url(../images/photo1.png);
+  position: relative;
+  width: 100%;
   height: 750px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -28,8 +28,7 @@ header {
 #mainnav {
         position:fixed;
         right: -12em;
-        color: #fff;
-        padding-bottom: 30px;
+        padding-bottom: 0;
         overflow: hidden;
         width: 100%;
 
@@ -40,6 +39,7 @@ header {
           position: relative;
           text-align: center;
           float: right;
+
 
           .nav-menu > ul {
             display: none;
@@ -73,39 +73,36 @@ header {
                 color: #CACACA;
 
                 }
-              a:hover,
-              a:visited,
-              a:focus {
+              a:hover {
                 color: #ff6100;
                 border-bottom: 2px solid #ff6100;
               }
 
               ul {
 
-                position: absolute;
-                top: 100%;
-                right: 0;
-                left: -91%;
-                height: 40px;
-                width: 252%;
-                font-size: .7em;
-                text-align: center;
+              position: absolute;
+              top: 100%;
+              right: 0;
+              left: -91%;
+              height: 40px;
+              width: 252%;
+              font-size: .7em;
+              text-align: center;
 
 
 
-                li {
-                  float: none;
-                  display: inline-block;
+              li {
+                float: none;
+                display: inline-block;
 
-                  a {
-                    padding-bottom: 2px;
-                    margin: 0;
-                    color: #fff;
-                  }
+                a {
+                  padding-bottom: 2px;
+                  margin: 0;
+                  color: #CACACA;
                 }
               }
             }
-
+          }
 
         }
 
