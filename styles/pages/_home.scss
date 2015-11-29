@@ -208,12 +208,39 @@ position: absolute;
 }
 .magazine-column {
   border: 1px solid white;
-  padding: 6%;
-  margin: 3%;
-  width: 10%;
+  margin: 1.5% 2%;
+  padding: 15em 2.5em 2em 2.5em;
+  width: 15%;
   height: 100%;
   float: left;
+  opacity: 1;
+  &:last-child {
+    margin-right: 0;
+  }
+
 }
+
+.mag-40:hover {
+ border: none;
+ background: url(../images/mag.40.jpg) no-repeat fixed;
+ opacity: .4;
+ transition: all 0.3s ease;
+}
+
+.sec02-issue {
+  padding-top: .5em;
+font-size: 20px;
+text-align: right;
+text-transform: uppercase;
+}
+
+.sec02-number {
+line-height: 1em;
+  font-size: 5em;
+  text-align: right;
+
+}
+
 
 //section03
 /*
