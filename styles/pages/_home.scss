@@ -36,13 +36,17 @@ main {
   top:0;
   height: 100%;
   width: 300px;
-  background: #ddd;
-      transform: translateX(300px);
-        transition: transform 0.5s;
+  background: #fff;
+  transform: translateX(300px);
+  transition: transform 0.5s;
+ ul li {
+   list-style: none;
+ }
   &.shownavi {
     transform: translateX(0px);
   }
 }
+
 #hamburger {
   z-index: 100;
   position: fixed;
@@ -80,7 +84,6 @@ main {
   transform:translateY(-9px) rotate(-135deg);
 }
 
-
 /* Prevent video jerky resize on load, reset defaults */
 video {
 	width: 100%;
@@ -99,7 +102,8 @@ video {
 .content-overlay {
 	position: relative;
 	z-index: 20;
-	padding: 10%;
+	padding: 5%;
+  border: 1px solid red;
 }
 
 .content-overlay h1,
@@ -196,11 +200,18 @@ position: absolute;
 
 //section02
 
+.sec02-container {
+  @include cf;
+  height: 100%;
+  width: 100%;
+
+}
 .magazine-column {
   border: 1px solid white;
-  padding: 30px;
-  width: 15%;
-  height: 200px;
+  padding: 6%;
+  margin: 3%;
+  width: 10%;
+  height: 100%;
   float: left;
 }
 
