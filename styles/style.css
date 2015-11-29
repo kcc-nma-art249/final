@@ -173,7 +173,9 @@ body {
 }
 
 .home,
-.menu {
+.T-menu,
+.M-menu,
+.catering {
   background-image: url(../images/photo1.png);
   margin-bottom: 4em;
   position: relative;
@@ -184,7 +186,9 @@ body {
 }
 
 .home .logo h1 a,
-.menu .logo h1 a {
+.T-menu .logo h1 a,
+.M-menu .logo h1 a,
+.catering .logo h1 a {
   display: block;
   background-image: url("../images/logo.png");
   background-repeat: no-repeat;
@@ -200,8 +204,16 @@ body {
   margin-top: -67.5px;
 }
 
-.menu {
+.T-menu {
   background-image: url(../images/menu-cover.jpg);
+}
+
+.M-menu {
+  background-image: url(../images/M-menu_cover.png);
+}
+
+.catering {
+  background-image: url(../images/catering_photo1.jpg);
 }
 
 #mainnav {
@@ -279,6 +291,60 @@ body {
   padding-bottom: 2px;
   margin: 0;
   color: #CACACA;
+}
+
+.c-private,
+.in-flight {
+  margin-bottom: 5em;
+  background: #fff;
+  position: relative;
+}
+
+.c-private h2,
+.in-flight h2 {
+  padding-left: 30%;
+  padding-bottom: .2em;
+  font-family: 'Lustscript';
+  color: #767373;
+  font-size: 6.25rem;
+  height: .5em;
+  margin-bottom: 1em;
+  line-height: 1;
+}
+
+.c-private small,
+.in-flight small {
+  font-size: 2.25rem;
+  margin-left: -.5em;
+}
+
+.c-private .column.ten,
+.in-flight .column.ten {
+  float: right;
+}
+
+.c-private p,
+.in-flight p {
+  float: left;
+  font-family: 'Lato', sans-serif;
+  color: #424242;
+  font-size: 1.25em;
+  padding: 4em 0 0 7em;
+  margin-bottom: 2em;
+}
+
+a.button2 {
+  background: url(../images/contact_us_btn.png) no-repeat 0 0;
+  display: block;
+  width: 124px;
+  height: 0;
+  padding-top: 36px;
+  overflow: hidden;
+  margin-left: 8.6em;
+}
+
+a.button2:hover {
+  background: url(../images/contact_us_btn.png) no-repeat 0 -36px;
 }
 
 .food,
@@ -380,6 +446,58 @@ body {
 
 .gallery li:first-child {
   margin-left: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+ul .tapas,
+ul .lunch-dinner {
+  font-size: .8rem;
+  text-transform: uppercase;
+  float: left;
+  padding-top: 700px;
+}
+
+ul .lunch-dinner {
+  float: right;
+}
+
+ul a {
+  color: #fff;
+  text-decoration: none;
+}
+
+ul a:hover {
+  color: #ff6100;
+  border-bottom: 2px solid #ff6100;
+}
+
+.info {
+  text-align: center;
+}
+
+.info h3 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-top: 4em;
+  padding-bottom: 2em;
+}
+
+.info a {
+  background: url(../images/print_menu_btn.png) no-repeat 0 0;
+  display: block;
+  width: 190px;
+  height: 0;
+  padding-top: 36px;
+  overflow: hidden;
+  margin-left: 40%;
+  margin-bottom: 5em;
+}
+
+.info a:hover {
+  background: url(../images/print_menu_btn.png) no-repeat 0 -36px;
 }
 
 ul {

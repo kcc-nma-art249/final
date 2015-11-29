@@ -1,5 +1,7 @@
 .home,
-.menu {
+.T-menu,
+.M-menu,
+.catering {
   background-image: url(../images/photo1.png);
   margin-bottom: 4em;
   position: relative;
@@ -25,8 +27,16 @@
       }
 
 }
-.menu {
+.T-menu {
   background-image: url(../images/menu-cover.jpg);
+}
+
+.M-menu {
+  background-image: url(../images/M-menu_cover.png);
+}
+
+.catering {
+  background-image: url(../images/catering_photo1.jpg);
 }
 
 #mainnav {
