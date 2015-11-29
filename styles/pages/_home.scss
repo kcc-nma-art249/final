@@ -362,11 +362,9 @@ right: 10px;
   height: 100%;
 }
 
-
 h1 {
   margin: 0;
 }
-
 
 .slide01 div {
   background: url(../images/Valeria.jpg) no-repeat center center;
@@ -385,7 +383,11 @@ h1 {
   background-size: cover;
 }
 
-
+.slide-con {
+  width: 50%;
+  height: 70%;
+  background: none;
+}
 
 //mine
 /*
@@ -400,7 +402,7 @@ h1 {
 
 //section05
 .shade {
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,1);
     z-index: 3;
     width: 100%;
     height: 100%;
