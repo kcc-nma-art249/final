@@ -13,6 +13,37 @@ footer {
       ul li {
         list-style: none;
         display: inline-block;
+
+        .social-M1,
+        .social-M2,
+        .social-M3 {
+          background: url(../images/facebook.png) no-repeat 0 0;
+          display: block;
+          width: 35px;
+          height: 0;
+          padding-top: 34px;
+          overflow: hidden;
+          border-bottom: 0;
+        }
+        .social-M1:hover {
+          background: url(../images/facebook.png) no-repeat 0 -35px;
+        }
+
+        .social-M2 {
+          background: url(../images/tweeter.png) no-repeat 0 0;
+        }
+        .social-M2:hover {
+          background: url(../images/tweeter.png) no-repeat 0 -35px;
+        }
+
+        .social-M3 {
+          background: url(../images/tripadvisor.png) no-repeat 0 0;
+        }
+        .social-M3:hover {
+          background: url(../images/tripadvisor.png) no-repeat 0 -35px;
+        }
+
+        }
       }
 
 
@@ -22,4 +53,3 @@ footer {
       float: right;
       }
     }
-  }
