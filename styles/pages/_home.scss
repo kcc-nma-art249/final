@@ -220,12 +220,18 @@ position: absolute;
 
 }
 
+.magazine-column a {
+  text-decoration: none;
+
+}
 .mag-40:hover {
  border: none;
  background: url(../images/mag.40.jpg) no-repeat fixed;
  opacity: .4;
  transition: all 0.3s ease;
+
 }
+
 
 .sec02-issue {
   padding-top: .5em;
@@ -236,11 +242,29 @@ text-transform: uppercase;
 
 .sec02-number {
 line-height: 1em;
-  font-size: 5em;
+  font-size: 6em;
   text-align: right;
 
 }
 
+/*
+.sec02-n {
+  font-weight: 700;
+line-height: 1em;
+  font-size: 8em;
+  float: left;
+}
+
+.sec02-o {
+line-height: 1.5em;
+  font-size: 3em;
+}
+.sec02-num {
+line-height: 1em;
+  font-size: 24px;
+  text-align: right;
+}
+*/
 
 //section03
 /*
