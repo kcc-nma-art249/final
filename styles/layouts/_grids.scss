@@ -10,6 +10,7 @@ body {
 
 .row {
     margin: 1em 0;
+    @include cf;
 }
 
 .row:after {
@@ -22,15 +23,6 @@ body {
 
 /* CUSTOM GRID (From Chris Gargiulo) */
 
-.row {
- margin: 1em 0;
-}
-
-.row:after {
- content: "";
- clear: both;
- display: table;
-}
 
 .column {
  float: left;

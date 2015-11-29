@@ -70,6 +70,13 @@ body .row {
   margin: 1em 0;
 }
 
+body .row:before,
+body .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 body .row:after {
   content: "";
   clear: both;
@@ -78,16 +85,6 @@ body .row:after {
 
 /*  columns */
 /* CUSTOM GRID (From Chris Gargiulo) */
-.row {
-  margin: 1em 0;
-}
-
-.row:after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
 .column {
   float: left;
   margin-left: 2%;
@@ -143,7 +140,8 @@ body {
   height: 100%;
 }
 
-header {
+.home,
+.menu {
   background-image: url(../images/photo1.png);
   margin-bottom: 4em;
   position: relative;
@@ -153,7 +151,8 @@ header {
   background-size: cover;
 }
 
-header .logo h1 a {
+.home .logo h1 a,
+.menu .logo h1 a {
   display: block;
   background-image: url("../images/logo.png");
   background-repeat: no-repeat;
@@ -167,6 +166,10 @@ header .logo h1 a {
   left: 50%;
   margin-left: -192px;
   margin-top: -67.5px;
+}
+
+.menu {
+  background-image: url(../images/menu-cover.jpg);
 }
 
 #mainnav {
@@ -345,6 +348,10 @@ header .logo h1 a {
 
 .gallery li:first-child {
   margin-left: 0;
+}
+
+.content {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

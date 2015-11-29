@@ -1,4 +1,5 @@
-header {
+.home,
+.menu {
   background-image: url(../images/photo1.png);
   margin-bottom: 4em;
   position: relative;
@@ -23,6 +24,9 @@ header {
         margin-top: -67.5px
       }
 
+}
+.menu {
+  background-image: url(../images/menu-cover.jpg);
 }
 
 #mainnav {
