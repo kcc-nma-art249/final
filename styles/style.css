@@ -328,7 +328,7 @@ body {
 .mainnav {
   position: fixed;
   right: -12em;
-  padding-bottom: 0;
+  padding-bottom: 40px;
   overflow: hidden;
   width: 100%;
 }
@@ -342,6 +342,11 @@ body {
   float: right;
 }
 
+.mainnav ul li.selected a {
+  color: #ff6100;
+  border-bottom: 3px solid #ff6100;
+}
+
 .mainnav ul li {
   display: inline-block;
   list-style: none;
@@ -351,31 +356,31 @@ body {
   font-family: 'lato', sans-serif;
 }
 
-.mainnav ul li li:last-child {
+.mainnav ul li :last-child {
   margin: 0 0 0 1em;
 }
 
-.mainnav ul li li:hover ul {
+.mainnav ul li :hover ul {
   left: 0;
 }
 
 .mainnav ul li a {
   display: block;
   margin: 0;
-  padding-bottom: 2px;
   text-decoration: none;
-  color: #CACACA;
+  color: #fff;
+  padding-bottom: 3px;
 }
 
 .mainnav ul li a:hover {
   color: #ff6100;
 }
 
-.mainnav ul #nav-menu > ul {
+.mainnav ul li.nav-menu > ul {
   display: none;
 }
 
-.mainnav ul #nav-menu:hover > ul {
+.mainnav ul li.nav-menu:hover > ul {
   display: block;
 }
 
@@ -396,9 +401,15 @@ body {
 }
 
 .mainnav ul li ul li a {
-  padding-bottom: 2px;
   margin: 0;
   color: #CACACA;
+}
+
+.mainnav ul li ul li a:hover,
+.mainnav ul li ul li a:active,
+.mainnav ul li ul li a:focus {
+  color: #ff6100;
+  border-bottom: 2px solid #ff6100;
 }
 
 .button
@@ -737,28 +748,29 @@ input[type="button"]:active {
   margin-left: 0;
 }
 
-ul {
+.sub-nav {
   list-style: none;
 }
 
-ul .tapas,
-ul .lunch-dinner {
+.sub-nav #tapas,
+.sub-nav #lunch-dinner {
   font-size: .8rem;
   text-transform: uppercase;
   float: left;
   padding-top: 700px;
 }
 
-ul .lunch-dinner {
+.sub-nav #lunch-dinner {
   float: right;
 }
 
-ul a {
+.sub-nav a {
   color: #fff;
   text-decoration: none;
 }
 
-ul a:hover {
+.sub-nav a:hover,
+.sub-nav .selected a {
   color: #ff6100;
   border-bottom: 2px solid #ff6100;
 }
@@ -789,28 +801,29 @@ ul a:hover {
   background: url(../images/print_menu_btn.png) no-repeat 0 -36px;
 }
 
-ul {
+.sub-nav {
   list-style: none;
 }
 
-ul .tapas,
-ul .lunch-dinner {
+.sub-nav #tapas,
+.sub-nav #lunch-dinner {
   font-size: .8rem;
   text-transform: uppercase;
   float: left;
   padding-top: 700px;
 }
 
-ul .lunch-dinner {
+.sub-nav #lunch-dinner {
   float: right;
 }
 
-ul a {
+.sub-nav a {
   color: #fff;
   text-decoration: none;
 }
 
-ul a:hover {
+.sub-nav a:hover,
+.sub-nav .selected a {
   color: #ff6100;
   border-bottom: 2px solid #ff6100;
 }

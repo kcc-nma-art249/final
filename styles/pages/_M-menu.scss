@@ -1,22 +1,25 @@
-ul {
+.sub-nav {
   list-style: none;
-  .tapas,
-  .lunch-dinner {
+  #tapas,
+  #lunch-dinner {
     font-size: .8rem;
     text-transform: uppercase;
     float: left;
     padding-top: 700px;
     }
 
-  .lunch-dinner {
+  #lunch-dinner {
     float: right;
   }
+
+
     a {
       color: #fff;
       text-decoration: none;
   }
 
-    a:hover {
+    a:hover,
+    .selected a {
       color: #ff6100;
       border-bottom: 2px solid #ff6100;
     }
