@@ -151,6 +151,10 @@ body .row:after {
   width: 36.25%;
 }
 
+.column.seven {
+  width: 42.625%;
+}
+
 .column.ten {
   width: 61.75%;
 }
@@ -175,7 +179,8 @@ body {
 .home,
 .T-menu,
 .M-menu,
-.catering {
+.catering,
+.contact {
   background-image: url(../images/photo1.png);
   margin-bottom: 4em;
   position: relative;
@@ -188,7 +193,8 @@ body {
 .home .logo h1 a,
 .T-menu .logo h1 a,
 .M-menu .logo h1 a,
-.catering .logo h1 a {
+.catering .logo h1 a,
+.contact .logo h1 a {
   display: block;
   background-image: url("../images/logo.png");
   background-repeat: no-repeat;
@@ -214,6 +220,10 @@ body {
 
 .catering {
   background-image: url(../images/catering_photo1.jpg);
+}
+
+.contact {
+  background-image: url(../images/contact_photo1.png);
 }
 
 #mainnav {
@@ -302,48 +312,119 @@ body {
 
 .c-private h2,
 .in-flight h2 {
-  padding-left: 30%;
+  padding-left: 40%;
   padding-bottom: .2em;
   font-family: 'Lustscript';
   color: #767373;
-  font-size: 6.25rem;
+  font-size: 5.5rem;
   height: .5em;
   margin-bottom: 1em;
-  line-height: 1;
+  line-height: 1.2;
 }
 
 .c-private small,
 .in-flight small {
-  font-size: 2.25rem;
-  margin-left: -.5em;
+  font-size: 2rem;
+  margin-left: -2em;
 }
 
-.c-private .column.ten,
-.in-flight .column.ten {
+.c-private .column.seven,
+.in-flight .column.seven {
   float: right;
 }
 
 .c-private p,
 .in-flight p {
-  float: left;
+  float: right;
   font-family: 'Lato', sans-serif;
   color: #424242;
-  font-size: 1.25em;
-  padding: 4em 0 0 7em;
+  font-size: 1.1rem;
+  padding-top: 5em;
   margin-bottom: 2em;
 }
 
-a.button2 {
+.c-private .column.one-half,
+.in-flight .column.one-half {
+  float: left;
+  margin: 6em 0 0 0;
+}
+
+.c-private a.button2,
+.in-flight a.button2 {
   background: url(../images/contact_us_btn.png) no-repeat 0 0;
   display: block;
   width: 124px;
   height: 0;
   padding-top: 36px;
   overflow: hidden;
+  float: left;
+}
+
+.c-private a.button2:hover,
+.in-flight a.button2:hover {
+  background: url(../images/contact_us_btn.png) no-repeat 0 -36px;
+}
+
+.in-flight .column.one-half {
+  border: 1px solid #cacaca;
+}
+
+.we-love {
+  margin-bottom: 5em;
+  background: #fff;
+  position: relative;
+}
+
+.we-love h2 {
+  padding-left: 40%;
+  padding-bottom: .2em;
+  font-family: 'lust_scriptregular';
+  color: #767373;
+  font-size: 5.5rem;
+  height: .5em;
+  margin-bottom: 1em;
+  line-height: 1;
+}
+
+.we-love small {
+  font-size: 2rem;
+  margin-left: -1em;
+}
+
+.we-love .column.seven {
+  float: right;
+}
+
+.we-love p {
+  float: left;
+  font-family: 'Lato', sans-serif;
+  color: #424242;
+  font-size: 1.1rem;
+  padding-top: 3em;
+  margin-bottom: 2em;
+}
+
+.we-love a.button1,
+.we-love a.button2 {
+  background: url(../images/view_the_full_menu_btn.png) no-repeat 0 0;
+  display: block;
+  width: 197px;
+  height: 0;
+  padding-top: 36px;
+  overflow: hidden;
   margin-left: 8.6em;
 }
 
-a.button2:hover {
+.we-love a.button1:hover {
+  background: url(../images/view_the_full_menu_btn.png) no-repeat 0 -36px;
+}
+
+.we-love a.button2 {
+  background: url(../images/contact_us_btn.png) no-repeat 0 0;
+  width: 124px;
+}
+
+.we-love a.button2:hover {
   background: url(../images/contact_us_btn.png) no-repeat 0 -36px;
 }
 
@@ -358,11 +439,11 @@ a.button2:hover {
 .food h2,
 .menus h2,
 .party h2 {
-  padding-left: 30%;
+  padding-left: 35%;
   padding-bottom: .2em;
-  font-family: 'Lustscript';
+  font-family: 'lust_scriptregular';
   color: #767373;
-  font-size: 6.25rem;
+  font-size: 5.5rem;
   height: .5em;
   margin-bottom: 1em;
   line-height: 1;
@@ -371,24 +452,24 @@ a.button2:hover {
 .food small,
 .menus small,
 .party small {
-  font-size: 2.25rem;
+  font-size: 2rem;
   margin-left: -.5em;
 }
 
-.food .column.ten,
-.menus .column.ten,
-.party .column.ten {
+.food .column.seven,
+.menus .column.seven,
+.party .column.seven {
   float: right;
 }
 
 .food p,
 .menus p,
 .party p {
-  float: left;
+  float: right;
   font-family: 'Lato', sans-serif;
   color: #424242;
-  font-size: 1.25em;
-  padding: 4em 0 0 7em;
+  font-size: 1.1rem;
+  padding-top: 3em;
   margin-bottom: 2em;
 }
 
@@ -404,7 +485,6 @@ a.button2:hover {
   height: 0;
   padding-top: 36px;
   overflow: hidden;
-  margin-left: 8.6em;
 }
 
 .food a.button1:hover,

@@ -9,29 +9,29 @@
 
 
    h2 {
-    padding-left: 30%;
+    padding-left: 35%;
     padding-bottom: .2em;
-     font-family: 'Lustscript';
+     font-family: 'lust_scriptregular';
      color: #767373;
-     font-size: 6.25rem;
+     font-size: 5.5rem;
      height: .5em;
      margin-bottom: 1em;
      line-height: 1;
    }
    small {
-     font-size: 2.25rem;
+     font-size: 2rem;
      margin-left: -.5em;
    }
 
- .column.ten {
+ .column.seven {
    float: right;
  }
       p {
-       float: left;
+       float: right;
        font-family: 'Lato', sans-serif;
        color: #424242;
-       font-size: 1.25em;
-       padding: 4em 0 0 7em;
+       font-size: 1.1rem;
+       padding-top: 3em;
        margin-bottom: 2em;
      }
       a.button1,
@@ -42,7 +42,7 @@
         height: 0;
         padding-top: 36px;
         overflow: hidden;
-        margin-left: 8.6em;
+
 }
       a.button1:hover {
           background: url(../images/view_the_full_menu_btn.png) no-repeat 0 -36px;

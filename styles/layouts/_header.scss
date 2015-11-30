@@ -1,7 +1,8 @@
 .home,
 .T-menu,
 .M-menu,
-.catering {
+.catering,
+.contact {
   background-image: url(../images/photo1.png);
   margin-bottom: 4em;
   position: relative;
@@ -37,6 +38,10 @@
 
 .catering {
   background-image: url(../images/catering_photo1.jpg);
+}
+
+.contact {
+  background-image: url(../images/contact_photo1.png);
 }
 
 #mainnav {

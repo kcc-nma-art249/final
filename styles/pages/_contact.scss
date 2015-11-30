@@ -1,0 +1,54 @@
+.we-love {
+  margin-bottom: 5em;
+  background: #fff;
+  position: relative;
+
+
+  h2 {
+   padding-left: 40%;
+   padding-bottom: .2em;
+    font-family: 'lust_scriptregular';
+    color: #767373;
+    font-size: 5.5rem;
+    height: .5em;
+    margin-bottom: 1em;
+    line-height: 1;
+  }
+  small {
+    font-size: 2rem;
+    margin-left: -1em;
+  }
+
+  .column.seven {
+    float: right;
+  }
+       p {
+        float: left;
+        font-family: 'Lato', sans-serif;
+        color: #424242;
+        font-size: 1.1rem;
+        padding-top: 3em;
+        margin-bottom: 2em;
+      }
+     a.button1,
+     a.button2 {
+       background: url(../images/view_the_full_menu_btn.png) no-repeat 0 0;
+       display: block;
+       width: 197px;
+       height: 0;
+       padding-top: 36px;
+       overflow: hidden;
+       margin-left: 8.6em;
+}
+     a.button1:hover {
+         background: url(../images/view_the_full_menu_btn.png) no-repeat 0 -36px;
+       }
+
+     a.button2 {
+         background: url(../images/contact_us_btn.png) no-repeat 0 0;
+         width: 124px;
+     }
+     a.button2:hover {
+         background: url(../images/contact_us_btn.png) no-repeat 0 -36px;
+       }
+}
