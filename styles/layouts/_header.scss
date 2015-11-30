@@ -44,7 +44,7 @@
   background-image: url(../images/contact_photo1.png);
 }
 
-#mainnav {
+.mainnav {
         position:fixed;
         right: -12em;
         padding-bottom: 0;
@@ -52,7 +52,7 @@
         width: 100%;
 
         ul {
-          padding-left: 0;
+          padding-top: 1em;
           margin: 0;
           list-style: none;
           position: relative;
@@ -60,18 +60,12 @@
           float: right;
 
 
-          .nav-menu > ul {
-            display: none;
-          }
 
-          .nav-menu:hover > ul {
-            display: block;
-          }
 
             li {
               display: inline-block;
               list-style: none;
-              padding: 0 1em;
+              padding: 0 2em;
               margin: 0;
               text-transform: uppercase;
               font-family: 'lato', sans-serif;
@@ -80,13 +74,13 @@
                 margin: 0 0 0 1em;
               }
 
-              :hover ul {
+              li:hover ul {
                 left: 0;
               }
 
               a {
                 display: block;
-                margin: 15px;
+                margin: 0;
                 padding-bottom: 2px;
                 text-decoration: none;
                 color: #CACACA;
@@ -94,19 +88,27 @@
                 }
               a:hover {
                 color: #ff6100;
-                border-bottom: 2px solid #ff6100;
+                }
               }
+              #nav-menu > ul {
+                  display: none;
+                }
 
-              ul {
+              #nav-menu:hover > ul {
+                  display: block;
+                }
+}
 
-              position: absolute;
-              top: 100%;
-              right: 0;
-              left: -91%;
-              height: 40px;
-              width: 252%;
-              font-size: .7em;
-              text-align: center;
+            ul li ul {
+
+                position: absolute;
+                top: 100%;
+                right: 0;
+                left: -91%;
+                height: 40px;
+                width: 252%;
+                font-size: .7em;
+                text-align: center;
 
 
 
@@ -121,8 +123,4 @@
                 }
               }
             }
-          }
-
-        }
-
-  }
+}

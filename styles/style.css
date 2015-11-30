@@ -13,20 +13,23 @@
   float: left;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 .forms label {
+  display: block;
   text-transform: uppercase;
-  font-size: 1em;
-  float: left;
+  font-size: .8em;
+  float: none;
   color: #2D2D2D;
-  padding-left: 45%;
+  padding-bottom: 5px;
 }
 
 .forms input,
 .forms textarea {
   display: block;
   width: 100%;
+  border: 1px solid #2d2d2d;
 }
 
 input[type="email"],
@@ -155,7 +158,7 @@ footer ul li .social-M3 {
   display: block;
   width: 35px;
   height: 0;
-  padding-top: 34px;
+  padding-top: 35px;
   overflow: hidden;
   border-bottom: 0;
 }
@@ -322,7 +325,7 @@ body {
   background-image: url(../images/contact_photo1.png);
 }
 
-#mainnav {
+.mainnav {
   position: fixed;
   right: -12em;
   padding-bottom: 0;
@@ -330,8 +333,8 @@ body {
   width: 100%;
 }
 
-#mainnav ul {
-  padding-left: 0;
+.mainnav ul {
+  padding-top: 1em;
   margin: 0;
   list-style: none;
   position: relative;
@@ -339,45 +342,44 @@ body {
   float: right;
 }
 
-#mainnav ul .nav-menu > ul {
-  display: none;
-}
-
-#mainnav ul .nav-menu:hover > ul {
-  display: block;
-}
-
-#mainnav ul li {
+.mainnav ul li {
   display: inline-block;
   list-style: none;
-  padding: 0 1em;
+  padding: 0 2em;
   margin: 0;
   text-transform: uppercase;
   font-family: 'lato', sans-serif;
 }
 
-#mainnav ul li li:last-child {
+.mainnav ul li li:last-child {
   margin: 0 0 0 1em;
 }
 
-#mainnav ul li :hover ul {
+.mainnav ul li li:hover ul {
   left: 0;
 }
 
-#mainnav ul li a {
+.mainnav ul li a {
   display: block;
-  margin: 15px;
+  margin: 0;
   padding-bottom: 2px;
   text-decoration: none;
   color: #CACACA;
 }
 
-#mainnav ul li a:hover {
+.mainnav ul li a:hover {
   color: #ff6100;
-  border-bottom: 2px solid #ff6100;
 }
 
-#mainnav ul li ul {
+.mainnav ul #nav-menu > ul {
+  display: none;
+}
+
+.mainnav ul #nav-menu:hover > ul {
+  display: block;
+}
+
+.mainnav ul li ul {
   position: absolute;
   top: 100%;
   right: 0;
@@ -388,15 +390,56 @@ body {
   text-align: center;
 }
 
-#mainnav ul li ul li {
+.mainnav ul li ul li {
   float: none;
   display: inline-block;
 }
 
-#mainnav ul li ul li a {
+.mainnav ul li ul li a {
   padding-bottom: 2px;
   margin: 0;
   color: #CACACA;
+}
+
+.button
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  border: 0 none;
+  display: inline-block;
+  text-decoration: none;
+  color: #ff6100;
+  font: inherit;
+  width: 10%;
+  padding: 0.5em 1em;
+  margin-bottom: 0.5em;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 2px solid #ff6100;
+}
+
+.button
+button:hover,
+.button
+button:focus,
+.button
+button:active,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+input[type="submit"]:active,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="reset"]:active,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="button"]:active {
+  background-color: #ff6100;
+  color: #fff;
 }
 
 .c-private,
@@ -532,53 +575,35 @@ body {
 .forms .row2,
 .forms .row3,
 .forms .row4 {
-  margin-top: 3em;
+  margin: 1em 0;
+  width: 100%;
+  float: left;
 }
 
-.forms .row1 .form-left,
-.forms .row1 .form-right,
-.forms .row2 .form-left,
-.forms .row2 .form-right,
-.forms .row3 .form-left,
-.forms .row3 .form-right,
-.forms .row4 .form-left,
-.forms .row4 .form-right {
-  margin-bottom: 1em;
+.forms .row1 label,
+.forms .row2 label,
+.forms .row3 label,
+.forms .row4 label {
+  text-align: center;
 }
 
-.forms .row1 .form-left input,
-.forms .row1 .form-left textarea,
-.forms .row1 .form-right input,
-.forms .row1 .form-right textarea,
-.forms .row2 .form-left input,
-.forms .row2 .form-left textarea,
-.forms .row2 .form-right input,
-.forms .row2 .form-right textarea,
-.forms .row3 .form-left input,
-.forms .row3 .form-left textarea,
-.forms .row3 .form-right input,
-.forms .row3 .form-right textarea,
-.forms .row4 .form-left input,
-.forms .row4 .form-left textarea,
-.forms .row4 .form-right input,
-.forms .row4 .form-right textarea {
-  margin: 0 0 0.5em;
-  text-align: left;
-  padding-left: .5em;
+.forms .row1 input,
+.forms .row1 textarea,
+.forms .row2 input,
+.forms .row2 textarea,
+.forms .row3 input,
+.forms .row3 textarea,
+.forms .row4 input,
+.forms .row4 textarea {
+  min-height: 4.125em;
+  padding-left: 1em;
 }
 
 .forms .row1 .form-left,
 .forms .row1 .form-right {
-  width: 49%;
+  width: 48%;
   float: left;
-  padding-right: 2%;
-}
-
-.forms .row1 .form-left input,
-.forms .row1 .form-left textarea,
-.forms .row1 .form-right input,
-.forms .row1 .form-right textarea {
-  min-height: 4.125em;
+  padding-right: 4%;
 }
 
 .forms .row1 .form-right {
@@ -586,17 +611,30 @@ body {
   padding-right: 0;
 }
 
-.forms .row2,
-.forms .row3 {
-  width: 100%;
-  float: left;
+.forms .row4 input,
+.forms .row4 textarea {
+  min-height: 15em;
 }
 
-.forms .row2 input,
-.forms .row2 textarea,
-.forms .row3 input,
-.forms .row3 textarea {
-  min-height: 4.125em;
+.contact-info {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.contact-info h3 {
+  padding: 5em 0 2em 0;
+  border-top: 2px solid #2c2c2c;
+}
+
+.contact-info p {
+  font-size: .8em;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.map {
+  width: 100%;
+  margin-bottom: 5em;
 }
 
 .food,
