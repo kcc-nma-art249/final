@@ -75,7 +75,13 @@ p {
   margin-bottom: 0 0 1em;
 }
 
-.container {
+.container-1,
+.container-2,
+.container-3,
+.container-4,
+.container-5,
+.container-6,
+.container-7 {
   width: 100%;
   width: 960px;
   margin: 0 auto;
@@ -325,7 +331,13 @@ footer small {
   margin-bottom: 130px;
 }
 
-.collections {
+.container-1,
+.container-2,
+.container-3,
+.container-4,
+.container-5,
+.container-6,
+.container-7 {
   background-color: #000000;
   position: relative;
   width: 100%;
@@ -356,8 +368,8 @@ footer small {
 }
 
 .home-page {
-  background-image: url("../images/home-bg.png");
-  background-repeat: no-repeat;
+  background: url("../images/home-bg.png") no-repeat center center;
+  background-size: cover;
   border: 2px solid blue;
   height: 850px;
 }
@@ -382,17 +394,14 @@ footer small {
 
 img.home-watch {
   position: absolute;
+  z-index: 10;
   top: 280px;
   left: 0;
 }
 
 .home-info {
   width: 630px;
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-          transform: translateX(-50%);
+  margin: 0 auto;
 }
 
 .our-story {
