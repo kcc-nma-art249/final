@@ -227,17 +227,40 @@ img{
     float: right;
 }
 
-.about {
+
+
+.baner01 {
   width: 100%;
+  height: 520px;
+  display: inline-block;
+  background: url("../images/about.png") no-repeat 0 0;
+  background-size: 100%;
 }
 
-.menu {
+.baner02 {
   width: 100%;
-  .baner-image {
-    width: 100%;
-    background: url("../images/menu.png") no-repeat 0 0;
-  }
+  height: 520px;
+  display: inline-block;
+  background: url("../images/gallery.png") no-repeat 0 0;
+  background-size: 100%;
 }
+
+.baner03 {
+    width: 100%;
+    height: 520px;
+    display: inline-block;
+    background: url("../images/menu.png") no-repeat 0 0;
+    background-size: 100%;
+  }
+
+.baner04 {
+      width: 100%;
+      height: 520px;
+      display: inline-block;
+      background: url("../images/map.png") no-repeat 0 0;
+      background-size: 100%;
+    }
+
 
 
 
