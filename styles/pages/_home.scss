@@ -1,8 +1,11 @@
 .home-page {
-background-image: url("../images/home-bg.png");
-background-repeat: no-repeat;
-border: 2px solid blue;
-height: 850px;
+background: url("../images/home-bg.png") no-repeat center center ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border: 2px solid blue;
+  height: 850px;
  .logo {
    margin-top: 5em;
  }
@@ -26,7 +29,5 @@ img.home-watch {
 }
 .home-info {
   width: 630px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  margin: 0 auto;
 }
