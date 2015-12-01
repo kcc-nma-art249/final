@@ -1,0 +1,32 @@
+.home-page {
+background-image: url("../images/home-bg.png");
+background-repeat: no-repeat;
+border: 2px solid blue;
+height: 850px;
+ .logo {
+   margin-top: 5em;
+ }
+ p {
+   position: relative;
+   z-index: 10;
+ }
+ .center {
+   text-align: center;
+   position: relative;
+ }
+}
+.img-arrow {
+  display: block;
+
+}
+img.home-watch {
+  position: absolute;
+  top: 280px;
+  left: 0;
+}
+.home-info {
+  width: 630px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}

@@ -1,0 +1,21 @@
+.collections {
+  background-color: #000000;
+  position: relative;
+  width: 100%;
+  height: 800px;
+
+  .marvel {
+    background-color: blue;
+  }
+}
+
+.arrow-right {
+  float: right;
+}
+
+.arrows {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}

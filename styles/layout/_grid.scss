@@ -1,0 +1,30 @@
+
+.container  {
+  width: 100%;
+  width: 960px;
+  margin: 0 auto;
+  border: 1px solid red;
+  padding-top: 7em;
+}
+.row {
+  margin-left: -1em;
+  margin-right: -1em;
+  @include cf;
+}
+
+[class^="col-"] {
+  width: 100%;
+  float: left;
+  padding:0 1em;
+
+}
+
+
+@for $i from 1 through 12 {
+  .col-#{$i} {
+    @media screen and (min-width: 600px){
+      width: (100% / 12) * $i;
+
+    }
+  }
+}
