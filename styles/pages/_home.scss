@@ -168,6 +168,7 @@ position: absolute;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
 }
 
 /*
@@ -362,6 +363,10 @@ right: 10px;
   height: 100%;
 }
 
+.section04 {
+  overflow: hidden;
+}
+
 h1 {
   margin: 0;
 }
@@ -370,7 +375,7 @@ h1 {
   background: url(../images/Valeria.jpg) no-repeat center center;
   background-size: cover;
 }
-.slide02 div {
+.slide02 div{
   background: url(../images/Olivia.jpg) no-repeat center center;
   background-size: cover;
 }
@@ -383,10 +388,11 @@ h1 {
   background-size: cover;
 }
 
+
 .slide-con {
+
   width: 50%;
   height: 70%;
-  background: none;
 }
 
 //mine
@@ -401,9 +407,11 @@ h1 {
 */
 
 //section05
+/*
 .shade {
     background: rgba(0,0,0,1);
     z-index: 3;
     width: 100%;
     height: 100%;
 }
+*/
