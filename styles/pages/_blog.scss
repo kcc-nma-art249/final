@@ -35,7 +35,9 @@
     position: relative;
     display: block;
     width: 100%;
-    // overflow: hidden;
+    overflow: hidden;
+    height: 100%;
+    box-shadow: 3px 3px 5px #a9a9a9;
   }
 
   img {
@@ -46,6 +48,7 @@
     left: 50%;
     transform: translate(-50%,-50%);
   }
+
 
   ul:after {
     content: "";
@@ -58,8 +61,8 @@
       float: left;
       width: 25%;
       height: 150px;
-      padding-right: 10px;
-      padding-bottom: 10px;
+      padding-right: 20px;
+      padding-bottom: 20px;
       box-sizing: border-box;
   }
 
