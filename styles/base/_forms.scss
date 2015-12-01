@@ -1,0 +1,70 @@
+form {
+  width: 100%;
+
+  input,
+  textarea{
+    display: block;
+    width: 70%;
+    height: 2em;
+    background-color: #DEDEDE;
+    border-radius: .5em;
+    border: 1px solid #775050;
+  }
+  textarea {
+    min-height: 5em;
+}
+}
+
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+input[type="checkbox"],
+input[type="radio"],
+textarea,
+select {
+  -webkit-appearance: none;
+  appearance: none;
+
+  &:focus,
+  &:active {
+    outline: 0;
+  }
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+
+  border: 1px solid #775050;
+
+  width: 1em;
+  height: 1em;
+  border-radius: 100%;
+
+  &:checked {
+    background: #775050;
+  }
+}
+
+input[type="checkbox"] {
+  border-radius: 0;
+
+  &:checked {
+    position: relative;
+    background: transparent;
+
+    &::after {
+      margin: 0;
+      padding: 0;
+      content: '\2713';
+      display: block;
+      color: #775050;
+      position: absolute;
+      top: -1px;
+      left: 1px;
+    }
+  }
+}
