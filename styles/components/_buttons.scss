@@ -1,0 +1,41 @@
+.prime-button {
+  appearance: none;
+  display: inline-block; // Make display properties consistent across the board
+  text-decoration: none; // Remove underline for anchor buttons
+  color: #D17B25;
+  background-color: transparent;
+  border: 2px solid #D17B25;
+  border-radius: 4px;
+  padding: 20px 40px;
+  font-family: $sans-serif2;
+  text-transform: uppercase;
+  &:hover {
+    cursor: crosshair;
+  }
+}
+.arrow {
+  margin-top: 63px;
+  &:hover {
+    cursor: crosshair;
+  }
+}
+
+.secondary-button {
+  color: #D17B25;
+  padding: 9px 40px;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+  font-family: $sans-serif2;
+  text-transform: uppercase;
+  border: 2px solid #D17B25;
+}
+.tertiary-button {
+  color: #D17B25;
+  border: none;
+  margin-left: 50px;
+  display: inline-block;
+  text-decoration: none;
+  font-family: $sans-serif2;
+  text-transform: uppercase;
+}
