@@ -48,6 +48,7 @@ main {
 }
 
 #hamburger {
+
   z-index: 100;
   position: fixed;
   top:20px;
@@ -56,7 +57,14 @@ main {
   width:30px;
   height:30px;
   margin: auto;
+    transition: transform 0.5s;
+  &.animate {
+
+    transform: translateX(-300px);
+  }
 }
+
+
 
 .bar {
   display: block;
@@ -131,6 +139,7 @@ video {
 
 #section01, #section02, #section03, .section04, .section05 {
   height: 100%;
+  position: relative;
 }
 
 .small-container {
@@ -273,31 +282,45 @@ line-height: 1em;
   position: relative;
 }
 */
+.page-con {
+position: absolute;
+  bottom: 40px;
+  right: 40px;
+z-index: 100;
+}
 .page-name,
 .page-number {
-position: absolute;
-bottom: 20px;
-right: 30px;
+//position: absolute;
+//bottom: 20px;
+//right: 30px;
 }
 
 .page-number {
-  padding-top: 5px;
+  font-size: 50px;
+//  padding-top: 5px;
   border-top: 1px solid #fff;
 }
 .page-name {
-position: absolute;
-bottom: 80px;
-right: 10px;
+  font-weight: 500;
+  font-size: 14px;
+//text-transform: uppercase;
+
+//bottom: 80px;
+//right: 10px;
+
+//position: absolute;
+//transform: rotate(-90deg);
   /* Safari */
-  -webkit-transform: rotate(-90deg);
+//  -webkit-transform: rotate(-90deg);
   /* Firefox */
-  -moz-transform: rotate(-90deg);
+//  -moz-transform: rotate(-90deg);
   /* IE */
-  -ms-transform: rotate(-90deg);
+//  -ms-transform: rotate(-90deg);
   /* Opera */
-  -o-transform: rotate(-90deg);
+//  -o-transform: rotate(-90deg);
   /* Internet Explorer */
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+//  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
 }
 
 //section04
@@ -415,3 +438,7 @@ h1 {
     height: 100%;
 }
 */
+
+.line-devider {
+  border: 1px solid white;
+}
