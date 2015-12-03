@@ -77,9 +77,9 @@ ul {
       font-weight: 600;
       letter-spacing: 1px;
       text-transform: uppercase;
-&:hover{
-  color: #FF2381;
-}
+      &:hover{
+        color: #FF2381;
+      }
     }
   }
 }
@@ -91,9 +91,11 @@ ul {
   //letter-spacing: 4px;
   text-transform: uppercase;
 }
+
 .sub-menu {
   padding-top: 30px;
 }
+
 .sm-border {
   margin-top: 100px;
 
@@ -513,5 +515,12 @@ h1 {
 /*
 .blur-me {
   filter: blur(10px);
+}
+*/
+
+/*
+.blur-me {
+  filter: opacity(0.5);
+  transition: transform 0.5s;
 }
 */
