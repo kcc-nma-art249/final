@@ -73,12 +73,16 @@ ul {
 .menu-sm {
   color: #D0CACA;
   font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 3px;
+  font-weight: 600;
+  letter-spacing: 4px;
   text-transform: uppercase;
-  :first-child {
-    border-top: 1px solid #000;
-  }
+}
+.sub-menu {
+  padding-top: 50px;
+}
+.sm-border {
+  margin-top: 100px;
+
 }
 
 #hamburger {
@@ -124,6 +128,16 @@ ul {
   background: #000;
   transform:translateY(-9px) rotate(-135deg);
 }
+
+.footer {
+  position: fixed;
+  bottom: 30px;
+  p {
+    color: #000;
+  }
+}
+
+
 
 /* Prevent video jerky resize on load, reset defaults */
 video {
