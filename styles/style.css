@@ -297,16 +297,18 @@ body {
   display: block;
   background-image: url("../images/logo.png");
   background-repeat: no-repeat;
-  background-size: 425px 140px;
-  width: 425px;
-  height: 0;
-  padding-top: 140px;
+  background-size: 100%;
+  width: 80%;
+  height: 200px;
   overflow: hidden;
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-left: -192px;
-  margin-top: -67.5px;
+  max-width: 425px;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-indent: -999px;
 }
 
 .T-menu {
@@ -666,6 +668,14 @@ input[type="button"]:active {
   height: .5em;
   margin-bottom: 1em;
   line-height: 1;
+}
+
+@media screen and (max-width: 500px) {
+  .food h2,
+  .menus h2,
+  .party h2 {
+    padding-left: 20px;
+  }
 }
 
 .food small,

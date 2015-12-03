@@ -17,6 +17,9 @@
      height: .5em;
      margin-bottom: 1em;
      line-height: 1;
+     @media screen and (max-width: $break-small){
+       padding-left: 20px;
+     }
    }
    small {
      font-size: 2rem;

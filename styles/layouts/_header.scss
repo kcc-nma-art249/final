@@ -15,16 +15,17 @@
         display: block;
         background-image: url("../images/logo.png");
         background-repeat: no-repeat;
-        background-size: 425px 140px;
-        width: 425px;
-        height: 0;
-        padding-top: 140px;
+        background-size: 100%;
+        width: 80%;
+        height: 200px;
+
         overflow: hidden;
         position: absolute;
         top: 50%;
         left: 50%;
-        margin-left: -192px;
-        margin-top: -67.5px
+        max-width:425px;
+        transform: translate(-50%, -50%);
+        text-indent: -999px;
       }
 
 }
@@ -53,7 +54,7 @@
 
         ul {
           padding-top: 1em;
-          
+
           list-style: none;
           position: relative;
           text-align: center;
