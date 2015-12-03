@@ -11,13 +11,14 @@
     text-decoration: none; // Remove underline for anchor buttons
     color: inherit;        // Inherit the default color (ie. black)
     font: inherit;
-    padding: 0.5em 2em;
+    padding: 0.5em 3em;
     margin-bottom: 0.5em;
     background-color: #DEDEDE;
     border-radius: 0px;
 
     &:hover {
-      background-color: #CACACA;
+      background-color: #000;
+   
     }
 
     &:focus,
@@ -31,8 +32,11 @@
 .button {
   background-color: #3190D8;
 }
+
 button {
   background-color: #FF2381;
+  text-transform: uppercase;
+
 }
 
 input[type="button"] {
@@ -86,3 +90,4 @@ input[type="reset"] {
   background-color: #000;
   color: #fff;
 }
+
