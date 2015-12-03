@@ -10,15 +10,21 @@
   position: relative;
   width: 100%;
   height: 800px;
+  padding-left: 186px;
+
 }
 
-.arrow-right {
-  float: right;
-}
 
-.arrows {
+.slick-arrows {
   position: absolute;
-  width: 100%;
   top: 50%;
   transform: translateY(-50%);
+}
+
+.slick-prev {
+  left: 0;
+  z-index: 10;
+}
+.slick-next {
+  right: 0;
 }

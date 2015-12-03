@@ -6,12 +6,20 @@
 .container-5,
 .container-6,
 .container-7,
+.container-8,
+.container-9,
+.container-10,
+.container-11
   {
   width: 100%;
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
   border: 1px solid red;
-  padding-top: 7em;
+  padding-top: 100px;
+}
+
+.h2 {
+  padding-bottom: 50px;
 }
 .row {
   margin-left: -1em;
