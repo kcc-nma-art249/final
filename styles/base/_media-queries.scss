@@ -1,0 +1,12 @@
+/**
+ * Media Queries
+ *
+ * NOTE: "Relative units in media queries are based
+ * on the initial value, which means that units are
+ * never based on results of declarations"
+ * http://www.w3.org/TR/css3-mediaqueries/#units
+ */
+$small-screen:  'only screen';
+$medium-screen: 'only screen and (min-width: em-calc(640px, 16px))';
+$large-screen:  'only screen and (min-width: em-calc(1024px, 16px))';
+$xlarge-screen: 'only screen and (min-width: em-calc(1440px, 16px))';

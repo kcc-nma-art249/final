@@ -1,29 +1,24 @@
 form {
   width: 100%;
+  margin: 2em 0;
 
   input,
   textarea{
     display: block;
     width: 70%;
-    height: 2em;
-    background-color: #DEDEDE;
+    height: 3em;
+    background-color: #DADFE4;
     border-radius: .5em;
-    border: 1px solid #775050;
+    border: 1px solid #4a4a4a;
+    margin: .5em 0 2em 0;
   }
   textarea {
-    min-height: 5em;
-}
+    min-height: 7em;
 }
 
-input[type="email"],
-input[type="number"],
-input[type="search"],
-input[type="text"],
-input[type="tel"],
-input[type="url"],
-input[type="password"],
-input[type="checkbox"],
-input[type="radio"],
+input[type="Your Name"],
+input[type="Your Email"],
+input[type="Subject"],
 textarea,
 select {
   -webkit-appearance: none;
@@ -34,37 +29,4 @@ select {
     outline: 0;
   }
 }
-
-input[type="checkbox"],
-input[type="radio"] {
-
-  border: 1px solid #775050;
-
-  width: 1em;
-  height: 1em;
-  border-radius: 100%;
-
-  &:checked {
-    background: #775050;
-  }
-}
-
-input[type="checkbox"] {
-  border-radius: 0;
-
-  &:checked {
-    position: relative;
-    background: transparent;
-
-    &::after {
-      margin: 0;
-      padding: 0;
-      content: '\2713';
-      display: block;
-      color: #775050;
-      position: absolute;
-      top: -1px;
-      left: 1px;
-    }
-  }
 }

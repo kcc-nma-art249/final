@@ -1,8 +1,9 @@
 /*
  * Base
  */
-@import "base/forms";
 @import "base/utilities";
+@import "base/forms";
+@import "base/media-queries";
 
 
 /*
@@ -68,9 +69,6 @@ h6 {
 }
 
 
-
-
-
 .container {
   width: 960px;
   margin: 0 auto;
@@ -83,20 +81,12 @@ h6 {
 }
 
 
-// .logo,
-// .main-nav {
-//   position: absolute;
-// }
-
-
-
 .logo {
   // top: 1em;
   // left:8%;
   height: 60px;
   width: 280px;
-  display: inline-block;
-
+  float: left;
 }
 .logo img {
   margin: .8em;
@@ -231,45 +221,61 @@ img{
 
 .baner01 {
   width: 100%;
-  height: 520px;
+  height: 28em;
   display: inline-block;
-  background: url("../images/about.png") no-repeat 0 0;
-  background-size: 100%;
+  background: url("../images/about.png") no-repeat center center;
+  background-size: cover;
+  margin-bottom: 2em;
 }
 
 .baner02 {
   width: 100%;
-  height: 520px;
+  height: 28em;
   display: inline-block;
-  background: url("../images/gallery.png") no-repeat 0 0;
-  background-size: 100%;
+  background: url("../images/gallery.png") no-repeat center center;
+  background-size: cover;
+  margin-bottom: 2em;
 }
 
 .baner03 {
+  position: relative;
     width: 100%;
-    height: 520px;
+    height: 30em;
     display: inline-block;
-    background: url("../images/menu.png") no-repeat 0 0;
-    background-size: 100%;
+    background: url("../images/menu.png") no-repeat center center;
+    background-size: cover;
+    margin-bottom: 2em;
   }
 
 .baner04 {
       width: 100%;
-      height: 520px;
+      height: 30em;
       display: inline-block;
-      background: url("../images/map.png") no-repeat 0 0;
-      background-size: 100%;
+      background: url("../images/map.png") no-repeat center center;
+      background-size: cover;
+      margin-bottom: 2em;
     }
 
+.row {
+  list-style: none;
+  margin: 0 0 3em 0;
+}
 
+.adress {
+  float: right;
+}
 
 
 .menu_text {
-    width: 100%;
-    text-align: center;
-    padding: 0;
-    margin: 15em 0 0 0;
-  }
+  position: absolute;
+  text-align: left;
+  line-height: 1.2;
+  padding: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
 
 .menu_text h2 {
     color: #fff;
@@ -302,21 +308,3 @@ footer #footernav ul li ul li {
     margin: 1.2em;
     float: right;
 }
-// footer #footernav ul li.column1 {
-//   float: left;
-// }
-// footer #footernav ul li.column2 {
-// 	width: 50%;
-// 	margin: 0 2.12% 0 0;
-// 	float: left;
-// }
-//
-// footer #footernav p {
-//   	font-size: .61em;
-//   text-align: center;
-// }
-//
-// footer #footernav ul li.column3 {
-//   	width: 23.4%;
-//   float:right;
-// }
