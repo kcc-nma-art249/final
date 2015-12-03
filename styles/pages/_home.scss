@@ -150,11 +150,6 @@ ul {
     color: #000;
   }
 
-label {
-	font-size: 14px;
-	color: #000;
-
-}
   input[type="email"] {
   	font-size: 14px;
   	font-weight: 300;
@@ -467,6 +462,8 @@ h1 {
 .slide01 div {
   background: url(../images/Valeria.jpg) no-repeat center center;
   background-size: cover;
+//background: rgba(0,0,0,0.5);
+
 }
 .slide02 div{
   background: url(../images/Olivia.jpg) no-repeat center center;
