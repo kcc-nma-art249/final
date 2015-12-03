@@ -5,6 +5,7 @@
   background-image: url('../images/background-blog.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 3em;
 
   .vertical-center {
     position: relative;
@@ -38,6 +39,11 @@
     overflow: hidden;
     height: 100%;
     box-shadow: 3px 3px 5px #a9a9a9;
+  }
+
+  a:hover {
+    background: #ccc;
+    opacity: 0.3;
   }
 
   img {
