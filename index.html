@@ -84,7 +84,7 @@
       </div>
       </section>
 
-      <section id="section02" class="scroll-blur">
+      <section id="section02" class="auto-blur">
         <div id="video-wrap2" class="video-wrap">
             <video preload="metadata" autoplay loop id="my-video2" controls muted>
                 <source src="images/cmyk1-1.mp4" type="video/mp4">
@@ -152,7 +152,7 @@
       </section>
 
 
-       <section id="section03" class="scroll-blur">
+       <section id="section03" class="auto-blur">
            <div id="video-wrap3" class="video-wrap">
                <video preload="metadata" autoplay loop id="my-video3" controls muted>
                    <source src="images/cmyk2-2.mp4" type="video/mp4" >
@@ -180,7 +180,7 @@ for more information on the world student brief check out: www.beesawards.com/be
   <div class="slide01">
     <div class="slide-con">
 
-      <h4 class="bk-letter">ILLUSTRATOR</h4>
+      <h5 class="bk-letter">ILLUSTRATOR</h5>
       <h1 class="bk-letter">Valeria Petrone</h1>
 
       <p class="bk-letter">Valeria Petrone was trained in art school in Milan and London. Although still maintaining links with publishers in the U.K., she has extended the scope of her activity to include publishers in the United States, Japan, France, and, of course, Italy, where she lives. Her work includes children's books, book covers, and editorial and advertising illustration. She has exhibited in Italy and abroad. Her work has received recognition from Society of Illustrators New York, 3x3 Show, American Illustration, Communication Arts, Original Art Show New York, and Italian Illustration Annual.</p>
@@ -191,7 +191,7 @@ for more information on the world student brief check out: www.beesawards.com/be
   <div class="slide02">
     <div>
       <div class="slide-con">
-      <h4 class="bk-letter">PHOTOGRAPHER</h4>
+      <h5 class="bk-letter">PHOTOGRAPHER</h5>
       <h1 class="bk-letter">Olivia Bee</h1>
 
       <p class="bk-letter">Olivia Bee (18) was born in Portland, Oregon, and now lives in New York City. Beginning photography as an 11-year-old, and beginning to shoot professionally at age 15, she is often the youngest person in the room. She is inspired by the relationships between people and the environments in which we place ourselves, freedom, the '70s, and the moments of everyday life. Olivia's clients include Adidas, The New York Times, Fiat USA, The Sisterhood of Night, Converse, Wieden </p>
@@ -205,7 +205,7 @@ for more information on the world student brief check out: www.beesawards.com/be
   <div class="slide03">
     <div>
 
-      <h4 class="bk-letter">FREELANCE PHOTOGRAPHER</h4>
+      <h5 class="bk-letter">FREELANCE PHOTOGRAPHER</h5>
       <h1 class="bk-letter">Sarah Wilmer</h1>
 
       <p class="bk-letter">Sarah Wilmer was born and raised in Missouri and lives and works in Brooklyn, N.Y., with her cat, Tubs. She was chosen as an ADC Young Gun in 2008 and a New York Photo Award Fine Art Series Nominee in 2009. Her work has appeared in Esquire, V Magazine, Communication Arts, NY ARTS, Korean Vogue, Magic, Bust, SURFACE, Rolling Stone, Nomenus, Spin, PDN, Billboard, Marie Claire, Look Magazine and Vision. Clients include Virgin Records, Toast, EMI, Eyeball Records, Press Here Publicity, Gilt Groupe, Sandstrom Design, and Picador.Wilmer is represented by Julian Richards and Randall Scott Gallery.</p>
@@ -216,7 +216,7 @@ for more information on the world student brief check out: www.beesawards.com/be
   </div>
   <div class="slide04">
     <div>
-      <h4 class="bk-letter">ILLUSTRATOR</h4>
+      <h5 class="bk-letter">ILLUSTRATOR</h5>
       <h1 class="bk-letter">Scott Bakal</h1>
 
       <p class="bk-letter">Since 1993 when he graduated from the School of Visual Arts in New York City, Scott Bakal has been creating art for print and exhibition. Bakal has won awards from the Society of Illustrators, SILA, 3x3, HOW International Design Competition, Spectrum, American Illustration, Creative Quarterly and Communication Arts and received the honor of being published as one of the 200 Best Illustrators Worldwide by Luerzer's Archive. Some of his clients have included the New York Times, Wall Street Journal, Washington Post, Wells Fargo, Yoga Journal, Businessweek, PlanSponsor, Discover magazine, The New Republic, Runner's World, Oprah, Natural Solutions, and Penthouse. Bakal is on the board of directors at the Society of Illustrators in New York City and chairs the Student Scholarship Competition and Zankel Scholarship.</p>
@@ -258,8 +258,8 @@ for more information on the world student brief check out: www.beesawards.com/be
     <div class="container">
         <div class="row">
           <div class="col-2 line-devider">
-            <h1>Illustrator</h1>
-            <p>Yu-ming Huang</p>
+            <p>Illustrator</p>
+            <h5>Yu-ming Huang</h5>
 
             <p></p>
 
@@ -339,24 +339,47 @@ for more information on the world student brief check out: www.beesawards.com/be
         });
 
 
-        var $headline = $('.scroll-blur')
+        var $headline = $('.scroll-blur');
+        var $autoblur = $('.auto-blur');
         $(window).scroll(function() {
           var scrollTop = $(this).scrollTop(),
           headlineHeight = $headline.outerHeight();
           headlineOffset = $headline.offset().top;
+          $autoblur.each(function() {
+            var $this = $(this);
+            var offset = $this.offset().top;
+            var topOffset = scrollTop - offset;
+
+            if (topOffset > 0) {
+              setTimeout(function() {
+                $this.addClass('blur-me');
+              }, 2000);
+              $(this).find('.text-over').each(function(){
+
+                var innerOffset = $(this).offset().top;
+                $(this).children().css({
+                  'transform': 'translateY('+ ((scrollTop - innerOffset)) * 0.7 +'px)'
+                });
+              });
+
+            }
+        });
 
           $headline.each(function() {
             var offset = $(this).offset().top + (headlineHeight / 4);
             var topOffset = scrollTop - offset;
 console.log (1 - topOffset / headlineHeight);
-            if (topOffset > 0) {
+            if (offset > 0) {
               $(this).find('.text-over').each(function(){
 
                 var innerOffset = $(this).offset().top;
                 $(this).children().css({
-                  'transform': 'translateY('+ ((scrollTop - innerOffset) -(headlineHeight / 4)) * 0.7 +'px)'
+                  'transform': 'translateY('+ ((scrollTop - innerOffset)) * 0.7 +'px)'
                 });
               });
+            }
+            if (topOffset > 0) {
+
               $(this).css({
                 'opacity': (1 - topOffset / headlineHeight),
                 '-webkit-filter': 'blur(' + (topOffset / headlineHeight * 5) + 'px)'

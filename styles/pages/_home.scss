@@ -168,7 +168,6 @@ video {
 	height: 100%;
 	display: inline-block;
  	vertical-align: baseline;
-
 }
 
 .video-wrap {
@@ -230,6 +229,7 @@ position: absolute;
   -o-background-size: cover;
   background-size: cover;
 }
+
 /*
 .section04 {
      background: url(../images/dem.png) no-repeat center center fixed;
@@ -509,3 +509,9 @@ h1 {
 .line-devider {
   border: 1px solid white;
 }
+
+/*
+.blur-me {
+  filter: blur(10px);
+}
+*/
