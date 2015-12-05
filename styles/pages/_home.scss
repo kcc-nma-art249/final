@@ -508,8 +508,15 @@ h1 {
 }
 */
 
-.line-devider {
+
+.row{
+  height: 20%;
   border: 1px solid white;
+}
+.line-devider {
+ border-left: 1px solid white;
+  height: 20%;
+
 }
 
 /*

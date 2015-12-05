@@ -49,10 +49,10 @@ border: 1px solid #009BFF;
 height: 40px;
 }
 
-@for $i from 1 through 12 {
+@for $i from 1 through 10 {
   .col-#{$i} {
     @media screen and (min-width: 600px){
-      width: (100% / 12) * $i;
+      width: (100% / 10) * $i;
     }
   }
 }
