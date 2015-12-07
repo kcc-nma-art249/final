@@ -284,20 +284,18 @@ position: absolute;
 
 //section02
 
-.sec02-container {
-  @include cf;
-  height: 100%;
-  width: 100%;
 
-}
+
+
 .magazine-column {
   border: 1px solid white;
-  margin: 1.5% 2%;
+  margin: 1.6% 2%;
   padding: 15em 2.5em 2em 2.5em;
   width: 15%;
   height: 100%;
   float: left;
   opacity: 1;
+
   &:last-child {
     margin-right: 0;
   }
@@ -306,8 +304,8 @@ position: absolute;
 
 .magazine-column a {
   text-decoration: none;
-
 }
+
 .mag-40:hover,
 .mag-39:hover,
 .mag-38:hover,
@@ -321,48 +319,61 @@ position: absolute;
  border: rgba(0, 0, 0, 0);
  opacity: .4;
  transition: all 0.3s ease;
- background-size: 100%;
+
+
 }
 
 .mag-40:hover {
 background: url(../images/mag.40.jpg) no-repeat 100%;
+
+
 }
 
 .mag-39:hover {
 background: url(../images/mag.39.jpg) no-repeat 100%;
+
 }
 
 .mag-38:hover {
 background: url(../images/mag.38.jpg) no-repeat 100%;
+
 }
 
 .mag-37:hover {
 background: url(../images/mag.37.jpg) no-repeat 100%;
+
 }
 
 .mag-36:hover {
 background: url(../images/mag.36.jpg) no-repeat 100%;
+
 }
 
 .mag-35:hover {
 background: url(../images/mag.35.jpg) no-repeat 100%;
+
 }
 
 .mag-34:hover {
 background: url(../images/mag.34.jpg) no-repeat 100%;
+
 }
 
 .mag-33:hover {
 background: url(../images/mag.33.jpg) no-repeat 100%;
+
 }
 
 .mag-32:hover {
 background: url(../images/mag.32.jpg) no-repeat 100%;
+
 }
 
 .mag-31:hover {
 background: url(../images/mag.31.jpg) no-repeat 100%;
+
 }
+
 .sec02-issue {
   padding-top: .5em;
 font-size: 20px;
