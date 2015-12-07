@@ -3,7 +3,7 @@
 .M-menu,
 .catering,
 .contact {
-  background-image: url(../images/photo1.png);
+
   margin-bottom: 4em;
   position: relative;
   width: 100%;
@@ -29,6 +29,12 @@
       }
 
 }
+
+.home {
+  background-image: url(../images/photo1.png);
+    }
+
+
 .T-menu {
   background-image: url(../images/menu-cover.jpg);
 }
