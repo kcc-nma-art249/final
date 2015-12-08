@@ -593,7 +593,6 @@ z-index: 100;
   font-size: 30px;
 }
 
-
 .section04 {
   overflow: hidden;
 }
@@ -641,6 +640,15 @@ h1 {
   }
 }
 
+.container-sec04 {
+  border: 1px solid #fff;
+  width: 52%;
+  height: 70%;
+  background: rgba(0,0,0,.5);
+  z-index: 3;
+  margin-top: 20%;
+  margin-left: 42%;
+}
 .link {
   color: #F9006C;
 }
