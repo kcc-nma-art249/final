@@ -1,7 +1,7 @@
 .logo {
   position: fixed;
   top: 3%;
-  left: 3%; 
+  left: 3%;
 }
 
 
@@ -25,6 +25,10 @@
     text-decoration: none;
     }
 
+  a:hover {
+    opacity: .5;
+  }
+
   li {
       margin-bottom: 4px;
     }
@@ -47,6 +51,11 @@
     color: #fff;
     text-decoration: none;
     }
+
+  a:hover {
+    opacity: .5;
+    }
+
   li {
       margin-bottom: 2px;
     }
