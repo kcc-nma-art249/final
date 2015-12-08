@@ -78,6 +78,7 @@ h6 {
   position: fixed;
   background: rgba(255,255,255,0.75);
   width: 100%;
+  z-index: 10;
 }
 
 
@@ -276,11 +277,32 @@ img{
   transform: translate(-50%,-50%);
 }
 
-
 .menu_text h2 {
     color: #fff;
     font-size: 1.5em;
+    line-height: 1.2em;
 }
+
+.menu h6 {
+    color: #F4A633;
+}
+
+.sub-nav {
+    float: right;
+    margin: 1.5em;
+}
+
+.sub-nav ul li {
+  list-style: none;
+  margin-left: 5em;
+  float: left;
+}
+
+.sub-nav ul li a {
+  color: #C66009;
+  text-decoration: none;
+}
+
 
 
 footer {
