@@ -182,7 +182,7 @@ video {
 	position: relative;
 	z-index: 20;
 	padding: 5%;
-  border: 1px solid red;
+
 }
 
 .content-overlay h1,
@@ -267,7 +267,7 @@ position: absolute;
 }
 
 .title {
-  font-size: 46em;
+  font-size: 33vw;
   font-weight: 600;
   color: rgba(0, 0, 0, 0);
   -webkit-text-stroke-width: 3px;
@@ -275,6 +275,16 @@ position: absolute;
     line-height: 0em;
     padding-top: 1em;
     padding-right: 1em;
+
+    @media #{$medium-screen} {
+
+    }
+    @media #{$large-screen}  {
+
+    }
+//    @media #{$small-screen}  {
+  //    font-size: 70px;
+  //  }
 }
 
 .page-title {
@@ -580,17 +590,19 @@ z-index: 100;
   top: 0;
   width: 15%;
   height: 100%;
+
 }
 
-.slick-prev:after {
-  background: url(../images/arrow-r.svg) no-repeat;
+.slick-prev:before {
+  background: url(../images/arrow-l.svg) no-repeat;
   color: rgba(0, 0, 0, 0);
-  font-size: 30px;
+  background-size: 40px;
+
 }
 .slick-next:before {
   background: url(../images/arrow-r.svg) no-repeat;
   color: rgba(0, 0, 0, 0);
-  font-size: 30px;
+  background-size: 40px;
 }
 
 .section04 {
@@ -687,6 +699,7 @@ h1 {
     position: relative;
     height: 100%;
 }
+
 .shade {
     background: rgba(0,0,0,.5);
     z-index: 3;
@@ -694,16 +707,23 @@ h1 {
     height: 100%;
 }
 
-
 .row{
   height: 33.333%;
-  border: 1px solid white;
+
 }
+
 .line-devider {
- border-left: 1px solid white;
+ border: 1px solid white;
   height: 100%;
   padding: 8% 0;
 
+}
+
+.line-devider:hover {
+ border: rgba(0, 0, 0, 0);
+ opacity: .4;
+ transition: all 0.3s ease;
+ background: url(../images/mag.40.jpg) no-repeat 100%;
 }
 
 
