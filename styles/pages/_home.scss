@@ -611,7 +611,7 @@ h1 {
   background-size: cover;
 }
 .slide03 .background-image {
-  background: url(../images/Sarah.jpg) no-repeat center center;
+  background: url(../images/Sarah1.jpg) no-repeat center center;
   background-size: cover;
 }
 .slide04 .background-image {
@@ -642,15 +642,40 @@ h1 {
 
 .container-sec04 {
   border: 1px solid #fff;
-  width: 52%;
+  width: 43%;
   height: 70%;
-  background: rgba(0,0,0,.5);
+  background: rgba(0,0,0,.6);
   z-index: 3;
-  margin-top: 20%;
-  margin-left: 42%;
+  padding: 18% 5% 0 3%;
+  margin-top: 18%;
+  margin-left: 50%;
+  text-align: left;
+}
+
+.h5-sec04 {
+  text-align: left;
+  font-size: 22px;
+  letter-spacing: 2px;
+  padding-bottom: px;
+}
+
+.h3-sec04 {
+  text-align: left;
+  padding-bottom: 50px;
+}
+
+.p-sec04 {
+
+  padding-bottom: 30px;
+}
+
+.bold {
+  font-weight: 600;
 }
 .link {
   color: #F9006C;
+  font-weight: 400;
+
 }
 
 //section05

@@ -61,7 +61,9 @@ h6 {
  */
 p {
   margin-bottom: 0 0 em-calc($base-font);
-
+  line-height: 1.7;
+  font-size: 19px;
+  font-weight: 300;
 }
 
 //styles///
@@ -79,9 +81,9 @@ h3 {
 
 }
 h5 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   text-transform: uppercase;
 }
 
