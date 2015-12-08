@@ -29,7 +29,7 @@ main {
 	height: 100%;
   position: relative;
   z-index: 10;
-  transition: transform 0.5s;
+  transition: transform 0.3s;
   background: #000;
   &.shownavi {
 
@@ -47,7 +47,7 @@ main {
   width: 250px;
   background: #fff;
   transform: translateX(250px);
-  transition: transform 0.5s;
+  transition: transform 0.3s;
   &.shownavi {
     transform: translateX(0px);
   }
@@ -410,17 +410,7 @@ line-height: 1em;
   height: 50px;
   padding: 10px;
   z-index: 100;
-  transform: rotate(-90deg);
-     Safari
-    -webkit-transform: rotate(-180deg);
-     Firefox
-    -moz-transform: rotate(-180deg);
-     IE
-    -ms-transform: rotate(-180deg);
-     Opera
-    -o-transform: rotate(-180deg);
-     Internet Explorer
-    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+;
 }
 */
 
@@ -448,13 +438,15 @@ line-height: 1em;
 .content-overlay-section03 {
 	position: relative;
 	z-index: 20;
-	padding: 8% 20%;
+	padding: 15% 20%;
 }
 
 .cont-h1 {
   padding-bottom: 80px;
   text-transform: uppercase;
   letter-spacing: 10px;
+  font-weight: 700;
+  font-size: 73px;
 }
 
 .cont-h5 {
@@ -463,9 +455,16 @@ padding-bottom: 50px;
 
 .cont-p {
   text-align: center;
-padding: 0 25% 180px 25%;
+padding: 0 20% 180px 20%;
+}
+.cont-h5+.cont-p {
+  padding-bottom: 1%;;
 }
 
+.link-sec03 {
+  color: #F9006C;
+  text-align: center;
+}
 .cont-date {
   text-align: center;
   letter-spacing: 10px;
@@ -648,7 +647,13 @@ h1 {
 
 //section05
 
-
+.container-sec05 {
+    width: 100%;
+    margin: 0 auto;
+    padding: 4% 10%;
+    position: relative;
+    height: 100%;
+}
 .shade {
     background: rgba(0,0,0,.5);
     z-index: 3;
