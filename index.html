@@ -90,6 +90,7 @@
         </div><!-- video div closed -->
 
         <div class="content-overlay text-over">
+          <div class="slider-normal">
           <div class="sec02-container">
 
             <div class="magazine-column mag-40"><a href="#">
@@ -142,6 +143,7 @@
             <h5 class="page-name">Magazine</h5>
             <h5 class="page-number">02</h5>
           </div>
+        </div><!-- slider div closed -->
         </div><!-- content-overlay div closed -->
       </section>
 
@@ -508,6 +510,11 @@ $('.slider').slick({
     slidesToShow: 3,
     slidesToScroll: 1
   });
+
+  //section02,05 slider
+  $('.slider-normal').slick({
+      infinite: true
+    });
 
       });
 
