@@ -56,6 +56,7 @@ h3 {
   font-weight: 400;
   color: white;
   letter-spacing: 5px;
+  padding-bottom: 70px;
 }
 
 h1 {
@@ -381,6 +382,17 @@ footer small {
   height: 815px;
 }
 
+select {
+  margin: 5px 0;
+  padding: 10px;
+  font-size: 1.2em;
+  color: white;
+  border: 1px solid white;
+  font-family: "Muli", sans-serif;
+  font-size: 1em;
+  background: none;
+}
+
 .home-page {
   background: url("../images/home-bg.png") no-repeat center center;
   background-size: cover;
@@ -412,6 +424,8 @@ img.home-watch {
   z-index: 10;
   top: 400px;
   left: 0;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
 }
 
 .home-info {

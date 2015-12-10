@@ -5,23 +5,24 @@
     <title>Poljot-International Watches </title>
     <link rel="stylesheet" href=http://cdn.jsdelivr.net/jquery.slick/1.5.8/slick.css>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/animate.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href='https://fonts.googleapis.com/css?family=Oswald:300|Muli:300,400|Lora:400,400italic' rel='stylesheet' type='text/css'>    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
       <section class="home-page">
-      <img class="home-watch" src="images/home-watch.png" alt="watch">
+      <img class="home-watch animated fadeInLeft" src="images/home-watch.png" alt="watch">
         <div class="center">
-          <img class="logo" src="images/logo.png" alt="logo" height="80px">
-          <p id="logo-name">poljot</span></p>
-          <p id="logo-name2">international</span></p>
-          <div class="home-info">
+          <img class="logo animated fadeInUp" src="images/logo.png" alt="logo" height="80px">
+          <p id="logo-name" class="animated fadeInUp">poljot</span></p>
+          <p id="logo-name2"class="animated fadeInUp">international</span></p>
+          <div class="home-info animated fadeInUp">
             <p><em>“Poljot-International“</em> and <em>“Basilika“</em> present themselves with their very own,
               inimitable, post-modern design, adding a factor of great recognisability to our brands
               and turning them into true “personalities” in the market.</p>
           </div>
-          <a href="#0" class="prime-button">browse collections</a>
-          <a  class="img-arrow pointer" href="#anchorcol"><img src="images/arrow-down.png" class="arrow"></a>
+          <a href="#0" class="prime-button animated fadeInUp">browse collections</a>
+          <a  class="img-arrow pointer animated fadeInUp" href="#anchorcol"><img src="images/arrow-down.png" class="arrow"></a>
         </div>
       </section>
       <section class="collections" id="anchorcol">
@@ -171,8 +172,8 @@
       <section class="find-us">
         <div class="container-9">
           <h2>How to find us</h2>
-          <p>Watches are distributed only by authorised dealers. They are “ambassadors” of our watches in every place of the world.
-          If you do not find any authorised dealer in your town, please contact our head office in Germany.</p>
+          <p><span class="title">Watches are distributed only by authorised dealers. They are “ambassadors” of our watches in every place of the world.
+          If you do not find any authorised dealer in your town, please contact our head office in Germany.</span></p>
           <label>Continent </label>
           <div class="styled-select">
     			  <select>
@@ -186,21 +187,23 @@
           <label>Country </label>
           <div class="styled-select">
     			  <select>
-    				<option value="1">1</option>
-            <option value="2">2</option>
-    				<option value="3">3</option>
-    				<option value="4">4</option>
-    				<option value="5">5</option>
+            <option value="1">Please select</option>
+    				<option value="2">1</option>
+            <option value="3">2</option>
+    				<option value="4">3</option>
+    				<option value="5">4</option>
+    				<option value="6">5</option>
     			  </select>
           </div>
           <label>Town</label>
           <div class="styled-select">
     			  <select>
-    				<option value="1">1</option>
-            <option value="2">2</option>
-    				<option value="3">3</option>
-    				<option value="4">4</option>
-    				<option value="5">5</option>
+            <option value="1">Please select</option>
+    				<option value="2">1</option>
+            <option value="3">2</option>
+    				<option value="4">3</option>
+    				<option value="5">4</option>
+    				<option value="6">5</option>
     			  </select>
           </div>
         </div>
@@ -224,11 +227,12 @@
               <input type="checkbox" />
               <label>Yes, I want to get the periodical  gratis “Newsletter“ per e-mail.</label>
            </div>
-           <div class="col-4>"
-             <input type="checkbox" />
-             <label>Data protection: You agree with the saving  of your personal data by the “Poljot-V” GmbH.</label>
+            <div class="row"><div class="col-8>"
+               <input type="checkbox" />
+               <label>Data protection: You agree with the saving  of your personal data by the “Poljot-V” GmbH.</label>
+             </div>
            </div>
-             <a href="#0" class="secondary-button">submit</a>
+           <div class="col-2"><a href="#0" class="secondary-button">submit</a></div>
         </div>
       </div>
       </section>

@@ -8,6 +8,7 @@ background: url("../images/home-bg.png") no-repeat center center ;
   height: 850px;
  .logo {
    margin-top: 5em;
+
  }
  p {
    position: relative;
@@ -16,10 +17,17 @@ background: url("../images/home-bg.png") no-repeat center center ;
  .center {
    text-align: center;
    position: relative;
- }
 }
 .img-arrow {
   display: block;
+  -webkit-animation-duration: 4s;
+  -moz-animation-duration: 4s;
+  -o-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -o-animation-delay: 1s;
+  animation-delay: 1s;
 
 }
 img.home-watch {
@@ -28,10 +36,38 @@ img.home-watch {
   z-index: 10;
   top: 400px;
   left: 0;
+  // -webkit-transition: 5s ease-in-out;
+  // -moz-transition: 5s ease-in-out;
+  // transition: 5s ease-in-out;
+
+  -webkit-animation-duration: 4s;
+  -moz-animation-duration: 4s;
+  -o-animation-duration: 4s;
+  animation-duration: 4s;
+
 
 }
 .home-info {
   width: 630px;
   margin: 0 auto;
   padding-bottom: 7em;
+  -webkit-animation-duration: 4s;
+  -moz-animation-duration: 4s;
+  -o-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -o-animation-delay: 1s;
+  animation-delay: 1s;
+}
+.home-name,
+.logo-name2 {
+  -webkit-animation-duration: 4s;
+  -moz-animation-duration: 4s;
+  -o-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -o-animation-delay: 1s;
+  animation-delay: 1s;
 }
