@@ -10,7 +10,18 @@
     <link href='https://fonts.googleapis.com/css?family=Oswald:300|Muli:300,400|Lora:400,400italic' rel='stylesheet' type='text/css'>    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-      <section class="home-page">
+      <section class="home-page" id="top">
+        <div class="navi">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+          <label for="nav-trigger"><span id="burger"></span></label>
+          <ul class="navigation">
+            <li class="nav-item"><a href="#top">home</a></li>
+          	<li class="nav-item"><a href="#anchorcol">collections</a></li>
+          	<li class="nav-item"><a href="#story">our story</a></li>
+            <li class="nav-item"><a href="#find">how to find us</a></li>
+            <li class="nav-item"><a href="#in-touch">get in touch</a></li>
+          </ul>
+        </div>
       <img class="home-watch animated fadeInLeft" src="images/home-watch.png" alt="watch">
         <div class="center">
           <img class="logo animated fadeInUp" src="images/logo.png" alt="logo" height="80px">
@@ -154,7 +165,7 @@
           </div>
         </div>
       </section>
-      <section class="our-story">
+      <section class="our-story" id="story">
         <div class="container-8">
           <h2>Our Story</h2>
           <p><span class="title">The roots of the brand “Poljot-International” lie in the establishment of the “First State Watch Factory”
@@ -169,7 +180,7 @@
           <a href="#0" class="secondary-button">read more</a>
         </div>
       </section>
-      <section class="find-us">
+      <section class="find-us" id="find">
         <div class="container-9">
           <h2>How to find us</h2>
           <p><span class="title">Watches are distributed only by authorised dealers. They are “ambassadors” of our watches in every place of the world.
@@ -184,7 +195,7 @@
     				<option value="5">South America</option>
     			  </select>
           </div>
-          <label>Country </label>
+          <label>Country</label>
           <div class="styled-select">
     			  <select>
             <option value="1">Please select</option>
@@ -208,7 +219,7 @@
           </div>
         </div>
       </section>
-      <section class="get-in-touch">
+      <section class="get-in-touch" id="in-touch">
         <div class="container-10">
           <h2>Get in touch with us</h2>
           <div class="row">
