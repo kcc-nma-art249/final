@@ -31,26 +31,9 @@
 }
 
 
-.home {
-  .slider {
-    width: 100%;
-    height: 100%;
-  }
-  .slider01 {
-      background-image: url(../images/photo1.png);
-    }
-  .slider02 {
-      background-image: url(../images/slider2.jpg);
-    }
-  .slider03 {
-      background-image: url(../images/slider3.jpg);
-   }
-   .slick-slide {
-      height: 100vh;
-   }
+.home{
+  background-image: url(../images/slider2.jpg);
 }
-
-
 .T-menu {
   background-image: url(../images/menu-cover.jpg);
 }
@@ -71,8 +54,13 @@
         position:fixed;
         width: 100%;
         height:40px;
-        border-bottom: 1px solid  #cacaca;
+        background-color: rgba(136, 136, 136, 0.5);
+        padding: 1em 0 3px 0;
         z-index: 10;
+
+        .elephant a {
+          float: left;
+        }
 
 
         ul {
@@ -83,9 +71,11 @@
           text-align: center;
           float: right;
 
+
+
           li.selected a {
              color: #ff6100;
-             border-bottom: 3px solid #ff6100;
+             border-bottom: 5px solid #ff6100;
            }
 
 
