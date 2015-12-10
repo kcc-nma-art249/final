@@ -45,8 +45,38 @@
 	color: #fff;
 }
 
-#products .column1 img.scale-with-grid, #products .column2 img.scale-with-grid, #products .column3 img.scale-with-grid,
-#products .column4 img.scale-with-grid {
+#products .column1 img.products-grid, #products .column2 img.products-grid, #products .column3 img.products-grid,
+#products .column4 img.products-grid {
 	border: 4px solid #fff;
 	border-radius: 100px;
+}
+
+.candies h2 {
+	padding: 5em 0 2em 0;
+	text-align: center;
+}
+
+.candies h3 {
+	padding: 0 0 1em 0;
+	text-align: center;
+}
+
+img.candies {
+    padding-left: 20%;
+}
+
+.candies p {
+	padding: 1em 0 0 0;
+	text-align: center;
+}
+.column.one-third {
+    float: left;
+    margin: 0 0 20px;
+    padding-left: 3%;
+    width: 30%;
+}
+
+.first {
+  clear: both;
+  padding-left: 0;
 }
