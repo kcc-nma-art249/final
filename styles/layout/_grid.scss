@@ -1,13 +1,11 @@
 .container {
   width: 100%;
-  max-width: 960px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
 .row {
-  margin-left: 0;
-  margin-right: 0;
-  padding-bottom: 90px;
+  margin: 0;
   @include cf;
 
 }

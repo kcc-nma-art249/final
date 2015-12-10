@@ -31,6 +31,7 @@ h6 {
 
 h1 {
   font-size: type-scale(2);
+  font-weight: 400;
 }
 
 h2 {
@@ -57,10 +58,6 @@ h6 {
   font-weight: 900;
 }
 
-.main-nav{
-  font-size: 12px;
-}
-
 a{
   text-decoration: none;
 }
@@ -68,5 +65,5 @@ a{
 p {
   font-size: $base-font;
   text-align: justify;
-  padding: 2.1875em 1em;
+  padding: 2.1875em 0;
 }
