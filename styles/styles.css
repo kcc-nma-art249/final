@@ -408,7 +408,7 @@ img {
   float: left;
 }
 
-.site-info .info-03 a.button {
+.site-info .info-03 a.button-a {
   background: url("../images/button.png") no-repeat 0 0;
   display: block;
   width: 132px;
@@ -417,6 +417,10 @@ img {
   overflow: hidden;
   margin: 3em auto;
   float: right;
+}
+
+.site-info .info-03 a.button-a:hover {
+  background: url("../images/buttonh.png") no-repeat;
 }
 
 .baner01 {
@@ -428,13 +432,21 @@ img {
   margin-bottom: 2em;
 }
 
+#gallery h2 {
+  margin-bottom: 1em;
+}
+
+#contact h2 {
+  margin-bottom: 1em;
+}
+
 .baner02 {
   width: 100%;
   height: 28em;
   display: inline-block;
   background: url("../images/gallery.png") no-repeat center center;
   background-size: cover;
-  margin-bottom: 2em;
+  margin-bottom: 4em;
 }
 
 .baner03 {
@@ -444,7 +456,11 @@ img {
   display: inline-block;
   background: url("../images/menu.png") no-repeat center center;
   background-size: cover;
-  margin-bottom: 2em;
+  margin-bottom: 4em;
+}
+
+#menu h6 {
+  margin-left: 10%;
 }
 
 .baner04 {
@@ -453,7 +469,7 @@ img {
   display: inline-block;
   background: url("../images/map.png") no-repeat center center;
   background-size: cover;
-  margin-bottom: 2em;
+  margin-bottom: 4em;
 }
 
 .row {
@@ -503,8 +519,31 @@ img {
   text-decoration: none;
 }
 
+.contact a.send {
+  background: url("../images/send.png") no-repeat 0 0;
+  display: block;
+  width: 10%;
+  height: 0px;
+  padding-top: 32px;
+  overflow: hidden;
+  float: left;
+}
+
+/*textarea{
+  display: block;
+  width: 70%;
+  height: 3em;
+  background-color: #DADFE4;
+  border-radius: .5em;
+  border: 1px solid #4a4a4a;
+  margin: .5em 0 2em 0;
+}*/
+.contact a.send:hover {
+  background: url("../images/sendh.png") no-repeat;
+}
+
 footer {
-  height: 100px;
+  height: 130px;
   background-color: #DADFE4;
 }
 
