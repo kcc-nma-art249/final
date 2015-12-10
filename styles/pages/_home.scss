@@ -702,7 +702,6 @@ h1 {
   margin: 0 auto;
 }
 
-//
 //section05
 
 .container-sec05 {
@@ -711,11 +710,12 @@ h1 {
     padding: 4% 10%;
     position: relative;
     height: 100%;
+z-index: 30;
 }
 
 .shade {
     background: rgba(0,0,0,.5);
-    z-index: 3;
+    z-index: 30;
     width: 100%;
     height: 100%;
 }
@@ -737,6 +737,7 @@ h1 {
  opacity: .4;
  transition: all 0.3s ease;
  background: url(../images/mag.40.jpg) no-repeat 100%;
+
 }
 
 
