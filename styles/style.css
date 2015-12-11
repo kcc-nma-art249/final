@@ -76,6 +76,138 @@ p {
   margin-bottom: 0 0 1em;
 }
 
+.navigation {
+  width: 150px;
+  height: 180px;
+  position: fixed;
+  top: 100px;
+  bottom: 0;
+  right: -150px;
+  z-index: 2;
+  list-style: none;
+  background: #423F3A;
+  text-align: left;
+}
+
+.navigation li {
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.nav-item a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-item a:hover {
+  color: #D17B25;
+  -webkit-transition: color 0.4s;
+          transition: color 0.4s;
+  text-decoration: line-through;
+}
+
+.nav-trigger {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
+
+label[for="nav-trigger"] {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 2;
+  height: 80px;
+  width: 80px;
+  cursor: pointer;
+  background: #423F3A;
+}
+
+label[for="nav-trigger"] > span {
+  position: relative;
+  display: inline-block;
+  background-color: #fff;
+  width: 50px;
+  height: 3px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  top: 50%;
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-transition: all 0.4s ease;
+          transition: all 0.4s ease;
+}
+
+label[for="nav-trigger"] > span::before, label[for="nav-trigger"] > span::after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  background-color: #fff;
+  width: 50px;
+  height: 3px;
+  right: 0;
+  z-index: 3;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-transition: all 0.4s ease;
+          transition: all 0.4s ease;
+}
+
+label[for="nav-trigger"] > span::before {
+  top: -20px;
+}
+
+label[for="nav-trigger"] > span::after {
+  bottom: -20px;
+}
+
+.nav-trigger + label, .navigation {
+  -webkit-transition: right 0.4s;
+          transition: right 0.4s;
+}
+
+.nav-trigger:checked + label > span {
+  -webkit-transition: all 0.4s ease;
+          transition: all 0.4s ease;
+  width: 45px;
+}
+
+.nav-trigger:checked + label > span::before {
+  -webkit-transition: all 0.4s ease;
+          transition: all 0.4s ease;
+  top: -15px;
+  width: 45px;
+}
+
+.nav-trigger:checked + label > span::after {
+  -webkit-transition: all 0.4s ease;
+          transition: all 0.4s ease;
+  bottom: -15px;
+  width: 45px;
+}
+
+.nav-trigger:checked ~ .navigation {
+  right: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
 .container-1,
 .container-2,
 .container-3,
@@ -323,6 +455,7 @@ footer small {
 
 .logo {
   margin: 1em;
+  position: fixed;
 }
 
 #logo-name {
@@ -414,24 +547,38 @@ select {
   position: relative;
 }
 
-.img-arrow {
+.home-page .img-arrow {
   display: block;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
-img.home-watch {
+.home-page img.home-watch {
   position: absolute;
   height: 70%;
   z-index: 10;
   top: 400px;
   left: 0;
-  -webkit-animation-duration: 3s;
-  animation-duration: 3s;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
 }
 
-.home-info {
+.home-page .home-info {
   width: 630px;
   margin: 0 auto;
   padding-bottom: 7em;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.home-page .home-name,
+.home-page .logo-name2 {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
 .our-story {
