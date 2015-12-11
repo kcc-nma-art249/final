@@ -534,7 +534,7 @@ select {
 }
 
 .home-page .logo {
-  margin-top: 5em;
+  margin-top: 1em;
 }
 
 .home-page p {
@@ -545,6 +545,7 @@ select {
 .home-page .center {
   text-align: center;
   position: relative;
+  padding-top: 15em;
 }
 
 .home-page .img-arrow {
@@ -553,16 +554,6 @@ select {
           animation-duration: 4s;
   -webkit-animation-delay: 1s;
           animation-delay: 1s;
-}
-
-.home-page img.home-watch {
-  position: absolute;
-  height: 70%;
-  z-index: 10;
-  top: 400px;
-  left: 0;
-  -webkit-animation-duration: 4s;
-          animation-duration: 4s;
 }
 
 .home-page .home-info {
@@ -579,6 +570,16 @@ select {
 .home-page .logo-name2 {
   -webkit-animation-delay: 1s;
           animation-delay: 1s;
+}
+
+img.home-watch {
+  position: absolute;
+  height: 70%;
+  z-index: 10;
+  top: 400px;
+  left: 0;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
 }
 
 .our-story {

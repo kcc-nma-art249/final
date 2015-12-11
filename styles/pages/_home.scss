@@ -7,7 +7,7 @@ background: url("../images/home-bg.png") no-repeat center center ;
   border: 2px solid blue;
   height: 850px;
  .logo {
-   margin-top: 5em;
+   margin-top: 1em;
 
  }
  p {
@@ -17,26 +17,15 @@ background: url("../images/home-bg.png") no-repeat center center ;
  .center {
    text-align: center;
    position: relative;
+   padding-top: 15em;
 }
 .img-arrow {
   display: block;
-
   animation-duration: 4s;
-
   animation-delay: 1s;
 
 }
-img.home-watch {
-  position: absolute;
-  height: 70%;
-  z-index: 10;
-  top: 400px;
-  left: 0;
 
-  animation-duration: 4s;
-
-
-}
 .home-info {
   width: 630px;
   margin: 0 auto;
@@ -48,7 +37,17 @@ img.home-watch {
 }
 .home-name,
 .logo-name2 {
-
   animation-delay: 1s;
 }
+}
+img.home-watch {
+  position: absolute;
+  height: 70%;
+  z-index: 10;
+  top: 400px;
+  left: 0;
+
+  animation-duration: 4s;
+
+
 }
