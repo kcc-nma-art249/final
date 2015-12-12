@@ -84,6 +84,9 @@ ul {
   }
 }
 
+.bomt-padng {
+  padding-bottom: 5px;
+}
 .menu-sm {
   color: #D0CACA;
   font-size: 14px;
@@ -93,7 +96,7 @@ ul {
 }
 
 .sub-menu {
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .sm-border {
@@ -479,7 +482,8 @@ padding: 0 20% 10% 20%;
 .cont-date {
   text-align: center;
   letter-spacing: 10px;
-  padding-bottom: 30px;
+//  padding-bottom: 30px;
+padding-bottom: 2%;
 }
 
 .cont-button {
@@ -737,18 +741,19 @@ z-index: 30;
  border: 1px solid white;
   height: 100%;
   padding: 8% 0;
-
 }
-
+.line-devider > h1 {
+  display: none;
+}
 .line-devider:hover {
 // border: rgba(0, 0, 0, 0);
  //opacity: .4;
  transition: all 0.3s ease;
-
 }
 
 .row1col1:hover {
  background: url(../images/po1-1.jpg) no-repeat 100%;
+opacity: 1;
 }
 
 .row1col2:hover {
@@ -805,6 +810,12 @@ z-index: 30;
 
 .row3col5:hover {
  background: url(../images/po3-5.jpg) no-repeat 100%;
+}
+
+.line-devider:hover >h5,
+.line-devider:hover >h6{
+opacity: 0;
+ transition: all 0.2s ease;
 }
 
 .blur-me {
