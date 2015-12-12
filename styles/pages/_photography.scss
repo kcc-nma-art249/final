@@ -1,3 +1,7 @@
+.subnav-heading {
+  z-index: 10;
+}
+
 .silvia-grav,
 .tamas-andok,
 .januz-miralles,
@@ -7,7 +11,7 @@
   height: 100%;
 
   .subpage-container {
-      max-width: 375px;
+      max-width: 450px;
       position: relative;
       top: 50%;
       transform: translateY(-50%);
@@ -28,8 +32,20 @@
 }
 }
 
+.feature-artist {
+  .slide-one {
+    background-image: url('../images/featuredartist_rm.jpg');
+  }
 
+  .slide-two {
+    background-image: url('../images/featuredartist_rm2.jpg');
+  }
 
+  .slide-three {
+    background-image: url('../images/featuredartist_rm3.jpg');
+  }
+
+}
 
 .silvia-grav {
     background-image: url('../images/silviagrav-slider.jpg');
