@@ -465,7 +465,7 @@ padding-bottom: 50px;
 
 .cont-p {
   text-align: center;
-padding: 0 20% 180px 20%;
+padding: 0 20% 10% 20%;
 }
 .cont-h5+.cont-p {
   padding-bottom: 1%;;
@@ -662,7 +662,7 @@ h1 {
   height: 70%;
   background: rgba(0,0,0,.6);
   z-index: 3;
-  padding: 18% 5% 0 3%;
+  padding: 18% 5% 5% 3%;
   margin-top: 18%;
   margin-left: 50%;
   text-align: left;
@@ -672,7 +672,6 @@ h1 {
   text-align: left;
   font-size: 22px;
   letter-spacing: 2px;
-  padding-bottom: px;
 }
 
 .h3-sec04 {
@@ -682,7 +681,8 @@ h1 {
 
 .p-sec04 {
 
-  padding-bottom: 30px;
+//  padding-bottom: 30px;
+padding-bottom: 4%;
 }
 
 .bold {
@@ -740,13 +740,71 @@ z-index: 30;
 }
 
 .line-devider:hover {
- border: rgba(0, 0, 0, 0);
- opacity: .4;
+// border: rgba(0, 0, 0, 0);
+ //opacity: .4;
  transition: all 0.3s ease;
- background: url(../images/mag.40.jpg) no-repeat 100%;
 
 }
 
+.row1col1:hover {
+ background: url(../images/po1-1.jpg) no-repeat 100%;
+}
+
+.row1col2:hover {
+ background: url(../images/po1-2.jpg) no-repeat 100%;
+}
+
+.row1col3:hover {
+ background: url(../images/po1-3.jpg) no-repeat 100%;
+}
+
+.row1col4:hover {
+ background: url(../images/po1-4.jpg) no-repeat 100%;
+}
+
+.row1col5:hover {
+ background: url(../images/po1-5.jpg) no-repeat 100%;
+}
+
+.row2col1:hover {
+ background: url(../images/po2-1.jpg) no-repeat 100%;
+}
+
+.row2col2:hover {
+ background: url(../images/po2-2.jpg) no-repeat 100%;
+}
+
+.row2col3:hover {
+ background: url(../images/po2-3.jpg) no-repeat 100%;
+}
+
+.row2col4:hover {
+ background: url(../images/po2-4.jpg) no-repeat 100%;
+}
+
+.row2col5:hover {
+ background: url(../images/po2-5.jpg) no-repeat 100%;
+}
+
+.row3col1:hover {
+ background: url(../images/po3-1.jpg) no-repeat 100%;
+}
+
+.row3col2:hover {
+ background: url(../images/po3-2.jpg) no-repeat 100%;
+}
+
+.row3col3:hover {
+ background: url(../images/po3-3.jpg) no-repeat 100%;
+}
+
+.row3col4:hover {
+ background: url(../images/po3-4.jpg) no-repeat 100%;
+}
+
+.row3col5:hover {
+ background: url(../images/po3-5.jpg) no-repeat 100%;
+}
 
 .blur-me {
   .video-wrap {
