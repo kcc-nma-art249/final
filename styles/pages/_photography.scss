@@ -32,23 +32,32 @@
 }
 }
 
-.featureartist {
+.feature-artist {
+
   .slide-one-photo {
     background-image: url('../images/silviagrav-slider.jpg');
   }
 
   .slide-two-photo {
-    background-image: url('../images/featuredartist_rm2.jpg');
+    background-image: url('../images/tamas-andok-slider.jpg');
   }
 
   .slide-three-photo {
-    background-image: url('../images/featuredartist_rm3.jpg');
+    background-image: url('../images/januz-miralles-slide.jpg');
   }
 
+
+.slide-four-photo {
+  background-image: url('../images/miki-takahashi-slide.jpg');
+}
+
+.slide-five-photo {
+  background-image: url('../images/nick-knight-slide.jpg');
+}
 }
 
 .silvia-grav {
-    background-image: url('../images/silviagrav-slider.jpg');
+    background-image: url('../images/silvia-grav.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 
