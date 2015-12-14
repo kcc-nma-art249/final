@@ -397,6 +397,30 @@ textarea {
   background: none;
 }
 
+.styled-checkbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+  background-color: none;
+  border: 1px solid #cacece;
+  margin-left: 2em;
+  margin-top: .3em;
+  padding: 9px;
+  display: inline-block;
+  position: relative;
+  outline: 0;
+}
+
+.styled-checkbox:checked:after {
+  content: '\2714';
+  font-size: 14px;
+  position: absolute;
+  top: 0px;
+  left: 3px;
+  color: #99a1a7;
+  outline: 0;
+}
+
 footer {
   background: #000000;
   height: 150px;
@@ -431,13 +455,6 @@ footer small {
   bottom: 0;
   background-color: #D17B25;
   opacity: 0.4;
-}
-
-.prime-button:after:hover {
-  cursor: crosshair;
-  -webkit-transform: skewX(15deg);
-      -ms-transform: skewX(15deg);
-          transform: skewX(15deg);
 }
 
 .prime-button .arrow {
