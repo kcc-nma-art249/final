@@ -83,10 +83,11 @@ p {
   top: 100px;
   bottom: 0;
   right: -150px;
-  z-index: 2;
+  z-index: 22;
   list-style: none;
   background: #423F3A;
   text-align: left;
+  border-radius: 2px;
 }
 
 .navigation li {
@@ -117,11 +118,12 @@ label[for="nav-trigger"] {
   position: fixed;
   right: 0;
   top: 0;
-  z-index: 2;
+  z-index: 20;
   height: 80px;
   width: 80px;
   cursor: pointer;
   background: #423F3A;
+  border-radius: 2px;
 }
 
 label[for="nav-trigger"] > span {
@@ -533,43 +535,76 @@ select {
   height: 850px;
 }
 
-.home-page .logo {
-  margin-top: 1em;
+.logo {
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  margin: 0 auto;
+  z-index: 10;
+  text-align: center;
+  -webkit-transition: left 0.5s ease-out, -webkit-transform 0.5s ease-out;
+          transition: left 0.5s ease-out, transform 0.5s ease-out;
 }
 
-.home-page p {
+.logo.fixed {
+  position: fixed;
+  top: 0;
+  left: 50px;
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+}
+
+.fadeIn {
+  opacity: 0;
+  -webkit-animation: fadeIn 0.5s 0.5s forwards;
+          animation: fadeIn 0.5s 0.5s forwards;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    margin-top: 100px;
+    opacity: 0;
+  }
+  100% {
+    margin-top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    margin-top: 100px;
+    opacity: 0;
+  }
+  100% {
+    margin-top: 0;
+    opacity: 1;
+  }
+}
+
+p {
   position: relative;
   z-index: 10;
 }
 
-.home-page .center {
+.center {
   text-align: center;
   position: relative;
   padding-top: 15em;
 }
 
-.home-page .img-arrow {
+.img-arrow {
   display: block;
-  -webkit-animation-duration: 4s;
-          animation-duration: 4s;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
 }
 
-.home-page .home-info {
+.home-info {
   width: 630px;
   margin: 0 auto;
   padding-bottom: 7em;
-  -webkit-animation-duration: 4s;
-          animation-duration: 4s;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
-}
-
-.home-page .home-name,
-.home-page .logo-name2 {
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
 }
 
 img.home-watch {
@@ -578,8 +613,6 @@ img.home-watch {
   z-index: 10;
   top: 400px;
   left: 0;
-  -webkit-animation-duration: 4s;
-          animation-duration: 4s;
 }
 
 .our-story {

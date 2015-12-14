@@ -1,15 +1,45 @@
 .home-page {
-background: url("../images/home-bg.png") no-repeat center center ;
+  background: url("../images/home-bg.png") no-repeat center center ;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   border: 2px solid blue;
   height: 850px;
- .logo {
-   margin-top: 1em;
+}
+   .logo {
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0 auto;
+  z-index: 10;
+  text-align: center;
+  transition: left 0.5s ease-out, transform 0.5s ease-out;
+  &.fixed {
+    position: fixed;
+    top: 0;
+    left: 50px;
+    transform: none;
+  }
+}
 
- }
+.fadeIn {
+  opacity: 0;
+  animation: fadeIn 0.5s 0.5s forwards;
+}
+
+  @keyframes fadeIn {
+  0% {
+    margin-top: 100px;
+    opacity: 0;
+  }
+  100% {
+    margin-top: 0;
+    opacity: 1;
+  }
+}
+
  p {
    position: relative;
    z-index: 10;
@@ -21,8 +51,8 @@ background: url("../images/home-bg.png") no-repeat center center ;
 }
 .img-arrow {
   display: block;
-  animation-duration: 4s;
-  animation-delay: 1s;
+  // animation-duration: 4s;
+  // animation-delay: 1s;
 
 }
 
@@ -30,24 +60,20 @@ background: url("../images/home-bg.png") no-repeat center center ;
   width: 630px;
   margin: 0 auto;
   padding-bottom: 7em;
+  // animation-duration: 4s;
+  // animation-delay: 1s;
+}
+// .home-name,
+// .logo-name2 {
+//   animation-delay: 1s;
+// }
 
-  animation-duration: 4s;
-
-  animation-delay: 1s;
-}
-.home-name,
-.logo-name2 {
-  animation-delay: 1s;
-}
-}
 img.home-watch {
   position: absolute;
   height: 70%;
   z-index: 10;
   top: 400px;
   left: 0;
-
-  animation-duration: 4s;
-
-
+  //
+  // animation-duration: 4s;
 }

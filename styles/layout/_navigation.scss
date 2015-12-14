@@ -5,10 +5,11 @@
   top: 100px;
   bottom: 0;
   right: -150px;
-  z-index: 2;
+  z-index: 22;
   list-style: none;
   background: #423F3A;
   text-align: left;
+  border-radius: 2px;
 }
 
 .navigation li {
@@ -39,11 +40,12 @@ label[for="nav-trigger"] {
   position:fixed;
   right: 0;
   top: 0;
-  z-index: 2;
+  z-index: 20;
   height: 80px;
   width: 80px;
   cursor: pointer;
   background: #423F3A;
+  border-radius: 2px;
 }
 
 label[for="nav-trigger"] > span {
