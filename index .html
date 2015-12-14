@@ -27,7 +27,7 @@
           <a href="#top"><img class="logo fadeIN" src="images/logo.png" alt="logo" height="80px"></a>
           <p><span id="logo-name" >poljot</span></p>
           <p><span id="logo-name2">international</span></p>
-          <div>
+          <div class="home-text">
             <p><em>“Poljot-International“</em> and <em>“Basilika“</em> present themselves with their very own,
               inimitable, post-modern design, adding a factor of great recognisability to our brands
               and turning them into true “personalities” in the market.</p>
@@ -185,37 +185,39 @@
           <h2>How to find us</h2>
           <p><span class="title">Watches are distributed only by authorised dealers. They are “ambassadors” of our watches in every place of the world.
           If you do not find any authorised dealer in your town, please contact our head office in Germany.</span></p>
-          <label>Continent </label>
-          <div class="styled-select">
-    			  <select>
-    				<option value="1">Asia</option>
-            <option value="2">Australia</option>
-    				<option value="3">Europe</option>
-    				<option value="4">North America</option>
-    				<option value="5">South America</option>
-    			  </select>
-          </div>
-          <label>Country</label>
-          <div class="styled-select">
-    			  <select>
-            <option value="1">Please select</option>
-    				<option value="2">1</option>
-            <option value="3">2</option>
-    				<option value="4">3</option>
-    				<option value="5">4</option>
-    				<option value="6">5</option>
-    			  </select>
-          </div>
-          <label>Town</label>
-          <div class="styled-select">
-    			  <select>
-            <option value="1">Please select</option>
-    				<option value="2">1</option>
-            <option value="3">2</option>
-    				<option value="4">3</option>
-    				<option value="5">4</option>
-    				<option value="6">5</option>
-    			  </select>
+          <div class="choices">
+              <label>Continent </label>
+              <div class="styled-select">
+        			  <select>
+        				<option value="1">Asia</option>
+                <option value="2">Australia</option>
+        				<option value="3">Europe</option>
+        				<option value="4">North America</option>
+        				<option value="5">South America</option>
+        			  </select>
+              </div>
+              <label>Country</label>
+              <div class="styled-select">
+        			  <select>
+                <option value="1">The best country ever</option>
+        				<option value="2">1</option>
+                <option value="3">2</option>
+        				<option value="4">3</option>
+        				<option value="5">4</option>
+        				<option value="6">5</option>
+        			  </select>
+              </div>
+              <label>Town</label>
+              <div class="styled-select">
+        			  <select>
+                <option value="1">The best town ever</option>
+        				<option value="2">1</option>
+                <option value="3">2</option>
+        				<option value="4">3</option>
+        				<option value="5">4</option>
+        				<option value="6">5</option>
+        			  </select>
+              </div>
           </div>
         </div>
       </section>
@@ -238,10 +240,10 @@
               <input type="checkbox" />
               <label>Yes, I want to get the periodical  gratis “Newsletter“ per e-mail.</label>
            </div>
-            <div class="row"><div class="col-8>"
-               <input type="checkbox" />
-               <label>Data protection: You agree with the saving  of your personal data by the “Poljot-V” GmbH.</label>
-             </div>
+           <div class="row"><div class="col-8>"
+              <input type="checkbox" />
+              <label>Data protection: You agree with the saving  of your personal data by the “Poljot-V” GmbH.</label>
+           </div>
            </div>
            <div class="col-2"><a href="#0" class="secondary-button">submit</a></div>
         </div>
@@ -255,7 +257,7 @@
       <!-- JS -->
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.5.8/slick.min.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="styles/js/logofloat.js"></script>
 
 <!-- JS -->
@@ -269,17 +271,16 @@
             console.log($anchor.attr('href'));
             $('html, body').stop().animate({
                 scrollTop: $($anchor.attr('href')).offset().top
-            }, 1500);
+          }, 1500);
 
         });
 
         $('.collections').slick({
           infinite: true,
-          prevArrow: '<div   class="slick-prev slick-arrows"><img class="arrow-left" src="images/arrow-left.png" /></div>',
-          nextArrow: '<div   class="slick-next slick-arrows"><img class="arrow-right" src="images/arrow-right.png" /></div>'
+          prevArrow: '<div class="slick-prev slick-arrows"><img class="arrow-left" src="images/arrow-left.png" /></div>',
+          nextArrow: '<div class="slick-next slick-arrows"><img class="arrow-right" src="images/arrow-right.png" /></div>'
 
         });
-
     });
 
 </script>

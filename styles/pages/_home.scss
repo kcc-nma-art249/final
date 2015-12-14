@@ -24,10 +24,10 @@
   }
 }
 
-.fadeIn {
-  opacity: 0;
-  animation: fadeIn 0.5s 0.5s forwards;
-}
+// .fadeIn {
+//   opacity: 0;
+//   animation: fadeIn 0.5s 0.5s forwards;
+// }
 
   @keyframes fadeIn {
   0% {
@@ -56,10 +56,11 @@
 
 }
 
-.home-info {
+.home-text {
   width: 630px;
   margin: 0 auto;
-  padding-bottom: 7em;
+  padding-top: 2em;
+  padding-bottom: 4em;
   // animation-duration: 4s;
   // animation-delay: 1s;
 }

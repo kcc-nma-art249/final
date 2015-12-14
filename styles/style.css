@@ -421,19 +421,34 @@ footer small {
   text-transform: uppercase;
 }
 
-.prime-button:hover {
-  cursor: crosshair;
+.prime-button:after {
+  position: absolute;
+  -webkit-transition: .3s;
+          transition: .3s;
+  content: '';
+  width: 0;
+  left: 50%;
+  bottom: 0;
+  background-color: #D17B25;
+  opacity: 0.4;
 }
 
-.arrow {
+.prime-button:after:hover {
+  cursor: crosshair;
+  -webkit-transform: skewX(15deg);
+      -ms-transform: skewX(15deg);
+          transform: skewX(15deg);
+}
+
+.prime-button .arrow {
   margin-top: 63px;
 }
 
-.arrow:hover {
+.prime-button .arrow:hover {
   cursor: crosshair;
 }
 
-.secondary-button {
+.prime-button .secondary-button {
   color: #D17B25;
   padding: 9px 40px;
   border-radius: 4px;
@@ -445,7 +460,7 @@ footer small {
   margin-top: 5em;
 }
 
-.tertiary-button {
+.prime-button .tertiary-button {
   color: #D17B25;
   border: none;
   margin-left: 50px;
@@ -518,7 +533,7 @@ footer small {
 }
 
 select {
-  margin: 5px 0;
+  margin: 0 0 15px 0;
   padding: 10px;
   font-size: 1.2em;
   color: white;
@@ -526,6 +541,10 @@ select {
   font-family: "Muli", sans-serif;
   font-size: 1em;
   background: none;
+}
+
+.choices {
+  padding-top: 2em;
 }
 
 .home-page {
@@ -556,12 +575,6 @@ select {
   -webkit-transform: none;
       -ms-transform: none;
           transform: none;
-}
-
-.fadeIn {
-  opacity: 0;
-  -webkit-animation: fadeIn 0.5s 0.5s forwards;
-          animation: fadeIn 0.5s 0.5s forwards;
 }
 
 @-webkit-keyframes fadeIn {
@@ -601,10 +614,11 @@ p {
   display: block;
 }
 
-.home-info {
+.home-text {
   width: 630px;
   margin: 0 auto;
-  padding-bottom: 7em;
+  padding-top: 2em;
+  padding-bottom: 4em;
 }
 
 img.home-watch {
