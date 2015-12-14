@@ -37,7 +37,7 @@ main {
   }
 }
 
-//navi
+//////////////////////////////////////////////navi
 
 .mainnav {
   position: fixed;
@@ -87,6 +87,7 @@ ul {
 .bomt-padng {
   padding-bottom: 5px;
 }
+
 .menu-sm {
   color: #D0CACA;
   font-size: 14px;
@@ -101,7 +102,6 @@ ul {
 
 .sm-border {
   margin-top: 100px;
-
 }
 
 #hamburger {
@@ -116,8 +116,6 @@ ul {
     transition: transform 0.5s;
     color: #fff;
 }
-
-
 
 .bar {
   display: block;
@@ -185,7 +183,6 @@ video {
 	position: relative;
 	z-index: 20;
 	padding: 5%;
-
 }
 
 .content-overlay h1,
@@ -219,17 +216,17 @@ video {
 
 .small-container {
 position: absolute;
-    width: 960px;
-   margin: 0 auto;
-    z-index: 100;
-    border: 1px solid green;
-    top: 50%;
-    left: 50% !important;
-    transform: translateX(-50%) translateY(-50%);
+  width: 960px;
+  margin: 0 auto;
+  z-index: 100;
+  border: 1px solid green;
+  top: 50%;
+  left: 50% !important;
+  transform: translateX(-50%) translateY(-50%);
 }
 
 .section03 {
-      background: url(../images/demo1.png) no-repeat center center fixed;
+  background: url(../images/demo1.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -262,7 +259,7 @@ position: absolute;
 }
 */
 
-//section01
+///////////////////////////////////////////////section01
 .content-overlay-section01 {
 	position: absolute;
   bottom: 0;
@@ -295,26 +292,42 @@ position: absolute;
   padding-left: 0;
 }
 
-//section02
-
-
+///////////////////////////////////////////////////section02
 
 #section02 .slick-slide > div {
   width: auto;
 }
+
 .magazine-column {
   border: 1px solid white;
-  margin: 1.6% 2%;
-  padding: 15em 2.5em 2em 2.5em;
-  width: 15%;
+  margin: 1.6% 1%;
+  //margin:10px 5px;
+  padding: 17em 2em 2em 11em;
+//padding: 10% 1% 1% 9%;
+  //width: 15%;
   height: 100%;
   float: left;
+  //left: 50px;
   opacity: 1;
 
   &:last-child {
     margin-right: 0;
   }
+}
 
+#section02 .slick-prev {
+  left: -100px;
+  top: 0;
+  width: 10%;
+  height: 100%;
+  z-index: 10;
+}
+
+#section02 .slick-next {
+  right: -100px;
+  top: 0;
+  width: 10%;
+  height: 100%;
 }
 
 .magazine-column a {
@@ -334,13 +347,10 @@ position: absolute;
  border: rgba(0, 0, 0, 0);
  opacity: .4;
  transition: all 0.3s ease;
-
-
 }
 
 .mag-40:hover {
 background: url(../images/mag.40.jpg) no-repeat 100%;
-
 
 }
 
@@ -407,9 +417,9 @@ line-height: 1em;
 .svg-arrow-r {
   position: absolute;
   top: 50%;
-  right: 2%;
+  right: 10%;
   border: 1px solid white;
-  width: 50px;
+  width: 10px;
   height: 50px;
   padding: 10px;
   z-index: 100;
@@ -448,7 +458,7 @@ line-height: 1em;
 }
 */
 
-//section03
+//////////////////////////////////////////////section03
 
 .content-overlay-section03 {
 	position: relative;
@@ -529,7 +539,7 @@ z-index: 100;
 
 }
 
-//section04
+//////////////////////////////////////////////section04
 
 //manny's slider
 .slick-slider {
@@ -584,7 +594,7 @@ z-index: 100;
   text-align: right;
 }
 
-.slick-prev {
+.section04 .slick-prev {
   left: 0;
   top: 0;
   width: 10%;
@@ -592,12 +602,11 @@ z-index: 100;
   z-index: 10;
 }
 
-.slick-next {
+.section04 .slick-next {
   right: 0;
   top: 0;
   width: 10%;
   height: 100%;
-
 }
 .slick-prev:before, .slick-next:before,
 slick-prev:before, .slick-next:before {
@@ -608,12 +617,14 @@ slick-prev:before, .slick-next:before {
   background: url(../images/arrow-l.svg) no-repeat;
   color: rgba(0, 0, 0, 0);
   background-size: 40px;
+
 }
 
 .slick-next:before {
   background: url(../images/arrow-r.svg) no-repeat;
   color: rgba(0, 0, 0, 0);
   background-size: 40px;
+
 }
 
 .section04 {
@@ -707,6 +718,10 @@ padding-bottom: 4%;
 
 
 
+
+
+//////////////////////////////////////////////section05
+
 //section02, 05 slider
 .slider-normal {
   width: 100%;
@@ -715,9 +730,9 @@ padding-bottom: 4%;
 .sec02-container {
   width: 100%;
   height: 100%;
+  position: relative;
+left: 100px;
 }
-
-//section05
 
 .container-sec05 {
     width: 100%;
