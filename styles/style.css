@@ -339,8 +339,10 @@ body {
   z-index: 10;
 }
 
-.mainnav .elephant a {
+.mainnav .s-logo {
+  width: 60px;
   float: left;
+  padding-left: 1em;
 }
 
 .mainnav ul {
@@ -499,6 +501,7 @@ input[type="button"]:active {
   font-family: 'Lato', sans-serif;
   color: #424242;
   font-size: 1.1rem;
+  font-weight: 300;
   padding-top: 5em;
   margin-bottom: 2em;
 }
@@ -560,6 +563,7 @@ input[type="button"]:active {
   font-family: 'Lato', sans-serif;
   color: #424242;
   font-size: 1.1rem;
+  font-weight: 300;
   padding-top: 3em;
   margin-bottom: 2em;
 }
@@ -707,6 +711,7 @@ input[type="button"]:active {
   font-family: 'Lato', sans-serif;
   color: #424242;
   font-size: 1.1rem;
+  font-weight: 300;
   padding-top: 3em;
   margin-bottom: 2em;
 }
@@ -813,11 +818,11 @@ input[type="button"]:active {
 .Mmenu_info a {
   background: url(../images/print_menu_btn.png) no-repeat 0 0;
   display: block;
-  width: 190px;
+  width: 256px;
   height: 0;
   padding-top: 36px;
   overflow: hidden;
-  margin-left: 40%;
+  margin-left: 35%;
   margin-bottom: 2em;
 }
 
@@ -926,11 +931,11 @@ input[type="button"]:active {
 .info a {
   background: url(../images/print_menu_btn.png) no-repeat 0 0;
   display: block;
-  width: 190px;
+  width: 256px;
   height: 0;
   padding-top: 36px;
   overflow: hidden;
-  margin-left: 40%;
+  margin-left: 35%;
   margin-bottom: 5em;
 }
 
