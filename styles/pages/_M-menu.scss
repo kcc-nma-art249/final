@@ -1,15 +1,21 @@
 .sub-nav {
   list-style: none;
+
   #tapas,
   #lunch-dinner {
-    font-size: .8rem;
+
+    font-size: 1rem;
     text-transform: uppercase;
-    float: left;
-    padding-top: 700px;
+    position: absolute;
+    top: 60%;
+    left: 47%;
+    max-width: 200px;
+
     }
 
   #lunch-dinner {
-    float: right;
+    top: 70%;
+    left: 46%;
   }
 
 
