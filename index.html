@@ -510,6 +510,20 @@ $('#hamburger').click( function() {
 
 });
 
+// SMOOTH SCROLL
+$(".mainnav a").click(function(e) {
+  e.preventDefault();
+
+  var $this = $(this);
+  var sectionId = $this.attr('href');
+  var offset = -20; // Give header 20px breathing room
+
+  $('html, body').animate({
+    scrollTop: $(sectionId).offset().top + offset
+  }, 750);
+});
+
+
 //section04 slider
 $('.slider').slick({
     infinite: true,
