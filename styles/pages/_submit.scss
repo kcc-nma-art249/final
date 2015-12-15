@@ -24,11 +24,12 @@
     font-family: $titlefont;
     font-size: 18px;
     padding: 2.5em 0 .75em 0;
+    letter-spacing: 1px;
   }
 
   p {
     font-family: $font;
     font-size: 16px;
-    line-height: 25px;
+    line-height: 20px;
   }
 }
