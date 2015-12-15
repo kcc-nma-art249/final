@@ -4,10 +4,9 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  border: 2px solid blue;
   height: 850px;
 }
-   .logo {
+  .logo {
   position: absolute;
   top: 150px;
   left: 50%;
@@ -16,7 +15,7 @@
   z-index: 10;
   text-align: center;
   transition: left 0.5s ease-out, transform 0.5s ease-out;
-  &.fixed {
+    &.fixed {
     position: fixed;
     top: 0;
     left: 50px;

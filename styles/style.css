@@ -222,8 +222,8 @@ body {
 .container-10,
 .container-11 {
   margin: 0 auto;
-  border: 1px solid red;
   padding-top: 100px;
+  max-width: 960px;
 }
 
 .h2 {
@@ -455,15 +455,15 @@ footer small {
   opacity: 0.4;
 }
 
-.prime-button .arrow {
+.arrow {
   margin-top: 63px;
 }
 
-.prime-button .arrow:hover {
+.arrow:hover {
   cursor: crosshair;
 }
 
-.prime-button .secondary-button {
+.secondary-button {
   color: #D17B25;
   padding: 9px 40px;
   border-radius: 4px;
@@ -475,7 +475,7 @@ footer small {
   margin-top: 5em;
 }
 
-.prime-button .tertiary-button {
+.tertiary-button {
   color: #D17B25;
   border: none;
   margin-left: 50px;
@@ -516,7 +516,6 @@ footer small {
   position: relative;
   height: 800px;
   padding-left: 186px;
-  max-width: 960px;
 }
 
 .slick-arrows {
@@ -569,7 +568,6 @@ select {
 .home-page {
   background: url("../images/home-bg.png") no-repeat center center;
   background-size: cover;
-  border: 2px solid blue;
   height: 850px;
 }
 
@@ -651,7 +649,6 @@ img.home-watch {
 .our-story {
   background: url("../images/our-story-bg.png") no-repeat center center;
   background-size: cover;
-  border: 2px solid blue;
   height: 850px;
 }
 
