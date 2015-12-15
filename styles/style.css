@@ -1,6 +1,31 @@
 /*
  * Mixins
  */
+/**
+ * @section Functions
+ */
+/**
+ * rem/em Calculator
+ *
+ * target / context = result
+ * @param {$target}  Target size in pixels (ie. 32px)
+ * @param {$context} Font size providing context for proportion, defaults to $base-font)
+ * @param {$unit} unit for rem/em output, defaults to 'em'
+ */
+/**
+ * Exponent Calculator
+ *
+ * https://gist.github.com/scottkellum/1160816
+ * @param {$base} base number
+ * @param {$exponent} exponent/power number
+ */
+/**
+ * Type Scale Calculator
+ *
+ * Create typographic scales
+ * @param {$i} increment of scale; 0 is base
+ * @param {$scale} scale ratio; defaults to 1.25
+ */
 *,
 *:before,
 *:after {
@@ -128,6 +153,9 @@ input[type="checkbox"]:checked::after {
 
 body {
   font-family: 'Lato', sans-serif;
+  /*@media screen and (min-width: 600px){
+    font-size: type-scale(1);
+  }*/
 }
 
 footer {
