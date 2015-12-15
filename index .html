@@ -104,7 +104,7 @@
               <h3>Inspiration</h3>
               <div class="row">
               <div class="col-4">
-                <img class="collection-watch" src="images/inspiration-watch.png" alt="watch">
+                <img class="collection-watch" src="images/inspiration-watch.png" alt="watch"width="227px" height="auto">
              </div>
               <div class="col-8">
                   <div class="collections-title">
@@ -143,7 +143,7 @@
               <h3>Imagination</h3>
               <div class="row">
               <div class="col-4">
-                <img class="collection-watch" src="images/imagination-watch.png" alt="watch">
+                <img class="collection-watch" src="images/imagination-watch.png" alt="watch" width="227px" height="auto">
              </div>
               <div class="col-8">
                   <div class="collections-title">
@@ -290,6 +290,9 @@
 
         $('.collections').slick({
           infinite: true,
+          speed: 500,
+          fade: true,
+          cssEase: 'linear',
           prevArrow: '<div class="slick-prev slick-arrows"><img class="arrow-left" src="images/arrow-left.png" /></div>',
           nextArrow: '<div class="slick-next slick-arrows"><img class="arrow-right" src="images/arrow-right.png" /></div>'
 
