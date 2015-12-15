@@ -1,0 +1,111 @@
+#products {
+	padding: 2em 0;
+  margin: 5em auto;
+}
+
+#products .column1 {
+	width: 22%;
+	float: left;
+  background-color: #ff9999;
+  text-align: center;
+  padding: 2em 0;
+  height: 300px;
+	margin: 0 0 0 20%;
+}
+
+#products .column2 {
+	width: 22%;
+	float: left;
+	margin: 0 0 0 10%;
+  background-color: #ff9999;
+  text-align: center;
+  padding: 2em 0;
+  height: 300px;
+}
+
+
+#products h3 {
+	margin-bottom: .1em;
+	padding: .5em 0 0 0;
+	color: #663300;
+}
+
+#products p {
+	padding: 1em .5em 1.5em .5em;
+	font-style: $sans-serif;
+}
+
+#products .column1:hover, #products .column2:hover, #products .column3:hover, #products .column4:hover {
+  opacity: .79;
+}
+
+#products .column1 a, #products .column2 a, #products .column3 a, #products .column4 a {
+  text-decoration: none;
+	font-style: $sans-serif;
+	color: #fff;
+}
+
+#products .column1 img.products-grid, #products .column2 img.products-grid, #products .column3 img.products-grid,
+#products .column4 img.products-grid {
+	border: 4px solid #fff;
+	border-radius: 100px;
+}
+
+.candies h2 {
+	padding: 5em 0 2em 0;
+	text-align: center;
+}
+
+.candies h3 {
+	padding: 0 0 1em 0;
+	text-align: center;
+	font-family:  $sans-serif;
+	font-size: 1.3125em; /* 21px / 16px = 1.3125em */
+	line-height: 1.143em;  /* 24px / 21px = ~1.143em */
+	color: #fff;
+}
+
+img.candies {
+    padding-left: 20%;
+}
+
+.candies button {
+	margin: 2em 0 5em 35%;
+}
+
+.candies p {
+	padding: 1em 0 0 0;
+	text-align: center;
+	color: #fff;
+}
+.column.one-third {
+    float: left;
+    margin: 0 0 20px;
+    padding-left: 3%;
+    width: 30%;
+}
+
+.first {
+  clear: both;
+  padding-left: 0;
+}
+
+.cakes h2 {
+	padding: 5em 0 0 0;
+	text-align: center;
+}
+
+.cakes p {
+	padding: 1em 10em 0 10em;
+	text-align: center;
+	color: #fff;
+}
+
+.cakes button {
+	margin: 2em 0 5em 45%;
+}
+
+.cakegallery h2 {
+	padding: 1.5em 0 0 0;
+	text-align: center;
+}

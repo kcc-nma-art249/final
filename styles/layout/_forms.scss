@@ -1,0 +1,93 @@
+form {
+  width: 50%;
+
+  input,
+  textarea{
+    display: block;
+    width: 100%;
+  }
+}
+
+.forms div {
+  padding: .5em;
+}
+
+.forms {
+  padding: $section-padding;
+}
+
+.forms label {
+  color:  #333;
+  font-size: .85em;
+}
+
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+input[type="checkbox"],
+input[type="radio"],
+textarea,
+select {
+  -webkit-appearance: none;
+  appearance: none;
+  border: 1px solid #D1D1D1;
+  border-radius: .5em;
+  padding: 6px 10px;
+  height: 40px;
+
+  &:focus,
+  &:active {
+    outline: 0;
+  }
+}
+
+textarea {
+  border: 1px solid #D1D1D1;
+  border-radius: .5em;
+  padding: 6px 10px;
+  height: 6em;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+
+
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 100%;
+
+
+  &:checked {
+    background: green;
+  }
+}
+
+.checkbox {
+  text-align: center;
+}
+
+
+input[type="checkbox"] {
+  border-radius: 0;
+
+  &:checked {
+    position: relative;
+    background: transparent;
+
+    &::after {
+      margin: 0;
+      padding: 0;
+      content: '\2713';
+      display: block;
+      color: green;
+      position: absolute;
+      top: -1px;
+      left: 1px;
+    }
+  }
+}

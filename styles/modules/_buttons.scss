@@ -1,0 +1,68 @@
+button {
+  padding: $section-padding;
+}
+
+.button-center {
+  text-align: center;
+}
+
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  appearance: none;
+  background-color: transparent;
+  border: 0 none;
+
+  display: inline-block; // Make display properties consistent across the board
+  text-decoration: none; // Remove underline for anchor buttons
+  color: inherit;        // Inherit the default color (ie. black)
+  padding: 0.5em 1em;
+  margin-bottom: 0.5em;
+  background-color: #ff9999;
+  border-radius: 3px;
+  color: #fff;
+}
+
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover {
+  background-color: #663300;
+}
+
+.form-button {
+  padding: 1em;
+  font-size: .75em;
+  width: 50%;
+}
+
+.homebutton {
+  background-color: #663300;
+  border-radius: 10px;
+  padding: .8em 2em;
+  font-size: .8em;
+  border: 1px solid #663300;
+}
+
+.homebutton:hover {
+  background-color: #ff9999;
+  color: #000;
+  border: 1px solid #663300;
+}
+
+.product-button {
+  background-color: #663300;
+  border-radius: 10px;
+  padding: .8em 2em;
+  font-size: .8em;
+  border: 1px solid #663300;
+}
+
+.product-button:hover {
+  background-color: #ff9999;
+  color: #000;
+  border: 1px solid #663300;
+}
