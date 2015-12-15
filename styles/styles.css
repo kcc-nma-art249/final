@@ -321,6 +321,10 @@ h6 {
   text-decoration: none;
 }
 
+.main-nav ul li a:hover {
+  color: #F5A623;
+}
+
 .hero {
   width: 100%;
 }
