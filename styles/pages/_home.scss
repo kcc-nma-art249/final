@@ -300,18 +300,22 @@ position: absolute;
 .content-overlay.text-over {
   z-index: 35;
 }
-
+.section02 .row {
+  margin-left: 0;
+   margin-right: 0;
+}
 .magazine-column {
   border: 1px solid white;
-  margin: 1.6% 1%;
-  //margin:10px 5px;
-  padding: 17em 2em 2em 11em;
-//padding: 10% 1% 1% 9%;
+  //margin: 1.6% 1%;
+  margin:10px 5px;
+  //padding: 17em 2em 2em 11em;
+ padding: 13% 1% 1% 9%;
   //width: 15%;
   height: 100%;
   float: left;
   //left: 50px;
   opacity: 1;
+  width:calc(20% - 14px);
 
   &:last-child {
     margin-right: 0;
@@ -744,7 +748,8 @@ z-index: 30;
   height: 100%;
 //  position: relative;
   //padding: 4% 10%;
-//  margin: 0 auto;
+
+ margin: 0 auto;
     // z-index: 30;
 }
 
