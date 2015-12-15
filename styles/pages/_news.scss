@@ -1,0 +1,24 @@
+.news-content {
+  p {
+    width: 100%;
+    max-width: 500px;
+    padding-top: 20px;
+  }
+
+  .row{
+    padding-bottom: 2em;
+  }
+
+  img{
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .left img{
+    padding: 0 20px 0 0;
+  }
+
+  .right img{
+    padding: 0 0 0 10px;
+  }
+}

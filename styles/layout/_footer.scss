@@ -1,0 +1,40 @@
+footer{
+  height: 160px;
+  text-align: center;
+  margin-top: 50px;
+  border-top: 1px solid #979797;
+  @include cf;
+
+
+  #copyright{
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+    padding-top: 1em;
+  }
+
+  #logo{
+    @include logo;
+  }
+
+  .col-4{
+    margin-top: 3em;
+  }
+
+  .social-icon{
+    img{
+      height: 25px;
+      width: 25px;
+    }
+  }
+
+  p{
+    margin: 0;
+    padding:0;
+    text-align: center;
+  }
+
+  a{
+    padding: 10px;
+  }
+}

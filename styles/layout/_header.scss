@@ -1,0 +1,33 @@
+header{
+  font-size: 22px;
+  background: white;
+  padding: 1em;
+  border-bottom: 1px solid #979797;
+
+  a{
+    color: #000000;
+    padding: 1em 2em 0 2em;
+  }
+
+  #logo{
+    @include logo;
+  }
+
+  .col-{
+    @media screen and (min-width: 700px) and (max-width: 1000px){
+    float: none;
+    }
+  }
+
+  .main-nav{
+    padding: 1em;
+    font-size: $base-font;
+  }
+}
+
+.container{
+
+  .icon-bar {
+    border: 1px solid #000000;
+  }
+}
