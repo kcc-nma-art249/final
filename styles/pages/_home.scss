@@ -300,31 +300,39 @@ position: absolute;
 .content-overlay.text-over {
   z-index: 35;
 }
+
+.section02 .content-overlay {
+  padding: 5% 8%;
+}
+
 .section02 .row {
   margin-left: 0;
    margin-right: 0;
 }
+
 .magazine-column {
   border: 1px solid white;
   //margin: 1.6% 1%;
-  margin:10px 5px;
+  //margin:20px 5px;
+  margin: 22px 10px;
   //padding: 17em 2em 2em 11em;
- padding: 13% 1% 1% 9%;
+ padding: 16% 1% 1% 10%;
+  //   padding: 14% 1% 1% 4%;
   //width: 15%;
   height: 100%;
   float: left;
   //left: 50px;
   opacity: 1;
-  width:calc(20% - 14px);
-
-  &:last-child {
-    margin-right: 0;
-  }
+//  width:calc(20% - 14px);
+  width:calc(16% - -62px);
+  //&:last-child {
+  //  margin-right: 0;
+//  }
 }
 
 
 #section02 .slick-prev {
-  left: -100px;
+  left: -180px;
   top: 0;
   width: 10%;
   height: 100%;
@@ -332,7 +340,7 @@ position: absolute;
 }
 
 #section02 .slick-next {
-  right: -100px;
+  right: -180px;
   top: 0;
   width: 10%;
   height: 100%;
