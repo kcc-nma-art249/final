@@ -1,0 +1,134 @@
+/* HEADER */
+.header {
+  top: 0;
+  // z-index:0;
+  // position: relative;
+}
+
+.fixed {
+  position: fixed;
+  width: 100%;
+}
+
+.nav-01, .nav-02 {
+  width: 100%;
+}
+
+/* NAVGATION-01 */
+.nav-01 {
+  background: rgba(51,51,0,0.4); /* #333300 */
+  height: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.promotion {
+  display: block;
+  float: left;
+}
+
+.subnav-social {
+  display: block;
+  float: right;
+  margin: 5px auto;
+}
+
+.subnav-social a {
+  text-decoration: none;
+}
+
+.subnav-social li {
+  float: left;
+}
+
+.subnav-social ul {
+  display:inline-block;
+}
+
+.subnav-social li + li {
+  margin-left:5px;
+}
+
+.facebook {
+  display: block;
+  width: 20px;
+  height: 20px;
+  text-indent: -10000px;
+  background: url("../images/icon-facebook.png");
+}
+
+.twitter {
+  display: block;
+  width: 20px;
+  height: 20px;
+  text-indent: -10000px;
+  background: url("../images/icon-twitter.png");
+}
+
+.pinterest {
+  display: block;
+  width: 20px;
+  height: 20px;
+  text-indent: -10000px;
+  background: url("../images/icon-pinterest.png");
+}
+
+/* NAVIGATION-02 */
+.nav-02 {
+  height: 50px;
+  border-bottom: 1px solid #333300;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+.logo {
+  display: block;
+  float: left;
+  margin: 10px 80px auto 0;
+}
+
+.mainnav {
+  display: block;
+  float: left;
+  margin-top: 15px;
+}
+
+.mainnav li {
+  float: left;
+}
+
+.mainnav ul {
+  display: inline-block;
+}
+
+.mainnav li + li {
+  margin-left: 20px;
+}
+
+.subnav {
+  display: block;
+  float: right;
+  margin-top: 15px;
+}
+
+.subnav li {
+  float: left;
+}
+
+.subnav ul {
+  display: inline-block;
+}
+
+.subnav li + li {
+  margin-left: 20px;
+}
+
+.search {
+  display: block;
+  width: 15px;
+  height: 15px;
+  text-indent: -10000px;
+  background-image: url("../images/icon-search.png");
+  background-size: 15px auto;
+}

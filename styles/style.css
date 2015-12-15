@@ -1,0 +1,495 @@
+@charset "UTF-8";
+/* Base */
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700);
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* VARIABLES */
+/* 1rem = 16px */
+.info-philosophy, .info-blog {
+  text-align: center;
+}
+
+.title-shop, .title-philosophy, .philosophy-subtitle, .title-blog {
+  margin: 50px auto;
+}
+
+.title-shop h1, .title-philosophy h1, .title-blog h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+li {
+  list-style: none;
+}
+
+html {
+  font-size: 1rem;
+  /* $base-font: 16px; (=1rem) */
+}
+
+body {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333300;
+}
+
+body a {
+  text-decoration: none;
+  color: #333300;
+}
+
+/* HEADINGS */
+h1, h2 {
+  font-family: "Libre+Baskerville", Georgia, Palatino, serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+/* INTRO SECTION */
+.intro h1, .intro h2, .info-home h1, .info-home h2 {
+  font-family: "Libre+Baskerville", Georgia, Palatino, serif;
+  font-style: italic;
+}
+
+.intro p, .intro li, .info-home p, .info-home li {
+  font-family: "Quicksand", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 0.8rem;
+}
+
+.intro li, .info-home li {
+  text-transform: uppercase;
+}
+
+/* HEADER SECTION */
+.header a, .header li {
+  font-family: "Quicksand", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 0.7rem;
+}
+
+.promotion a {
+  color: #ffffff;
+  font-family: "Libre+Baskerville", Georgia, Palatino, serif;
+}
+
+.logo a {
+  color: #ff9900;
+  font-family: "Quicksand", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: lowercase;
+}
+
+.mainnav a, .subnav a {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
+
+/* SHOP SECTION */
+.shop-box a {
+  font-family: "Quicksand", Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+/* PHILOSOPHY SECTION */
+.info-philosophy h2 {
+  font-weight: 700;
+}
+
+.info-philosophy h2, .info-philosophy li {
+  font-family: "Quicksand", Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+/* BLOG SECTION */
+.blog-nav li {
+  font-family: "Quicksand", Helvetica Neue, Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.loadmore {
+  font-family: "Quicksand", Helvetica Neue, Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin: 50px;
+}
+
+/**
+ * Media Queries
+ *
+ * NOTE: "Relative units in media queries are based
+ * on the initial value, which means that units are
+ * never based on results of declarations"
+ * http://www.w3.org/TR/css3-mediaqueries/#units
+ *
+ */
+/* Layout */
+.container {
+  width: 100%;
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+[class^="col-"] {
+  width: 100%;
+  float: left;
+  min-height: 1px;
+  padding: 0 1em;
+}
+
+@media screen and (min-width: 600px) {
+  .col-1 {
+    width: 8.33333%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .col-2 {
+    width: 16.66667%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .col-3 {
+    width: 25%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .col-4 {
+    width: 33.33333%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .col-5 {
+    width: 41.66667%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .col-6 {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .col-7 {
+    width: 58.33333%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .col-8 {
+    width: 66.66667%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .col-9 {
+    width: 75%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .col-10 {
+    width: 83.33333%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .col-11 {
+    width: 91.66667%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .col-12 {
+    width: 100%;
+  }
+}
+
+.intro {
+  width: auto;
+  height: 520px;
+  background: url("../images/intro-bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.intro-content {
+  width: 100%;
+  padding-top: 180px;
+}
+
+.message, .lang-switch {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.message h2, .message p {
+  margin-bottom: 30px;
+}
+
+.lang-switch ul {
+  display: inline-block;
+}
+
+.lang-switch li {
+  float: left;
+  list-style: none;
+}
+
+.lang-switch li + li {
+  margin-left: 20px;
+}
+
+.lang-switch a {
+  text-decoration: none;
+}
+
+/* HEADER */
+.header {
+  top: 0;
+}
+
+.fixed {
+  position: fixed;
+  width: 100%;
+}
+
+.nav-01, .nav-02 {
+  width: 100%;
+}
+
+/* NAVGATION-01 */
+.nav-01 {
+  background: rgba(51, 51, 0, 0.4);
+  /* #333300 */
+  height: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.promotion {
+  display: block;
+  float: left;
+}
+
+.subnav-social {
+  display: block;
+  float: right;
+  margin: 5px auto;
+}
+
+.subnav-social a {
+  text-decoration: none;
+}
+
+.subnav-social li {
+  float: left;
+}
+
+.subnav-social ul {
+  display: inline-block;
+}
+
+.subnav-social li + li {
+  margin-left: 5px;
+}
+
+.facebook {
+  display: block;
+  width: 20px;
+  height: 20px;
+  text-indent: -10000px;
+  background: url("../images/icon-facebook.png");
+}
+
+.twitter {
+  display: block;
+  width: 20px;
+  height: 20px;
+  text-indent: -10000px;
+  background: url("../images/icon-twitter.png");
+}
+
+.pinterest {
+  display: block;
+  width: 20px;
+  height: 20px;
+  text-indent: -10000px;
+  background: url("../images/icon-pinterest.png");
+}
+
+/* NAVIGATION-02 */
+.nav-02 {
+  height: 50px;
+  border-bottom: 1px solid #333300;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+.logo {
+  display: block;
+  float: left;
+  margin: 10px 80px auto 0;
+}
+
+.mainnav {
+  display: block;
+  float: left;
+  margin-top: 15px;
+}
+
+.mainnav li {
+  float: left;
+}
+
+.mainnav ul {
+  display: inline-block;
+}
+
+.mainnav li + li {
+  margin-left: 20px;
+}
+
+.subnav {
+  display: block;
+  float: right;
+  margin-top: 15px;
+}
+
+.subnav li {
+  float: left;
+}
+
+.subnav ul {
+  display: inline-block;
+}
+
+.subnav li + li {
+  margin-left: 20px;
+}
+
+.search {
+  display: block;
+  width: 15px;
+  height: 15px;
+  text-indent: -10000px;
+  background-image: url("../images/icon-search.png");
+  background-size: 15px auto;
+}
+
+.home-bg {
+  height: 600px;
+  padding-top: 180px;
+  background: url("../images/home-bg.png") no-repeat center center;
+  background-size: cover;
+}
+
+.shop-box-img {
+  width: 100%;
+  border: solid #333300 1px;
+}
+
+.shop-box {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.shop-box img {
+  z-index: 1;
+  /* 0-5 最背面-最前面 */
+  margin: 0;
+  padding: 0;
+}
+
+.shop-box-text {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+  /* 0-5 最背面-最前面 */
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.philosophy-list, .philosophy-list-last {
+  padding: 20px;
+  border: solid #333300 1px;
+  width: 100%;
+}
+
+.philosophy-list {
+  margin-bottom: 20px;
+}
+
+.phil-img {
+  width: 100%;
+}
+
+.blog-img {
+  width: 100%;
+}
+
+.blog-nav {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.blog-nav li {
+  display: table-cell;
+}
+
+.blog-nav li + li {
+  padding-left: 20px;
+}
+
+.info-contact {
+  background-color: #ff6666;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-nav {
+  display: table;
+  margin: 0 auto;
+}
+
+.footer-nav li {
+  display: table-cell;
+}
+
+.footer-nav li + li {
+  padding-left: 20px;
+}
+
+.copyright {
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

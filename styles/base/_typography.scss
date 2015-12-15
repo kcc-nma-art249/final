@@ -1,0 +1,151 @@
+// em は親要素の大きさが基準になる
+// rem は常に root 要素（つまり html 要素）の大きさを基準にする
+// html 要素のフォントサイズを変更しない限り、ブラウザーのデフォルトである「1rem=16px」という値は一定
+
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700);
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
+
+html {
+  font-size: $base-font; /* $base-font: 16px; (=1rem) */
+}
+
+body {
+  // Shorthand
+  // font: normal normal 300 #{type-scale(0)} $sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: $line-height;
+  color: #333300;
+
+  a {
+    text-decoration: none;
+    color: #333300;
+  }
+
+  // @media screen and (min-width: 600px){
+  //   font-size: type-scale(0);
+  // }
+}
+
+// @media screen and (min-width : 768px){
+//     html{ font-size : 87.5%;}
+// }
+//
+// @media screen and (min-width : 1024px) {
+//     html{ font-size : 100%;}
+// }
+
+/* HEADINGS */
+h1, h2 {
+  font-family: $serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+// h1 {
+//   font-size: type-scale(4);
+// }
+//
+// h2 {
+//   font-size: type-scale(3);
+// }
+//
+// h3 {
+//   font-size: type-scale(2);
+// }
+//
+// h4 {
+//   font-size: type-scale(1);
+// }
+
+/* INTRO SECTION */
+.intro, .info-home {
+  h1, h2 {
+    font-family: $serif;
+    font-style: italic;
+  }
+
+  p, li {
+    font-family: $sans-serif;
+    font-size: 0.8rem;
+  }
+
+  li {
+    text-transform: uppercase;
+  }
+}
+
+/* HEADER SECTION */
+.header {
+  a, li {
+    font-family: $sans-serif;
+    font-size: 0.7rem;
+  }
+}
+
+.promotion a {
+  color: #ffffff;
+  font-family: $serif;
+ }
+
+ .logo a {
+   color: #ff9900;
+   font-family: $sans-serif;
+   font-size: 1rem;
+   font-weight: 700;
+   text-transform: lowercase;
+ }
+
+ // .logo-white a {
+ //   font-family: $sans-serif;
+ //   font-size: 1rem;
+ //   font-weight: 700;
+ //   text-transform: lowercase;
+ // }
+
+.mainnav, .subnav {
+  a {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  }
+}
+
+/* SHOP SECTION */
+.shop-box a {
+  font-family: $sans-serif;
+}
+
+/* PHILOSOPHY SECTION */
+.info-philosophy h2 {
+  font-weight: 700;
+}
+
+.info-philosophy {
+  h2, li {
+  font-family: $sans-serif;
+  }
+}
+
+/* BLOG SECTION */
+.blog-nav li {
+  font-family: $sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.loadmore {
+  font-family: $sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin: 50px;
+}

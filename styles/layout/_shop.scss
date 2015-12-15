@@ -1,0 +1,39 @@
+// .shop-row-01, .shop-row-02 {
+//   height: 100%;
+//   @include cf;
+// }
+//
+// .shop-row-01 li, .shop-row-02 li {
+//   float: left;
+//   width: 33.333333333%;
+// }
+
+.shop-box-img {
+  width: 100%;
+  border: solid #333300 1px;
+}
+
+.shop-box {
+    position:relative;
+    display:block;
+    margin:0;
+    padding:0;
+}
+.shop-box img {
+    z-index:1; /* 0-5 最背面-最前面 */
+    margin:0;
+    padding:0;
+}
+
+.shop-box-text {
+    position:absolute;
+    top:0px;
+    left:0px;
+    z-index:2; /* 0-5 最背面-最前面 */
+    padding:10px;
+    margin:0 auto;
+}
+
+// .shop-box-text a:hover {
+//     color:blue;
+// }

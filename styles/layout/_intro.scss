@@ -1,0 +1,40 @@
+.intro {
+  width: auto;
+  height: 520px;
+  background: url("../images/intro-bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.intro-content {
+  width: 100%;
+  padding-top: 180px;
+}
+
+.message, .lang-switch {
+  width: 50%;
+  margin: auto;
+  text-align:center;
+}
+
+.message {
+  h2, p {
+    margin-bottom: 30px;
+  }
+}
+
+.lang-switch ul {
+  display:inline-block;
+}
+
+.lang-switch li {
+  float: left;
+  list-style: none;
+}
+
+.lang-switch li + li {
+  margin-left:20px;
+}
+
+.lang-switch a {
+  text-decoration: none;
+}

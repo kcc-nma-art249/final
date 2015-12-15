@@ -1,0 +1,28 @@
+/* VARIABLES */
+$base-font: 1rem; /* 1rem = 16px */
+$line-height: 1.5;
+$serif: 'Libre+Baskerville', Georgia, Palatino, serif;
+$sans-serif: 'Quicksand', Helvetica Neue, Helvetica, Arial, sans-serif;
+
+// .info-home, .info-shop, .info-philosophy, .info-blog, .info-contact {
+//   padding: 50px 0;
+// }
+
+.info-philosophy, .info-blog {
+  text-align: center;
+}
+
+.title-shop, .title-philosophy, .philosophy-subtitle, .title-blog {
+  margin: 50px auto;
+}
+
+.title-shop, .title-philosophy, .title-blog {
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+li {
+    list-style: none;
+}

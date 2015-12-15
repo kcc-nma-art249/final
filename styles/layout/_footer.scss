@@ -1,0 +1,23 @@
+.footer {
+  // background-color: #ff9900;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-nav {
+    display: table;
+    margin:0 auto;
+}
+
+.footer-nav li {
+    display: table-cell;
+}
+
+.footer-nav li + li {
+    padding-left: 20px;
+}
+
+
+.copyright {
+  margin-top: 20px;
+}
