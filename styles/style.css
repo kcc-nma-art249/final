@@ -103,6 +103,7 @@ p {
 }
 
 .nav-item a:hover {
+  cursor: crosshair;
   color: #D17B25;
   -webkit-transition: color 0.4s;
           transition: color 0.4s;
@@ -121,7 +122,7 @@ label[for="nav-trigger"] {
   z-index: 20;
   height: 80px;
   width: 80px;
-  cursor: pointer;
+  cursor: crosshair;
   background: #423F3A;
   border-radius: 2px;
 }
@@ -455,6 +456,10 @@ footer small {
   opacity: 0.4;
 }
 
+.prime-button:hover {
+  cursor: crosshair;
+}
+
 .arrow {
   margin-top: 63px;
 }
@@ -475,6 +480,10 @@ footer small {
   margin-top: 5em;
 }
 
+.secondary-button:hover {
+  cursor: crosshair;
+}
+
 .tertiary-button {
   color: #D17B25;
   border: none;
@@ -485,9 +494,17 @@ footer small {
   text-transform: uppercase;
 }
 
+.tertiary-button:hover {
+  cursor: crosshair;
+}
+
 .logo {
   margin: 1em;
   position: fixed;
+}
+
+.logo:hover {
+  cursor: crosshair;
 }
 
 #logo-name {
@@ -526,13 +543,25 @@ footer small {
           transform: translateY(-50%);
 }
 
+.slick-arrows:hover {
+  cursor: crosshair;
+}
+
 .slick-prev {
   left: 0;
   z-index: 10;
 }
 
+.slick-prev:hover {
+  cursor: crosshair;
+}
+
 .slick-next {
   right: 0;
+}
+
+.slick-next:hover {
+  cursor: crosshair;
 }
 
 .collections-width {

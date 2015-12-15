@@ -9,7 +9,7 @@
   position: relative;
   height: 800px;
   padding-left: 186px;
-  
+
 
 }
 
@@ -17,13 +17,22 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  &:hover{
+    cursor: crosshair;
+  }
 }
 .slick-prev {
   left: 0;
   z-index: 10;
+  &:hover {
+    cursor: crosshair;
+  }
 }
 .slick-next {
   right: 0;
+  &:hover {
+    cursor: crosshair;
+  }
 }
 .collections-width {
   background-color: #000000;

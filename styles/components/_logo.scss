@@ -1,6 +1,9 @@
 .logo {
   margin: 1em;
   position: fixed;
+  &:hover {
+    cursor: crosshair;
+  }
 }
 #logo-name {
   color: white;

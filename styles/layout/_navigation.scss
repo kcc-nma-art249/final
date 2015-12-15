@@ -25,6 +25,7 @@
 }
 
 .nav-item a:hover {
+  cursor: crosshair;
   color: #D17B25;
   transition: color 0.4s;
   text-decoration: line-through;
@@ -43,7 +44,7 @@ label[for="nav-trigger"] {
   z-index: 20;
   height: 80px;
   width: 80px;
-  cursor: pointer;
+  cursor: crosshair;
   background: #423F3A;
   border-radius: 2px;
 }
