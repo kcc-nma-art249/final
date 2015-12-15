@@ -315,6 +315,7 @@ position: absolute;
   }
 }
 
+
 #section02 .slick-prev {
   left: -100px;
   top: 0;
@@ -725,13 +726,18 @@ padding-bottom: 4%;
 //section02, 05 slider
 .slider-normal {
   width: 100%;
+  height: 100%;
   margin: 0 auto;
+  //     z-index: 30;
 }
+
 .sec02-container {
   width: 100%;
   height: 100%;
-  position: relative;
-  margin-left: 150px;
+//  position: relative;
+  //padding: 4% 10%;
+//  margin: 0 auto;
+    // z-index: 30;
 }
 
 .container-sec05 {
@@ -761,9 +767,11 @@ padding-bottom: 4%;
   height: 100%;
   padding: 8% 0;
 }
+
 .line-devider > h1 {
   display: none;
 }
+
 .line-devider:hover {
 // border: rgba(0, 0, 0, 0);
  //opacity: .4;
