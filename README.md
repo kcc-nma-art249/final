@@ -21,6 +21,3 @@ Based upon the feedback from your final (midterm) round of comps, transform your
 - **Site Draft #1** – *Due: Tuesday, November 10, 2015*
 - **Site Draft #2** – *Due: Tuesday, November 24, 2015*
 - **Final Site** – *Due: Tuesday, December 15, 2015*
-
-
-

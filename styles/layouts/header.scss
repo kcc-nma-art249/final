@@ -1,0 +1,22 @@
+.main-header {
+  height: 50px;
+  width: 100%;
+  background: black;
+}
+
+
+.main-header ul li{
+  text-decoration: none;
+  text-transform: uppercase;
+  list-style: none;
+  float: left;
+  padding-left: 2em;
+  font-size: 14px;
+  font-style: $serif;
+
+}
+
+.main-nav{
+  float:left;
+  padding-left: 0.5em;
+}

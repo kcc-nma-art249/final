@@ -1,0 +1,49 @@
+
+
+
+
+.hero{
+  background: url("../images/track_bike_hero.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+
+}
+
+.category{
+  list-style: none;
+  text-decoration: none;
+}
+
+.bike-category{
+  font-style: $sans-serif;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 1em;
+}
+
+
+.main-header ul li{
+  text-decoration: none;
+  text-transform: uppercase;
+  list-style: none;
+  float: left;
+  padding-left: 2em;
+  font-size: 14px;
+  font-style: $serif;
+
+}
+
+.site-info{
+  width: 100%;
+  display: table;
+  overflow: hidden;
+  padding-top: 10px;
+  border: 1px solid gray;
+}
+
+
+.button {
+    background-color: gray;
+    font-style: $serif;
+}
