@@ -1,0 +1,74 @@
+body {
+  width: 100%;
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+
+.row {
+    margin: 1em 0;
+    @include cf;
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+}
+/*  columns */
+
+/* CUSTOM GRID (From Chris Gargiulo) */
+
+
+.column {
+ float: left;
+ margin-left: 2%;
+}
+
+.column:first-child {
+ margin-left: 0;
+}
+
+.column.one-half{
+ width: 49%;
+}
+
+.one-third.column {
+ width: 32%;
+}
+.column.one-fourth {
+ width: 23.5%;
+}
+
+.column.one { width: 4.375%; background: yellow; }
+/*.column.two { width: 0%; }
+.column.three { width: 0%; }
+.column.four { width: 0%; }
+.column.five { width: 0%; }*/
+
+.column.six { width: 36.25%; }
+.column.seven{ width: 42.625%;}
+.column.ten { width: 61.75%; }
+
+
+
+.column.six.offset {
+ width: 34.25%;
+ margin-left: 4%;
+}
+
+    /* images */
+    img.scale-with-grid {
+      max-width: 100%;
+      width: 100%;
+      height: auto;
+    }
+
+    html,
+    body {
+      height: 100%;
+    }

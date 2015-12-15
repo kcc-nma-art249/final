@@ -1,0 +1,29 @@
+.button
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  appearance: none;
+  background-color: transparent;
+  border: 0 none;
+
+  display: inline-block; // Make display properties consistent across the board
+  text-decoration: none; // Remove underline for anchor buttons
+  color: #ff6100;        // Inherit the default color (ie. black)
+  font: inherit;
+  width: 10%;
+  padding: 0.5em 1em;
+  margin-bottom: 0.5em;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 2px solid #ff6100;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: #ff6100;
+    color: #fff;
+  }
+
+
+}

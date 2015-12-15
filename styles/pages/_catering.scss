@@ -1,0 +1,62 @@
+.c-private,
+.in-flight {
+  margin-bottom: 5em;
+  background: #fff;
+  position: relative;
+
+
+  h2 {
+   padding-left: 40%;
+   padding-bottom: .2em;
+    font-family: 'Lustscript';
+    color: #767373;
+    font-size: 5.5rem;
+    height: .5em;
+    margin-bottom: 1em;
+    line-height: 1.2;
+  }
+  small {
+    font-size: 2rem;
+    margin-left: -2em;
+  }
+
+.column.seven {
+  float: right;
+}
+     p {
+      float: right;
+      font-family: 'Lato', sans-serif;
+      color: #424242;
+      font-size: 1.1rem;
+      font-weight: 300;
+      padding-top: 5em;
+      margin-bottom: 2em;
+    }
+
+.column.one-half {
+  float: left;
+  margin: 6em 0 0 0;
+
+
+}
+
+
+  a.button2 {
+    background: url(../images/contact_us_btn.png) no-repeat 0 0;
+    display: block;
+    width: 124px;
+    height: 0;
+    padding-top: 36px;
+    overflow: hidden;
+    float: left;
+
+  }
+
+  a.button2:hover {
+    background: url(../images/contact_us_btn.png) no-repeat 0 -36px;
+  }
+}
+
+.in-flight .column.one-half {
+  border: 1px solid #cacaca;
+}
