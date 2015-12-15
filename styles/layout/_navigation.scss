@@ -89,6 +89,29 @@
   }
 }
 
+.painting-subnav {
+  position: fixed;
+  left: 7%;
+  bottom: 5%;
+  font-family: $font;
+  font-size: 14px;
+  text-transform: uppercase;
+
+  ul {
+    list-style: none;
+    letter-spacing: 1px;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+    }
+
+  li {
+      margin-bottom: 2px;
+    }
+  }
+}
+
 .subnav-heading {
   position: fixed;
   left: 3%;

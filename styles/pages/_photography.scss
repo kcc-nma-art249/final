@@ -15,10 +15,9 @@
       position: relative;
       top: 50%;
       transform: translateY(-50%);
-
   }
 
-  h1 {
+  h1, h2 {
     font-family: $titlefont;
     color: #fff;
     font-size: 48px;
@@ -26,10 +25,23 @@
     font-weight: normal;
   }
 
+  h1 {
+    line-height: .5em;
+  }
+
   p {
   color: #fff;
   font-family: $font;
-}
+  padding-top: 1em;
+  }
+
+  a {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-family: $font;
+  text-decoration: none;
+  }
 }
 
 .feature-artist {
