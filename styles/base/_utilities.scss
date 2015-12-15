@@ -1,0 +1,17 @@
+// Variables
+
+$titlefont: 'Montserrat', sans-serif;
+$font: 'Quicksand', sans-serif;
+$logo: 'Monoton', cursive;
+
+@mixin cf {
+	&:before,
+	&:after {
+		content: "";
+		display: table;
+	}
+
+	&:after {
+		clear: both;
+	}
+}

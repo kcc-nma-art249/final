@@ -1,0 +1,113 @@
+.subnav-heading {
+  z-index: 10;
+}
+
+.silvia-grav,
+.tamas-andok,
+.tokihiro-sato,
+.miki-takahashi,
+.nick-knight {
+  width: 100%;
+  height: 100%;
+
+  .container {
+    max-width: 300px;
+  }
+
+  .subpage-container {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+
+      p {
+        max-width: 400px;
+      }
+  }
+
+  h1, h2 {
+    font-family: $titlefont;
+    color: #fff;
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: normal;
+  }
+
+  h1 {
+    line-height: .5em;
+  }
+
+  p {
+  color: #fff;
+  font-family: $font;
+  padding-top: 1em;
+  }
+
+  a {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-family: $font;
+  text-decoration: none;
+  }
+}
+
+.feature-artist {
+
+  .slide-one-photo {
+    background-image: url('../images/silviagrav-slider.jpg');
+  }
+
+  .slide-two-photo {
+    background-image: url('../images/tamas-andok-slider.jpg');
+  }
+
+  .slide-three-photo {
+    background-image: url('../images/tokihiro-sato-slider.jpg');
+  }
+
+
+.slide-four-photo {
+  background-image: url('../images/unknownartist.jpg');
+}
+
+.slide-five-photo {
+  background-image: url('../images/nick-knight-slide.jpg');
+}
+}
+
+.silvia-grav {
+    background-image: url('../images/silvia-grav.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+.vertical-center {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+}
+
+.tamas-andok{
+  background-image: url('../images/tamas-andok.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tokihiro-sato {
+  background-image: url('../images/tokihiro-sato.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.miki-takahashi {
+  background-image: url('../images/miki-takahashi.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nick-knight {
+  background-image: url('../images/nick-knight.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}

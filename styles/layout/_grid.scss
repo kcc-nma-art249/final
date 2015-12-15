@@ -1,0 +1,31 @@
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.row {
+  @include cf;
+}
+
+[class^='col-'] {
+  float: left;
+  min-height: 80px;
+  width: px;
+  padding: 0 1em;
+ // > div {
+ //    min-height: 50px;
+ //    color: #fff;
+ //    padding-top: 10px;
+ //  }
+  }
+
+
+@for $i from 1 through 12 {
+  .col-#{$i} {
+    width: $i / 12 * 100%;
+    @media screen and (min-width: 600px){
+      width: (100% / 12) * $i;
+    }
+  }
+}
