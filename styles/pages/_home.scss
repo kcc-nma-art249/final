@@ -484,6 +484,7 @@ padding-bottom: 50px;
   text-align: center;
 padding: 0 20% 20px 20%;
 }
+
 .cont-h5+.cont-p {
   padding-bottom: 10px;
 }
@@ -493,6 +494,7 @@ padding: 0 20% 20px 20%;
   text-align: center;
   font-weight: 400;
 }
+
 .cont-date {
   text-align: center;
   letter-spacing: 10px;
@@ -518,6 +520,7 @@ z-index: 100;
 //  padding-top: 5px;
   border-top: 1px solid #fff;
 }
+
 .page-name {
   font-weight: 500;
   font-size: 14px;
@@ -611,7 +614,7 @@ z-index: 100;
   height: 100%;
 }
 .slick-prev:before, .slick-next:before,
-slick-prev:before, .slick-next:before {
+.slick-prev:before, .slick-next:before {
     font-size: 60px;
 }
 
@@ -759,7 +762,6 @@ padding-bottom: 4%;
 
 .row{
   height: 33.333%;
-
 }
 
 .line-devider {
