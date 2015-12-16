@@ -549,12 +549,6 @@ footer small {
   background-color: rgba(209, 123, 37, 0.3);
 }
 
-@media only screen and (max-width: 568px) {
-  .secondary-button {
-    display: none;
-  }
-}
-
 .tertiary-button {
   color: #D17B25;
   border: none;
@@ -796,12 +790,6 @@ img.home-watch {
 
 .collections-8 {
   max-width: 586px;
-}
-
-@media only screen and (max-width: 500px) {
-  .collections-8 {
-    background-color: red;
-  }
 }
 
 .storyinfo {
