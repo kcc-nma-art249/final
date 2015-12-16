@@ -32,16 +32,22 @@ h2 {
   font-size: type-scale(3);
   text-transform: uppercase;
   @media only screen and (max-width: 568px){
-    font-size: type-scale(0);
+    font-size: type-scale(1);
   }
   @media only screen and (max-width: 768px){
-    font-size: type-scale(0)
+    font-size: type-scale(1);
 
   }
 }
 
 h3 {
   font-size: type-scale(2);
+  @media only screen and (max-width: 568px){
+    font-size: type-scale(0);
+  }
+  @media only screen and (max-width: 768px){
+    font-size: type-scale(0);
+}
 }
 p {
 

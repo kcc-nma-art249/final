@@ -14,8 +14,14 @@ background: url("../images/our-story-bg.png") no-repeat center center ;
 
 .collections-8 {
   max-width: 586px;
+  @media only screen and (max-width: 500px){
+background-color: red;}
 }
 
 .storyinfo {
 padding: 18px 170px 35px 0;
+
+@media only screen and (max-width: 500px){
+  display: none;
+}
 }

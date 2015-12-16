@@ -70,18 +70,30 @@ h2 {
 
 @media only screen and (max-width: 568px) {
   h2 {
-    font-size: 1em;
+    font-size: 1.25em;
   }
 }
 
 @media only screen and (max-width: 768px) {
   h2 {
-    font-size: 1em;
+    font-size: 1.25em;
   }
 }
 
 h3 {
   font-size: 1.5625em;
+}
+
+@media only screen and (max-width: 568px) {
+  h3 {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  h3 {
+    font-size: 1em;
+  }
 }
 
 p {
@@ -537,6 +549,12 @@ footer small {
   background-color: rgba(209, 123, 37, 0.3);
 }
 
+@media only screen and (max-width: 568px) {
+  .secondary-button {
+    display: none;
+  }
+}
+
 .tertiary-button {
   color: #D17B25;
   border: none;
@@ -551,6 +569,12 @@ footer small {
 .tertiary-button:hover {
   cursor: crosshair;
   background-color: rgba(209, 123, 37, 0.3);
+}
+
+@media only screen and (max-width: 568px) {
+  .tertiary-button {
+    display: block;
+  }
 }
 
 .logo {
@@ -635,6 +659,7 @@ footer small {
 .collections-width {
   background-color: #000000;
   width: 100%;
+  padding-top: 6em;
 }
 
 @media only screen and (max-width: 568px) {
@@ -753,7 +778,7 @@ img.home-watch {
   img.home-watch {
     width: 20%;
     height: auto;
-    top: 550px;
+    top: 700px;
   }
 }
 
@@ -773,8 +798,20 @@ img.home-watch {
   max-width: 586px;
 }
 
+@media only screen and (max-width: 500px) {
+  .collections-8 {
+    background-color: red;
+  }
+}
+
 .storyinfo {
   padding: 18px 170px 35px 0;
+}
+
+@media only screen and (max-width: 500px) {
+  .storyinfo {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
