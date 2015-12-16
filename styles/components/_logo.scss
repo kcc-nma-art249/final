@@ -4,6 +4,10 @@
   &:hover {
     cursor: crosshair;
   }
+  @media only screen and (max-width: 568px){
+    width: 10%;
+    height: auto;
+  }
 }
 #logo-name {
   color: white;
@@ -18,4 +22,9 @@
   letter-spacing: 3px;
   text-transform: uppercase;
   margin-bottom: 130px;
+}
+.home-text {
+@media only screen and (max-width: 568px){
+  max-width: 50%;
+}
 }
