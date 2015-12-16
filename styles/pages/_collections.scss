@@ -1,0 +1,49 @@
+.container-1,
+.container-2,
+.container-3,
+.container-4,
+.container-5,
+.container-6,
+.container-7,
+ {
+  position: relative;
+  height: 800px;
+  padding-left: 10%;
+
+
+}
+
+.slick-arrows {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  &:hover{
+    cursor: crosshair;
+  }
+}
+.slick-prev {
+  left: 0;
+  z-index: 10;
+  &:hover {
+    cursor: crosshair;
+  }
+}
+.slick-next {
+  right: 0;
+  &:hover {
+    cursor: crosshair;
+  }
+
+}
+.collections-width {
+  background-color: #000000;
+  width: 100%;;
+  padding-top: 6em;
+
+}
+
+img.collection-watch {
+@media only screen and (max-width: 568px){
+  display: none;
+}
+}
