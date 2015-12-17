@@ -66,3 +66,8 @@ input[type="button"]:hover {
   color: #000;
   border: 1px solid #663300;
 }
+
+button.slick-next.slick-arrow,
+button.slick-prev.slick-arrow {
+    margin: 2em 0 5em 45%;
+}
