@@ -348,6 +348,17 @@ position: absolute;
   width: 10%;
   height: 100%;
   z-index: 10;
+  @media #{$small-screen} {
+   left: -10%;
+  }
+
+  @media #{$medium-screen} {
+   left: -10%;
+  }
+  @media #{$large-screen}  {
+    left: -10%;
+   }
+
 }
 
 #section02 .slick-next {
@@ -355,6 +366,17 @@ position: absolute;
   top: 0;
   width: 10%;
   height: 100%;
+  @media #{$small-screen} {
+    right: -10%;
+   }
+
+  @media #{$medium-screen} {
+    right: -10%;
+    }
+
+  @media #{$large-screen}  {
+    right: -10%;
+   }
 }
 
 .magazine-column a {
@@ -568,17 +590,17 @@ font-size: 30px;
 }
 
 .page-name {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 13px;
   @media #{$small-screen} {
-  font-size: 12px;
+  font-size: 10px;
   }
 
   @media #{$medium-screen} {
-  font-size: 12px;
+  font-size: 10px;
   }
   @media #{$large-screen}  {
-  font-size: 12px;
+  font-size: 10px;
   }
 
 }
@@ -795,15 +817,20 @@ z-index: 30;
 }
 
 .slider-05 {
+  z-index: 40;
   width: 100%;
   height:100%;
 }
 .shade {
     background: rgba(0,0,0,.6);
-    z-index: 30;
+    z-index: 35;
     width: 100%;
     height: 100%;
     position: relative;
+}
+
+.section05 .text-over{
+  z-index: 30;
 }
 
 .section05 .slick-slide>div {
@@ -896,6 +923,64 @@ opacity: 1;
 opacity: 0;
  transition: all 0.2s ease;
 }
+
+.section05 h5 {
+  @media #{$small-screen} {
+  font-size: 17px;
+  }
+
+  @media #{$medium-screen} {
+  font-size: 17px;
+  }
+  @media #{$large-screen}  {
+  font-size: 17px;
+  }
+}
+
+.section05 h6 {
+  @media #{$small-screen} {
+font-size: 13px;
+  }
+
+  @media #{$medium-screen} {
+font-size: 13px;
+  }
+  @media #{$large-screen}  {
+font-size: 13px;
+  }
+
+}
+
+.section05 .page-number {
+    font-size: 50px;
+  //  padding-top: 5px;
+    border-top: 1px solid #fff;
+    @media #{$small-screen} {
+  font-size: 30px;
+    }
+
+    @media #{$medium-screen} {
+  font-size: 30px;
+    }
+    @media #{$large-screen}  {
+  font-size: 30px;
+    }
+  }
+
+.section05 .page-name {
+    font-weight: 600;
+    font-size: 13px;
+    @media #{$small-screen} {
+    font-size: 10px;
+    }
+
+    @media #{$medium-screen} {
+    font-size: 10px;
+    }
+    @media #{$large-screen}  {
+    font-size: 10px;
+    }
+  }
 
 .blur-me {
   .video-wrap {
