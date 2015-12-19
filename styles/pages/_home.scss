@@ -23,7 +23,6 @@ a {
 }
 
 
-
 main {
 	display: block;
 	height: 100%;
@@ -328,6 +327,18 @@ position: absolute;
   //&:last-child {
   //  margin-right: 0;
 //  }
+
+@media #{$small-screen} {
+ padding: 10% 1% 1% 10%;
+}
+
+@media #{$medium-screen} {
+ padding: 10% 1% 1% 10%;
+}
+@media #{$large-screen}  {
+ padding: 13% 1.5% 1.5% 10%;
+}
+
 }
 
 
@@ -421,39 +432,35 @@ font-size: 20px;
 text-align: right;
 text-transform: uppercase;
 //letter-spacing: 1px;
+@media #{$small-screen} {
+font-size: 14px;
+}
+
+@media #{$medium-screen} {
+font-size: 14px;
+}
+@media #{$large-screen}  {
+font-size: 14px;
+}
 }
 
 .sec02-number {
 line-height: 1em;
-  font-size: 6em;
+  font-size: 5vw;
   text-align: right;
   font-weight: 600;
+  @media #{$small-screen} {
+//font-size: 4em;
+  }
+
+  @media #{$medium-screen} {
+//font-size: 3em;
+  }
+  @media #{$large-screen}  {
+  // font-size: 4em;
+  }
 }
 
-.svg-arrow-r {
-  position: absolute;
-  top: 50%;
-  right: 10%;
-  border: 1px solid white;
-  width: 10px;
-  height: 50px;
-  padding: 10px;
-  z-index: 100;
-}
-
-/*
-.svg-arrow-l {
-  position: absolute;
-  top: 50%;
-  left: 2%;
-  border: 1px solid white;
-  width: 50px;
-  height: 50px;
-  padding: 10px;
-  z-index: 100;
-;
-}
-*/
 
 /*
 .sec02-n {
@@ -528,34 +535,51 @@ position: absolute;
   bottom: 40px;
   right: 40px;
 z-index: 100;
+@media #{$small-screen} {
+  bottom: 30px;
+  right: 20px;
+}
+
+@media #{$medium-screen} {
+  bottom: 30px;
+  right: 20px;
+}
+@media #{$large-screen}  {
+  bottom: 30px;
+  right: 20px;
+}
+
 }
 
 .page-number {
   font-size: 50px;
 //  padding-top: 5px;
   border-top: 1px solid #fff;
+  @media #{$small-screen} {
+font-size: 30px;
+  }
+
+  @media #{$medium-screen} {
+font-size: 30px;
+  }
+  @media #{$large-screen}  {
+font-size: 30px;
+  }
 }
 
 .page-name {
   font-weight: 500;
-  font-size: 14px;
-//text-transform: uppercase;
+  font-size: 13px;
+  @media #{$small-screen} {
+  font-size: 12px;
+  }
 
-//bottom: 80px;
-//right: 10px;
-
-//position: absolute;
-//transform: rotate(-90deg);
-  /* Safari */
-//  -webkit-transform: rotate(-90deg);
-  /* Firefox */
-//  -moz-transform: rotate(-90deg);
-  /* IE */
-//  -ms-transform: rotate(-90deg);
-  /* Opera */
-//  -o-transform: rotate(-90deg);
-  /* Internet Explorer */
-//  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  @media #{$medium-screen} {
+  font-size: 12px;
+  }
+  @media #{$large-screen}  {
+  font-size: 12px;
+  }
 
 }
 
