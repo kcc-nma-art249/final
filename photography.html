@@ -50,12 +50,14 @@
     <li><a href="#silvia-grav">Silvia Grav</a></li>
     <li><a href="#tamas-andok">Tamas Andok</a></li>
     <li><a href="#tokihiro-sato">Tokihiro Sato</a></li>
-    <li><a href="#miki-takahashi">Miki Takahashi</a></li>
+    <li><a href="#rosana-bach">Rosana Bach</a></li>
     <li><a href="#nick-knight">Nick Knight</a></li>
     <li><a href="#home">More Artists</a></li>
   </ul>
 </nav>
 </div>
+
+
 
 <!-- Photography Featured Artists-->
 
@@ -64,8 +66,10 @@
     <div class="container">
       <div class="vertical-center">
         <div class="featureartist-name">
-          <h1>featured artist</h1>
-          <h2>Silvia Grav</h2>
+          <a href="#silvia-grav">
+            <h1>featured artist</h1>
+            <h2>Silvia Grav</h2>
+          </a>
         </div>
       </div>
     </div>
@@ -74,8 +78,10 @@
     <div class="container">
       <div class="vertical-center">
         <div class="featureartist-name">
-          <h1>featured artist</h1>
-          <h2>Tamas Andok</h2>
+          <a href="#tamas-andok">
+            <h1>featured artist</h1>
+            <h2>Tamas Andok</h2>
+          </a>
         </div>
       </div>
     </div>
@@ -84,8 +90,10 @@
     <div class="container">
       <div class="vertical-center">
         <div class="featureartist-name">
-          <h1>featured artist</h1>
-          <h2>Tokihiro Sato</h2>
+          <a href="#tokihiro-sato">
+            <h1>featured artist</h1>
+            <h2>Tokihiro Sato</h2>
+          </a>
         </div>
       </div>
     </div>
@@ -94,8 +102,10 @@
     <div class="container">
       <div class="vertical-center">
         <div class="featureartist-name">
-          <h1>featured artist</h1>
-          <h2>Miki Takahashi</h2>
+          <a href="#miki-takahashi">
+            <h1>featured artist</h1>
+            <h2>Rosana Bach</h2>
+          </a>
         </div>
       </div>
     </div>
@@ -104,8 +114,10 @@
     <div class="container">
       <div class="vertical-center">
         <div class="featureartist-name">
-          <h1>featured artist</h1>
-          <h2>Nick Knight</h2>
+          <a href="#nick-knight">
+            <h1>featured artist</h1>
+            <h2>Nick Knight</h2>
+          </a>
         </div>
       </div>
     </div>
@@ -150,11 +162,11 @@
 
 </section>
 <!-- Miki Takahashi Artist -->
-<section id="miki-takahashi" class="miki-takahashi">
+<section id="rosana-bach" class="rosana-bach">
   <div class="container">
     <div class="subpage-container">
-      <h1>Miki</h1>
-      <h2>Takahashi</h2>
+      <h1>Rosana</h1>
+      <h2>Bach</h2>
       <a href="">More</a>
       <p>Whether she mixes her women portraits  with smoke, city landscapes or an abstract constellations, Miki Takahashi uses digital overlay to sublime the original beauty of her pictures.</p>
     </div>
@@ -184,7 +196,7 @@ $(function() {
     dots: true
   });
 
-  $(".photo-subnav a").click(function(e) {
+  $(".photo-subnav a, .featureartist-name a").click(function(e) {
     e.preventDefault();
 
     var $this = $(this);

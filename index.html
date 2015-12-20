@@ -75,6 +75,15 @@
   </div>
 </section>
 
+
+<!-- Arrow -->
+<div class="arrow-icon">
+  <a href="#home">
+    <img src="images/arrow.png">
+  </a>
+</div>
+
+
 <!-- About -->
 <section id="about" class="about">
   <div class="container">
@@ -213,7 +222,7 @@
                   <a href="">
                     <img src="images/Blog2.jpg">
                     <div class="overlay">
-                      <p>Bezt/Etam Cru</p>
+                      <p>Bezt + Etam Cru</p>
                     </div>
                   </a>
                 </li>
@@ -417,7 +426,7 @@ $(function() {
     dots: true
   });
 
-  $(".mainnav a").click(function(e) {
+  $(".mainnav a, .arrow-icon a").click(function(e) {
     e.preventDefault();
 
     var $this = $(this);

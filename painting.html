@@ -63,8 +63,10 @@
     <div class="container">
       <div class="vertical-center">
         <div class="featureartist-name">
-          <h1>featured artist</h1>
-          <h2>Lauren Brevner</h2>
+          <a href="#lauren-brevner">
+            <h1>featured artist</h1>
+            <h2>Lauren Brevner</h2>
+          </a>
         </div>
       </div>
     </div>
@@ -73,8 +75,10 @@
     <div class="container">
       <div class="vertical-center">
         <div class="featureartist-name">
-          <h1>featured artist</h1>
-          <h2>Seonna Hong</h2>
+          <a href="#seonna-hong">
+            <h1>featured artist</h1>
+            <h2>Seonna Hong</h2>
+          </a>
         </div>
       </div>
     </div>
@@ -83,8 +87,10 @@
     <div class="container">
       <div class="vertical-center">
         <div class="featureartist-name">
-          <h1>featured artist</h1>
-          <h2>Sainer + Bezt of Etam Cru</h2>
+          <a href="#etam-cru">
+            <h1>featured artist</h1>
+            <h2>Sainer + Bezt of Etam Cru</h2>
+          </a>
         </div>
       </div>
     </div>
@@ -93,8 +99,10 @@
     <div class="container">
       <div class="vertical-center">
         <div class="featureartist-name">
-          <h1>featured artist</h1>
-          <h2>Ernest Zacharevic</h2>
+          <a href="#ernest-zacharevic">
+            <h1>featured artist</h1>
+            <h2>Ernest Zacharevic</h2>
+          </a>
         </div>
       </div>
     </div>
@@ -103,8 +111,10 @@
     <div class="container">
       <div class="vertical-center">
         <div class="featureartist-name">
-          <h1>featured artist</h1>
-          <h2>Brendan Monroe</h2>
+          <a href="#brendan-monroe">
+            <h1>featured artist</h1>
+            <h2>Brendan Monroe</h2>
+          </a>
         </div>
       </div>
     </div>
@@ -183,7 +193,7 @@ $(function() {
     dots: true
   });
 
-  $(".painting-subnav a").click(function(e) {
+  $(".painting-subnav a, .featureartist-name a").click(function(e) {
     e.preventDefault();
 
     var $this = $(this);

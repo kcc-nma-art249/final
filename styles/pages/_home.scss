@@ -99,3 +99,17 @@ body {
 .submit {
   padding: 5em 0;
 }
+
+.featureartist-name {
+  a {
+    text-decoration: none;
+    outline: none;
+  }
+}
+
+.arrow-icon img {
+  bottom: 5%;
+  left: 93%;
+  position: fixed;
+  width: 3%;
+}

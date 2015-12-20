@@ -37,7 +37,15 @@
 .founders,
 .advertising,
 .blogger {
-  padding-bottom: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.inquries,
+.editor,
+.assistants {
+  .p-contact {
+    margin-bottom: 3em;
+  }
 }
 
 }
