@@ -18,7 +18,7 @@
 
     &:hover {
       background-color: #000;
-   
+
     }
 
     &:focus,
@@ -91,3 +91,8 @@ input[type="reset"] {
   color: #fff;
 }
 
+.footer button {
+  font-size: 12px;
+    padding: 0.6em 5.5em;
+    text-align: left;
+}

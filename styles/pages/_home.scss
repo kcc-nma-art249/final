@@ -28,7 +28,7 @@ main {
 	height: 100%;
   position: relative;
   z-index: 10;
-  transition: transform 0.3s;
+  transition: transform 0.2s;
   background: #000;
   &.shownavi {
   transform: translateX(-250px);
@@ -45,7 +45,7 @@ main {
   width: 250px;
   background: #fff;
   transform: translateX(250px);
-  transition: transform 0.3s;
+  transition: transform 0.2s;
   &.shownavi {
     transform: translateX(0px);
   }
@@ -60,14 +60,31 @@ main {
       overflow: hidden;
       position: absolute;
       top: 150px;
+      @media #{$small-screen} {
+         top: 100px;
+      }
 }
 
 ul {
   padding: 200px 0 50px 30px;
+  @media #{$small-screen} {
+    padding: 145px 0 50px 30px;
+  }
 
   li{
     list-style: none;
     padding-bottom: 18px;
+    @media #{$small-screen} {
+       padding-bottom: 0px;
+       line-height: 23px;
+    }
+
+    @media #{$medium-screen} {
+       padding-bottom: 6px;
+    }
+    @media #{$large-screen}  {
+         padding-bottom: 6px;
+    }
     a {
       color: #000;
       font-size: 16px;
@@ -98,6 +115,17 @@ ul {
 
 .bomt-padng {
   padding-bottom: 5px;
+  @media #{$small-screen} {
+  padding-bottom: 0;
+  line-height: 18px;
+  }
+
+  @media #{$medium-screen} {
+    padding-bottom: 0;
+}
+  @media #{$large-screen}  {
+    padding-bottom: 0;
+  }
 }
 
 .menu-sm {
@@ -107,20 +135,30 @@ ul {
   //letter-spacing: 4px;
   text-transform: uppercase;
   @media #{$small-screen} {
-   font-size: 13px;
+   font-size: 11px;
   }
 
   @media #{$medium-screen} {
-font-size: 13px;
+font-size: 11px;
 }
   @media #{$large-screen}  {
-   font-size: 13px;
+   font-size: 11px;
   }
 
 }
 
 .sub-menu {
   padding-top: 20px;
+  @media #{$small-screen} {
+     padding-top: 10px;
+  }
+
+  @media #{$medium-screen} {
+padding-top: 10px;
+}
+  @media #{$large-screen}  {
+   padding-top: 10px;
+  }
 }
 
 .sm-border {
@@ -136,7 +174,7 @@ font-size: 13px;
   width:30px;
   height:30px;
   margin: auto;
-    transition: transform 0.5s;
+    transition: transform 0.2s;
     color: #fff;
 }
 
@@ -146,8 +184,8 @@ font-size: 13px;
   height:10%;
   margin-top:20%;
   background: #fff;
-  transition:0.25s;
-  -webkit-transition:0.25s;
+  transition:0.2s;
+  -webkit-transition:0.2s;
 -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -182,8 +220,21 @@ font-size: 13px;
   	margin-bottom: 10px;
     border: 1px solid #FF2381;
     padding: 6px 0 6px 6px;
+    @media #{$medium-screen} {
+padding: 7px 0 7px 6px;
+font-size: 12px;
+    }
+    @media #{$large-screen}  {
+padding: 7px 0 7px 6px;
+font-size: 12px;
+    }
   }
 
+}
+
+label {
+  color: #000;
+font-size: 13px;
 }
 
 
@@ -551,6 +602,8 @@ line-height: 1em;
 
   @media #{$medium-screen} {
   font-size: 55px;
+    padding-top: 50px;
+    padding-bottom: 20px;
   }
   @media #{$large-screen}  {
   font-size: 55px;
@@ -782,6 +835,16 @@ font-size: 30px;
   background: url(../images/arrow-l.svg) no-repeat;
   color: rgba(0, 0, 0, 0);
   background-size: 40px;
+  @media #{$small-screen} {
+  background-size: 20px;
+  }
+
+  @media #{$medium-screen} {
+background-size: 30px;
+  }
+  @media #{$large-screen}  {
+  background-size: 40px;
+  }
 
 }
 
@@ -789,6 +852,16 @@ font-size: 30px;
   background: url(../images/arrow-r.svg) no-repeat;
   color: rgba(0, 0, 0, 0);
   background-size: 40px;
+  @media #{$small-screen} {
+  background-size: 20px;
+  }
+
+  @media #{$medium-screen} {
+background-size: 30px;
+  }
+  @media #{$large-screen}  {
+  background-size: 40px;
+  }
 
 }
 
