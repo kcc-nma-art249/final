@@ -74,6 +74,21 @@ ul {
       font-weight: 600;
       letter-spacing: 1px;
       text-transform: uppercase;
+
+      @media #{$small-screen} {
+         font-size: 13px;
+         font-weight: 500;
+      }
+
+      @media #{$medium-screen} {
+        font-size: 13px;
+        font-weight: 500;
+      }
+      @media #{$large-screen}  {
+         font-size: 13px;
+         font-weight: 500;
+      }
+
       &:hover{
         color: #FF2381;
       }
@@ -91,6 +106,17 @@ ul {
   font-weight: 500;
   //letter-spacing: 4px;
   text-transform: uppercase;
+  @media #{$small-screen} {
+   font-size: 13px;
+  }
+
+  @media #{$medium-screen} {
+font-size: 13px;
+}
+  @media #{$large-screen}  {
+   font-size: 13px;
+  }
+
 }
 
 .sub-menu {
@@ -518,15 +544,57 @@ line-height: 1em;
   letter-spacing: 10px;
   font-weight: 100;
   font-size: 73px;
+
+  @media #{$small-screen} {
+  font-size: 30px;
+  }
+
+  @media #{$medium-screen} {
+  font-size: 55px;
+  }
+  @media #{$large-screen}  {
+  font-size: 55px;
+  }
+
 }
 
 .cont-h5 {
 padding-bottom: 120px;
+
+@media #{$small-screen} {
+font-size: 16px;
+padding-bottom: 60px;
+}
+
+@media #{$medium-screen} {
+font-size: 18px;
+padding-bottom: 60px;
+}
+@media #{$large-screen}  {
+font-size: 18px;
+padding-bottom: 90px;
+}
+
 }
 
 .cont-p {
   text-align: center;
 padding: 0 30% 10% 30%;
+
+@media #{$small-screen} {
+font-size: 14px;
+padding: 0 5% 6% 5%;
+}
+
+@media #{$medium-screen} {
+font-size: 14px;
+padding: 0 30% 6% 30%;
+}
+@media #{$large-screen}  {
+font-size: 14px;
+padding: 0 30% 6% 30%;
+}
+
 }
 
 .cont-h5+.cont-p {
@@ -544,12 +612,42 @@ padding: 0 30% 10% 30%;
   letter-spacing: 10px;
 //  padding-bottom: 30px;
 padding-bottom: 2%;
+
+@media #{$small-screen} {
+font-size: 14px;
+}
+
+@media #{$medium-screen} {
+font-size: 14px;
+}
+@media #{$large-screen}  {
+font-size: 14px;
+
+}
 }
 
 .cont-button {
-  left:50%;
   position: absolute;
+  left:50%;
   margin-left: -104px;
+
+  @media #{$small-screen} {
+  font-size: 14px;
+  left:50%;
+  margin-left: -82.25px;
+  }
+
+  @media #{$medium-screen} {
+  font-size: 14px;
+  left:50%;
+  margin-left: -82.25px;
+  }
+  @media #{$large-screen}  {
+  font-size: 14px;
+  left:50%;
+  margin-left: -82.25px;
+}
+
 }
 
 .page-con {
