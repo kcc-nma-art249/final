@@ -1072,7 +1072,17 @@ z-index: 30;
 }
 
 .section05 .text-over{
-  z-index: 30;
+  z-index: 40;
+  pointer-events: none;
+}
+
+.section05 .slick-next {
+    right: 47px;
+}
+
+.section05 .slick-prev {
+    left: 20px;
+    z-index: 10;
 }
 
 .section05 .slick-slide>div {
