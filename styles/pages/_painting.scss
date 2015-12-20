@@ -3,7 +3,7 @@
 }
 
 .lauren-brevner,
-.seonna-hong,
+.ben-aronson,
 .etam-cru,
 .ernest-zacharevic,
 .brendan-monroe {
@@ -63,7 +63,7 @@
   }
 
   .slide-two-paint {
-    background-image: url('../images/seonna-hong-slider.jpg');
+    background-image: url('../images/ben-aronson-slider.jpg');
   }
 
   .slide-three-paint {
@@ -95,8 +95,8 @@
   background-size: cover;
 }
 
-.seonna-hong {
-  background-image: url('../images/seonna-hong.jpg');
+.ben-aronson {
+  background-image: url('../images/ben-aronson.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -118,4 +118,12 @@
   background-image: url('../images/brendan-monroe.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.social-media-icons img {
+  position: fixed;
+  top: 12.5%;
+  left: 3%;
+  z-index: 10;
+
 }

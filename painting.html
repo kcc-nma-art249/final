@@ -43,11 +43,11 @@
 <!-- Sub Nav -->
 <div class="subnav-heading">
     <h1>Painting</h1>
-    <h2>Featured Artist</h2>
+    <h2>Featured Artists</h2>
   <nav class="painting-subnav">
   <ul>
     <li><a href="#lauren-brevner">Lauren Brevner</a></li>
-    <li><a href="#seonna-hong">Seonna Hong</a></li>
+    <li><a href="#ben-aronson">Ben Aronson</a></li>
     <li><a href="#etam-cru">Etam Cru</a></li>
     <li><a href="#ernest-zacharevic">Ernest Zacharevic</a></li>
     <li><a href="#brendan-monroe">Brendan Monroe</a></li>
@@ -56,7 +56,22 @@
 </nav>
 </div>
 
-<!-- Photography Featured Artists-->
+<!-- Arrow -->
+<div class="arrow-icon">
+  <a href="#home">
+    <img src="images/arrow.png">
+  </a>
+</div>
+
+<!-- Social Media -->
+<div class="social-media-icons">
+  <a href="">
+    <img src="images/Social-Media.png">
+  </a>
+</div>
+
+
+<!-- Painting Featured Artists-->
 
 <section id="home" class="feature-artist">
   <div class="slide-one-paint">
@@ -75,9 +90,9 @@
     <div class="container">
       <div class="vertical-center">
         <div class="featureartist-name">
-          <a href="#seonna-hong">
+          <a href="#ben-aronson">
             <h1>featured artist</h1>
-            <h2>Seonna Hong</h2>
+            <h2>Ben Aronson</h2>
           </a>
         </div>
       </div>
@@ -121,8 +136,9 @@
   </div>
 </section>
 
-<!-- carousel -->
 
+
+<!-- Lauren Brevner Artist -->
 <section id="lauren-brevner" class="lauren-brevner">
   <div class="container">
       <div class="subpage-container">
@@ -134,13 +150,13 @@
   </div>
 </section>
 <!-- Tamas Andok Artist -->
-<section id="seonna-hong" class="seonna-hong">
+<section id="ben-aronson" class="ben-aronson">
   <div class="container">
     <div class="subpage-container">
-      <h1>Seonna</h1>
-      <h2>Hong</h2>
+      <h1>Ben</h1>
+      <h2>Aronson</h2>
       <a href="">More</a>
-      <p>Los Angeles artist Seonna Hong paints fantastical landscapes, on canvas, and in the pages of books. The scenes are often navigated by a young girl, a stand-in for Hong herself. </p>
+      <p>Los Angeles artist Ben Aronson paints fantastical landscapes, on canvas, and in the pages of books. The scenes are often navigated by a young girl, a stand-in for Hong herself. </p>
     </div>
   </div>
 </section>
@@ -193,7 +209,7 @@ $(function() {
     dots: true
   });
 
-  $(".painting-subnav a, .featureartist-name a").click(function(e) {
+  $(".painting-subnav a, .featureartist-name a, .arrow-icon a").click(function(e) {
     e.preventDefault();
 
     var $this = $(this);

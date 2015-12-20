@@ -44,7 +44,7 @@
 <!-- Sub Nav -->
 <div class="subnav-heading">
     <h1>Photography</h1>
-    <h2>Featured Artist</h2>
+    <h2>Featured Artists</h2>
   <nav class="photo-subnav">
   <ul>
     <li><a href="#silvia-grav">Silvia Grav</a></li>
@@ -57,7 +57,19 @@
 </nav>
 </div>
 
+<!-- Arrow -->
+<div class="arrow-icon">
+  <a href="#home">
+    <img src="images/arrow.png">
+  </a>
+</div>
 
+<!-- Social Media -->
+<div class="social-media-icons">
+  <a href="">
+    <img src="images/Social-Media.png">
+  </a>
+</div>
 
 <!-- Photography Featured Artists-->
 
@@ -196,7 +208,7 @@ $(function() {
     dots: true
   });
 
-  $(".photo-subnav a, .featureartist-name a").click(function(e) {
+  $(".photo-subnav a, .featureartist-name a, .arrow-icon a").click(function(e) {
     e.preventDefault();
 
     var $this = $(this);

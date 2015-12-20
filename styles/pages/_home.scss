@@ -42,15 +42,15 @@ body {
   }
 
   .slide-one {
-    background-image: url('../images/featuredartist_rm.jpg');
+    background-image: url('../images/featuredartist-thomasbirke1.jpg');
   }
 
   .slide-two {
-    background-image: url('../images/featuredartist_rm2.jpg');
+    background-image: url('../images/Featuredartist-thomasbirke2.jpg');
   }
 
   .slide-three {
-    background-image: url('../images/featuredartist_rm3.jpg');
+    background-image: url('../images/Featuredartist-thomasbirke3.jpg');
   }
 
   .featureartist-name {
@@ -82,10 +82,14 @@ body {
 
     li button:before {
       color: #fff;
-      font-size: 15px;
+      font-size: 20px;
       opacity: 100;
       }
 
+      li.slick-active button:before {
+          opacity: .75;
+          color: #737373;
+}
 }
 
 .slick-prev, .slick-next {
@@ -112,4 +116,9 @@ body {
   left: 93%;
   position: fixed;
   width: 3%;
+}
+
+.social-media-icons img {
+  position: fixed;
+  top: 50%;
 }
