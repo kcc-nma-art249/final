@@ -319,7 +319,7 @@ position: absolute;
 */
 
 .section05 {
-  background: url(../images/portfolio.jpg) no-repeat center center fixed;
+  background: url(../images/portfolio1.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -471,13 +471,13 @@ position: absolute;
 .mag-32:hover,
 .mag-31:hover {
  border: rgba(0, 0, 0, 0);
- opacity: .4;
+ //opacity: .4;
  transition: all 0.3s ease;
 }
 
 .mag-40:hover {
-background: url(../images/mag.40.jpg) no-repeat 100%;
-
+background: url(../images/mag.40.jpg) no-repeat center center;
+background-size: cover;
 }
 
 .mag-39:hover {
@@ -1084,9 +1084,19 @@ z-index: 30;
 }
 
 .line-devider {
- border: 1px solid white;
+ border: 1px solid rgba(255, 255, 255, 0.4);
+ border-right: none;
+ border-bottom: none;
   height: 100%;
   padding: 7% 2%;
+}
+
+.r-last {
+  border-right: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.b-last {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
 }
 
 .line-devider > h1 {
@@ -1100,8 +1110,8 @@ z-index: 30;
 }
 
 .row1col1:hover {
- background: url(../images/po1-1.jpg) no-repeat 100%;
-opacity: 1;
+ background: url(../images/po1-1.jpg) no-repeat center center;
+ background-size: cover;
 }
 
 .row1col2:hover {
@@ -1169,14 +1179,14 @@ opacity: 0;
 .section05 h5 {
   color: #fff;
   @media #{$small-screen} {
-  font-size: 17px;
+  font-size: 14px;
   }
 
   @media #{$medium-screen} {
-  font-size: 17px;
+  font-size: 14px;
   }
   @media #{$large-screen}  {
-  font-size: 17px;
+  font-size: 14px;
   }
 }
 
