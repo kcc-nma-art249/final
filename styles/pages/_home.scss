@@ -756,32 +756,101 @@ h1 {
   margin-top: 18%;
   margin-left: 50%;
   text-align: left;
+  @media #{$small-screen} {
+  padding: 80px 30px 3px 22px;
+  width: 400px;
+    height: 77%;
+    margin-top: 5%;
+    margin-left: 11%;
+  }
+
+  @media #{$medium-screen} {
+    padding: 80px 30px 3px 22px;
+  width: 400px;
+    height: 91%;
+    margin-top: 5%;
+    margin-left: 11%;
+  }
+  @media #{$large-screen}  {
+    padding: 100px 30px 3px 22px;
+      width: 400px;
+        height: 77%;
+        margin-top: 18%;
+        margin-left: 50%;
+  }
 }
 
 .h5-sec04 {
   text-align: left;
   font-size: 22px;
   letter-spacing: 2px;
+  @media #{$small-screen} {
+  font-size: 16px;
+  }
+
+  @media #{$medium-screen} {
+font-size: 16px;
+  }
+  @media #{$large-screen}  {
+  font-size: 16px;
+  }
 }
 
 .h3-sec04 {
   text-align: left;
   padding-bottom: 50px;
+
+  @media #{$small-screen} {
+  font-size: 40px;
+    padding-bottom: 22px;
+    line-height: 48px;
+  }
+
+  @media #{$medium-screen} {
+  font-size: 40px;
+    padding-bottom: 22px;
+    line-height: 48px;
+  }
+  @media #{$large-screen}  {
+  font-size: 40px;
+    padding-bottom: 22px;
+    line-height: 48px;
+  }
 }
 
 .p-sec04 {
 
 //  padding-bottom: 30px;
 padding-bottom: 4%;
+@media #{$small-screen} {
+font-size: 14px;
+}
+
+@media #{$medium-screen} {
+font-size: 14px;
+}
+@media #{$large-screen}  {
+font-size: 14px;
+}
 }
 
 .bold {
   font-weight: 600;
 }
+
 .link {
   color: #F9006C;
   font-weight: 400;
+  @media #{$small-screen} {
+  font-size: 14px;
+  }
 
+  @media #{$medium-screen} {
+  font-size: 14px;
+  }
+  @media #{$large-screen}  {
+  font-size: 14px;
+  }
 }
 
 
