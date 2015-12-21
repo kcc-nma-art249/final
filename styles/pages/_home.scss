@@ -372,7 +372,6 @@ position: absolute;
   padding-top: 25em;
   padding-left: 0;
 }
-
 ///////////////////////////////////////////////////section02
 
 
@@ -726,7 +725,10 @@ font-size: 19px;
   position: absolute;
   left:50%;
   margin-left: -104px;
-
+  &:hover {
+  color: #000;
+  background-color: #fff;
+  }
   @media #{$small-screen} {
   font-size: 14px;
   left:50%;
