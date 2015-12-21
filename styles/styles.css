@@ -275,7 +275,7 @@ h6 {
 }
 
 .container {
-  width: 960px;
+  width: 60em;
   margin: 0 auto;
 }
 
@@ -601,6 +601,145 @@ footer #footernav ul li ul li {
   padding-top: 1em;
   margin: 1.2em;
   float: right;
+}
+
+/* MEDIA QUERIES
+===================================== */
+/* Tablet (Between 768px - 992px)*/
+@media all and (min-width: 48em) and (max-width: 62em) {
+  body {
+    font-size: 87.5%;
+    /* 14px */
+  }
+  .container {
+    width: 96%;
+    margin: 0 2%;
+    padding: 0;
+  }
+  .main-header {
+    position: fixed;
+    background: rgba(255, 255, 255, 0.95);
+    width: 100%;
+    z-index: 10;
+  }
+  .main-nav ul li {
+    float: left;
+  }
+  .site-info .columns {
+    float: left;
+    width: 30%;
+    margin: 0;
+  }
+  .site-info .info-02,
+  .site-info .info-03 {
+    float: left;
+    width: 30%;
+    margin: 0 0 0 5%;
+  }
+  .contact a.send,
+  .contact a.send:hover {
+    width: 75%;
+    /* 12px */
+  }
+  img {
+    margin-bottom: .5em;
+    display: inline-block;
+  }
+  footer {
+    height: 100%;
+    width: 96%;
+    float: none;
+    margin: 2%;
+  }
+  footer #footernav ul li {
+    display: inline-block;
+  }
+  footer #footernav .col-1 {
+    padding-top: 1em;
+    margin: 1.2em;
+    float: left;
+  }
+  footer #footernav ul li ul li {
+    padding-top: 1em;
+    margin: 1.2em;
+    float: right;
+  }
+  footer #footernav .col-7 {
+    font-size: .60em;
+    padding-top: 2em;
+    margin: 2em;
+    float: left;
+  }
+}
+
+/* MOBILE (Smaller than 768px)*/
+@media all and (max-width: 47.9999em) {
+  body {
+    font-size: 75%;
+    /* 12px */
+  }
+  .container {
+    width: 96%;
+    margin: 0 2%;
+    padding: 0;
+  }
+  .main-header {
+    position: fixed;
+    background: rgba(255, 255, 255, 0.95);
+    width: 100%;
+    z-index: 10;
+  }
+  .main-nav ul li {
+    float: left;
+  }
+  .hero_text {
+    margin: 0;
+  }
+  .site-info .columns {
+    float: left;
+    width: 30%;
+    margin: 0;
+  }
+  .site-info .info-02,
+  .site-info .info-03 {
+    float: left;
+    width: 30%;
+    margin: 0 0 0 5%;
+  }
+  .contact a.send,
+  .contact a.send:hover {
+    width: 75%;
+    /* 12px */
+  }
+  img {
+    margin-bottom: .5em;
+    display: inline-block;
+  }
+  footer {
+    height: 100%;
+    width: 96%;
+    float: none;
+    margin: 2%;
+  }
+  footer #footernav ul li {
+    display: block;
+  }
+  footer #footernav .col-1 {
+    padding-top: 1em;
+    margin: 1.2em;
+    float: none;
+  }
+  footer #footernav ul li ul li {
+    padding-top: 1em;
+    margin: 1.2em;
+    float: none;
+  }
+  footer #footernav .col-7 {
+    font-size: .60em;
+    padding-top: 1em;
+    margin: 1.2em;
+    float: none;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
