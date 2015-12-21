@@ -32,6 +32,11 @@
     opacity: .5;
     }
 
+  a.active {
+    color: blue;
+    text-decoration: underline;
+  }
+
   li {
       margin-bottom: 4px;
     }
@@ -105,6 +110,10 @@
     color: #fff;
     text-decoration: none;
     }
+
+  a.active {
+    color: blue;
+  }
 
   li {
       margin-bottom: 2px;

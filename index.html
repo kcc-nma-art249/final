@@ -438,6 +438,26 @@ $(function() {
     }, 750);
   });
 
+  var $sections = $('section');
+  var $mainNav = $(".mainnav");
+
+  $(window).scroll(function() {
+    var currentPosition = $(this).scrollTop();
+
+    $sections.each(function() {
+      var top = $(this).offset().top;
+      var bottom = top + $(this).height();
+
+      if (currentPosition >= top && currentPosition <= bottom) {
+        $mainNav.find('a').removeClass('active');
+        $sections.removeClass('active');
+
+        $(this).addClass('active');
+        $mainNav.find('a[href="#'+$(this).attr('id')+'"]').addClass('active');
+      }
+    });
+
+  });
 });
 
 
