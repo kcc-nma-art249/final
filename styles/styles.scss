@@ -84,8 +84,6 @@ h6 {
 
 
 .logo {
-  // top: 1em;
-  // left:8%;
   height: 60px;
   width: 280px;
   float: left;
@@ -130,16 +128,6 @@ h6 {
 
 .column1 .scale-with-grid {
   width: 100%;
-
-}
-
-.hero .column2 {
-    text-align: center;
-    width: 70%;
-    margin: 0 auto;
-    color: #333;
-    font-size: 1.875em;
-    line-height: 1.2em;
 }
 
 img{
@@ -293,9 +281,7 @@ img{
   list-style: none;
   margin: 0 0 3em 0;
 }
-.row h6 {
-    color: #F5A623;
-}
+
 
 .adress {
   float: right;
@@ -414,6 +400,13 @@ footer #footernav ul li ul li {
 		padding: 0;
 	}
 
+
+  .logo {
+    height: 60px;
+    width: 280px;
+    float: left;
+  }
+
   .main-header {
     position: fixed;
     background: rgba(255,255,255,0.95);
@@ -490,6 +483,12 @@ footer #footernav ul li ul li {
       padding: 0;
     }
 
+
+    .logo {
+      width: 75%;
+      float: left;
+    }
+
     .main-header {
       position: fixed;
       background: rgba(255,255,255,0.95);
@@ -498,7 +497,7 @@ footer #footernav ul li ul li {
     }
 
     .main-nav ul li {
-      float: left;
+      display: none;
     }
 
     .hero_text {
