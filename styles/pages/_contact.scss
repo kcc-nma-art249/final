@@ -32,6 +32,15 @@
     font-family: $font;
     font-size: 14px;
     color: #fff;
+
+    a {
+      color: white;
+      text-decoration: none;
+
+    &:hover {
+      opacity: .5;
+    }
+    }
   }
 
 .founders,
