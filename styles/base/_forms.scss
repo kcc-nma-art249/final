@@ -1,0 +1,32 @@
+form {
+  width: 100%;
+  margin: 2em 0;
+
+  input,
+  textarea{
+    display: block;
+    width: 70%;
+    height: 3em;
+    background-color: #DADFE4;
+    border-radius: .5em;
+    border: 1px solid #4a4a4a;
+    margin: .5em 0 2em 0;
+  }
+  textarea {
+    min-height: 7em;
+}
+
+input[type="Your Name"],
+input[type="Your Email"],
+input[type="Subject"],
+textarea,
+select {
+  -webkit-appearance: none;
+  appearance: none;
+
+  &:focus,
+  &:active {
+    outline: 0;
+  }
+}
+}
