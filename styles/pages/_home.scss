@@ -1,0 +1,119 @@
+html {
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+
+.logo img {
+    top: 5%;
+    position: fixed;
+    font-size: 1.5em;
+    width: 30%;
+
+    h2 {
+      font-family: $font;
+      font-weight: 300;
+      font-size: 15px;
+    }
+}
+
+
+.feature-artist {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .slick-slide {
+      height: 100vh;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  .slide-one {
+    background-image: url('../images/Featuredartist-thomasbirke1.jpg');
+  }
+
+  .slide-two {
+    background-image: url('../images/Featuredartist-thomasbirke2.jpg');
+  }
+
+  .slide-three {
+    background-image: url('../images/Featuredartist-thomasbirke3.jpg');
+  }
+
+  .featureartist-name {
+    position: absolute;
+    top: 60%;
+  }
+
+  h1 {
+    font-family: 'Libre Baskerville', serif;
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: #fff;
+  }
+
+  h2 {
+    font-family: $titlefont;
+    font-size: 30px;
+    color: #fff;
+  }
+}
+
+.slider {
+  width: 100%;
+  height: 100%;
+}
+
+.slick-dots {
+    bottom: 50px;
+
+    li button:before {
+      color: #fff;
+      font-size: 20px;
+      opacity: 100;
+      }
+
+      li.slick-active button:before {
+          opacity: .75;
+          color: #737373;
+}
+}
+
+.slick-prev, .slick-next {
+  display: none !important;
+}
+
+.slick-slider {
+  margin: 0;
+}
+
+.submit {
+  padding: 5em 0;
+}
+
+.featureartist-name {
+  a {
+    text-decoration: none;
+    outline: none;
+  }
+}
+
+.arrow-icon img {
+  bottom: 5%;
+  left: 93%;
+  position: fixed;
+  width: 3%;
+}
