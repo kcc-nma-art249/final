@@ -716,15 +716,34 @@ $('.slider').slick({
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1
+
   });
 
   //section02,05 slider
   $('.slider-normal').slick({
-      infinite: true
+      infinite: true,
+      responsive: [
+        {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+          }
+        }
+      ]
     });
 
     $('.slider-05').slick({
-        infinite: true
+        infinite: true,
+        responsive: [
+          {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+            }
+          }
+        ]
       });
 
       });
