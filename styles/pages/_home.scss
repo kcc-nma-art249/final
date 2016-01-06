@@ -152,6 +152,10 @@ font-size: 11px;
    font-size: 11px;
   }
 
+  @media #{$xlarge-screen}  {
+   font-size: 14px;
+  }
+
 }
 
 .sub-menu {
@@ -635,9 +639,13 @@ line-height: 1em;
   }
   @media #{$large-screen}  {
   font-size: 55px;
+  padding-top: 100px;
+  padding-bottom: 30px;
   }
   @media #{$xlarge-screen}  {
 font-size: 73px;
+padding-top: 100px;
+padding-bottom: 30px;
   }
 
 }
@@ -1001,18 +1009,20 @@ h1 {
     margin-top: 5%;
     margin-left: 11%;
   }
-  @media #{$large-screen}  {
+  @media #{$large-screen} {
     padding: 100px 30px 3px 22px;
     width: 400px;
     height: 77%;
     margin-top: 18%;
     margin-left: 50%;
   }
-  @media #{$xlarge-screen}  {
+  @media #{$xlarge-screen} {
     padding: 250px 30px 20px 25px;
     margin-top: 18%;
     margin-left: 50%;
     text-align: left;
+    width: 600px;
+    height: 70%;
   }
 }
 
@@ -1331,7 +1341,7 @@ font-size: 15px;
     @media #{$large-screen}  {
   font-size: 30px;
     }
-    @media #{$large-screen}  {
+    @media #{$xlarge-screen}  {
   font-size: 50px;
     }
   }
