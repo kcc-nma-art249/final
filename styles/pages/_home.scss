@@ -361,20 +361,17 @@ position: absolute;
     padding-top: 1.2em;
     padding-right: 1em;
 
-    @media #{$medium-screen} {
-
-    }
-    @media #{$large-screen}  {
-
-    }
-//    @media #{$small-screen}  {
-  //    font-size: 70px;
-  //  }
+   @media #{$small-screen}  {
+       padding-top: 2.2em;
+       color: #fff;
+         -webkit-text-stroke-width: 0;
+ }
 }
 
 .page-title {
   padding-top: 25em;
   padding-left: 0;
+
 }
 ///////////////////////////////////////////////////section02
 
