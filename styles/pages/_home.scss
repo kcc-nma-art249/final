@@ -976,6 +976,11 @@ h1 {
     opacity: 0;
     padding: 2em;
     transition: opacity 0.75s;
+    @media #{$small-screen} {
+      visibility: visible;
+      opacity: 1;
+    }
+
   }
 }
 
@@ -1000,6 +1005,7 @@ h1 {
     height: 77%;
     margin-top: 5%;
     margin-left: 11%;
+
   }
 
   @media #{$medium-screen} {
