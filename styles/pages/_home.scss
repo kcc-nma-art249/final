@@ -352,6 +352,7 @@ position: absolute;
 }
 
 .title {
+  display: none;
   font-size: 33vw;
   font-weight: 600;
   color: rgba(0, 0, 0, 0);
@@ -362,11 +363,33 @@ position: absolute;
     padding-right: 1em;
 
    @media #{$small-screen}  {
+     display: block;
        padding-top: 2.2em;
        color: #fff;
          -webkit-text-stroke-width: 0;
  }
 }
+
+text, #fallback-title{
+  font-size: 250px;
+  font-weight: 600;
+  font-family: $sans-serif;
+  fill: rgba(255,255,255,0.0);
+  color: rgba(255,255,255,0);
+  @media #{$small-screen}  {
+      display: none;
+    }
+}
+
+text{
+  // fill: none;
+  stroke: rgba(255,255,255, 1);
+  stroke-width:1.3px;
+  @media #{$small-screen}  {
+      display: none;
+    }
+}
+
 
 .page-title {
   padding-top: 25em;
