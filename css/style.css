@@ -1,0 +1,263 @@
+
+
+/* #RESET
+================================================== */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* #HTML5
+================================================== */
+header, section, footer, aside, nav, article, figure {
+	display: block;
+}
+
+/* #BASE TYPOGRAPHY
+================================================== */
+
+/* #BODY */
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 100%; /* 1em = 16px */
+	line-height: 1.5em; /* 16px x 1.5em = 24px */
+	color: #333;
+  overflow-x: hidden;
+}
+
+
+
+/* #Links
+================================================== */
+a { color: #39c; text-decoration: none; }
+a:visited, a:hover, a:focus { color: #069; }
+
+
+
+
+
+/* #Images
+================================================== */
+img.scale-with-grid {
+	max-width: 100%;
+	height: auto;
+}
+
+a img {
+	border: none;
+}
+
+
+/* #CLEARFIX
+================================================== */
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*
+=====================================
+=========== END BASE CSS ============
+=====================================
+*/
+
+
+/*
+=====================================
+===== BEGIN SITE- SPECIFIC CSS ======
+=====================================
+*/
+
+/* SITE-SPECIFIC CSS (Site-Specific Design)
+Description: "Site-specific" css is where all
+site-specific visual design styles. Site-specific
+css should be placed on the bottom to
+override any base styling above it.
+=====================================
+	#SITE-SPECIFIC BASE STYLING
+	#SITE-SPECIFIC TYPOGRAPHY
+	#LAYOUT/GRID
+	#SECTIONS
+	#MEDIA QUERIES
+	#@FONT-FACE
+===================================== */
+
+/* SITE-SPECIFIC BASE STYLING
+Description: Adjust general base settings above with
+site-specific styles here.
+(e.g. body background color)
+===================================== */
+
+body {
+	background: #ddd;
+}
+
+/* SITE-SPECIFIC TYPOGRAPHY
+Description: Adjust the base typography settings above
+with site-specific styles here.
+(e.g. headings, paragraphs, colors, etc.)
+===================================== */
+
+
+
+/* LAYOUT/GRID
+Description: Place grid and visual layout styling here.
+(e.g. containers, rows, columns)
+===================================== */
+
+html,
+body,
+.video-section,
+.big-video-wrap {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+.section01, .section02 {
+  position: relative;
+  height: 100%;
+}
+
+
+.section02, .section03, .section04, .section05 {
+  height: 100%;
+}
+
+/*
+.video-bg {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top:0;
+    right:0;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+
+    background-position: center center;
+    background-size: contain;
+    object-fit: cover;
+    z-index:3;
+    color: #ddd;
+}
+*/
+
+.vjs-tech {
+    /* width: 100%; */
+    /* height: auto; */
+    border: 1px solid red;
+    height: 100%;
+    width: auto;
+    top: 50%;
+    left: 50% !important;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.vjs-tech.landscape {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+
+    width: 100%;
+    max-width: 960px;
+   margin: 0 auto;
+    z-index: 100;
+    border: 1px solid blue;
+
+}
+
+
+.small-container {
+position: absolute;
+    width: 960px;
+   margin: 0 auto;
+    z-index: 100;
+    border: 1px solid blue;
+top: 50%;
+    left: 50% !important;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+.section03 {
+    background-image: url(demo2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #444;
+}
+
+.section04 {
+    background-image: url(demo1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #444;
+}
+
+.section05 {
+    background-image: url(demo2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #444;
+}
+
+/* SECTIONS
+Description: Style major site sections here.
+(e.g. header, navs/navigation, site-specific content sections,
+asides, sidebars, footer, sub page-specific styling, etc.)
+===================================== */
+
+
+/* MEDIA QUERIES
+Description: Define screen-size breakpoints here.
+(e.g. Desktop, Tablet, Mobile)
+===================================== */
+
+/* Tablet (Between 768px - 992px)*/
+@media all and (min-width: 48em) and (max-width: 62em) {
+
+	body {
+		font-size: 93.75%; /* 15px */
+	}
+
+	.container {
+		width: 80%;
+		margin: 4%;
+		padding: 6%;
+	}
+
+}
+
+/* MOBILE (Smaller than 768px)*/
+@media all and (max-width: 47.9999em) {
+
+	body {
+		font-size: 87.5%; /* 14px */
+	}
+
+	.container {
+		width: 84%;
+		margin: 3%;
+		padding: 5%;
+	}
+
+}
+
+/* @FONT-FACE (Webfonts)
+===================================== */
+
+
+/*
+=====================================
+====== END SITE- SPECIFIC CSS =======
+=====================================
+*/

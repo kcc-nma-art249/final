@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="25px" height="20px" viewBox="0 0 25 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow-r</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="MediumRisk-Magazine" sketch:type="MSArtboardGroup" transform="translate(-627.000000, -101.000000)" fill="#FFFFFF">
+            <g id="arrow-r" sketch:type="MSLayerGroup" transform="translate(639.500000, 111.000000) rotate(-180.000000) translate(-639.500000, -111.000000) translate(627.000000, 101.000000)">
+                <g id="Fill-109" sketch:type="MSShapeGroup">
+                    <g id="Page-1">
+                        <path d="M11.6529996,21.5109996 C11.7989996,21.6569996 11.9909996,21.7289996 12.1819996,21.7289996 C12.3709996,21.7289996 12.5619996,21.6569996 12.7089996,21.5109996 L21.4529996,12.8529996 C21.7479996,12.5619996 21.7499996,12.0869996 21.4579996,11.7929996 C21.1679996,11.4989996 20.6909996,11.4959996 20.3979996,11.7879996 L12.9239996,19.1879996 L12.9239996,-1.25000044 C12.9239996,-1.66500044 12.5879996,-2.00000044 12.1739996,-2.00000044 C11.7589996,-2.00000044 11.4239996,-1.66500044 11.4239996,-1.25000044 L11.4239996,19.1719996 L3.96899956,11.7879996 C3.67599956,11.4959996 3.20099956,11.4989996 2.90799956,11.7929996 C2.61599956,12.0869996 2.61899956,12.5619996 2.91399956,12.8529996 L11.6529996,21.5109996 L11.6529996,21.5109996 L11.6529996,21.5109996 Z" id="Fill-109" transform="translate(12.183247, 9.864500) rotate(-90.000000) translate(-12.183247, -9.864500) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
